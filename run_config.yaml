@@ -1,0 +1,17 @@
+exp: TSE
+
+models: 
+      bert: 
+          - bert-base-uncased
+      gpt2:
+          - gpt2
+
+return_type: prob
+
+stimuli:
+    - stimuli/tiny_IC_mismatch_BERT.tsv
+    - stimuli/tiny_IC_mismatch.tsv
+
+include_punct: False
+
+lower: True
