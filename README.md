@@ -22,6 +22,12 @@ conda env create -n mapi --file ModelsAPI.yml
 Running the above will create a environment named mapi which should work for
 this code. 
 
+## Training data
+
+Gulordava's data for English can be found [here](https://github.com/facebookresearch/colorlessgreenRNNs/tree/main/data). What you'll want to do 
+is create minimal pairs with context as the sentence and target as the differing part. Then it should be straightforward 
+to evaluate some transformers.
+
 ## Config files
 
 Running an experiment is done by specifying a config file. An example one is
