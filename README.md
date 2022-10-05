@@ -30,11 +30,26 @@ Running the above will create a environment named mapi which should work for
 this code. If you run into errors on Mac with M1 see this
 [blog](https://jamescalam.medium.com/hugging-face-and-sentence-transformers-on-m1-macs-4b12e40c21ce). 
 
-## Training data
+## Evaluation data
 
 Gulordava's data for English can be found [here](https://github.com/facebookresearch/colorlessgreenRNNs/tree/main/data). What you'll want to do 
 is create minimal pairs with context as the sentence and target as the differing part. Then it should be straightforward 
 to evaluate some transformers.
+
+## Quick run
+
+To run the code, simply enter: 
+
+```
+python main.py
+```
+
+This will use the default config file (elaborated on below) run\_config.yml. You
+can pass in a different config file as below: 
+
+```
+python main.py new_config.yml
+```
 
 ## Config files
 
@@ -126,7 +141,7 @@ more, but I didn't code that for some reason I've forgotten.
 
 ## Wildcards
 
-Finally, I've added two variables which may be useful. These can be inserted as
+I've added two variables which may be useful. These can be inserted as
 targets and a larger set of items will be checked. The wildcards are:
 
 \$SG maps to English third person singular verbs
@@ -135,4 +150,23 @@ targets and a larger set of items will be checked. The wildcards are:
 
 The values for all singular/plural verbs will be summed and one value returned.
 Thus, this only makes sense if the return type is prob, but I don't check this. 
+
+## Results
+
+The results of an experiment are complied in tsv files under the results
+directory. The resultant name is hard coded as the following: 
+
+```
+results/{fname}_{modelname}_{return_type}.tsv
+```
+
+The organization of the file should be straightforwardly interpretable by
+looking at the output. 
+
+## Colab
+
+This code can be straightforwardly run on colab where you can access (free)
+GPUs. I've included a small document in the colab folder which outlines how to
+link github and google drive. Once that's in place, the included colab.ipynb
+script can be run. 
 
