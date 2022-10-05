@@ -26,7 +26,7 @@ class TransformersModel(RTModel):
             useMPS=False):
         super().__init__(model_name=version, use_prefix_space=use_prefix_space, bidirectional=bidirectional)
 
-        if torch.has_cuda:
+        if torch.cuda.is_available():
             self.device = torch.device("cuda")
         elif torch.has_mps and useMPS:
             self.device = torch.device("mps")
