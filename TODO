@@ -1,0 +1,8 @@
+## TODO
+
+* I have a gpt3 script which I need to add to this pipeline more clearly. We can
+discuss this. 
+* Plotting
+* Compiling results
+* add M1 compatibility (there seems to be radically different outputs)
+* add colab

@@ -13,14 +13,22 @@ Misra. That package is more fully developed, so that's always an option.
 ## Dependencies
 
 I will assume you have conda and can subsequently use that to create a virtual
-environment. I've included a yml file to facilitate this. 
+environment. I've included a yml file to facilitate this. If you are on linux or
+mac without M1 run the following
 
 ```
 conda env create -n mapi --file ModelsAPI.yml
 ```
 
+If you are on a MAC with M1, run the following 
+
+```
+source setupMAC.sh
+```
+
 Running the above will create a environment named mapi which should work for
-this code. 
+this code. If you run into errors on Mac with M1 see this
+[blog](https://jamescalam.medium.com/hugging-face-and-sentence-transformers-on-m1-macs-4b12e40c21ce). 
 
 ## Training data
 
@@ -128,11 +136,3 @@ targets and a larger set of items will be checked. The wildcards are:
 The values for all singular/plural verbs will be summed and one value returned.
 Thus, this only makes sense if the return type is prob, but I don't check this. 
 
-## TODO
-
-* I have a gpt3 script which I need to add to this pipeline more clearly. We can
-discuss this. 
-* Plotting
-* Compiling results
-* add M1 compatibility
-* add colab

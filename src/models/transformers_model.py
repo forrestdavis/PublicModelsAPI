@@ -22,10 +22,18 @@ class TransformersModel(RTModel):
     def __init__(self, version, tokenizer_cls, model_cls, use_prefix_space=False, 
             add_padding_token=False, 
             bidirectional=False, 
-            halfPrecision=False):
+            halfPrecision=False, 
+            useMPS=False):
         super().__init__(model_name=version, use_prefix_space=use_prefix_space, bidirectional=bidirectional)
 
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        if torch.has_cuda:
+            self.device = torch.device("cuda")
+        elif torch.has_mps and useMPS:
+            self.device = torch.device("mps")
+        else:
+            self.device = torch.device("cpu")
+
+        sys.stderr.write(f"Running on {self.device}\n")
 
         #Downcast if using something like GPT-J
         if halfPrecision:

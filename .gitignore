@@ -1,3 +1,4 @@
 **__pycache__/
-results/**
+results/**.tsv
+results/**.csv
 **.DS_Store
