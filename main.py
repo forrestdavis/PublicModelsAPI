@@ -70,6 +70,11 @@ if __name__ == "__main__":
         exp = Interact(run_config)
         exp.run_interact()
 
+    elif run_config['exp'] == 'LL':
+        LM = models.load_models(run_config)[0]
+        text = ['the man who is tall', 'the men who is tall']
+        LM.get_sentence_likelihood(text)
+
     else:
         sys.stderr.write(f"The exp {run_config['exp']} has not been implemented\n")
         sys.exit(1)
