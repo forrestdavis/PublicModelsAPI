@@ -22,7 +22,7 @@ class GPT2Model(TransformersModel):
         raise NotImplementedError
 
     @torch.no_grad()
-    def get_output(self, texts):
+    def get_output(self, texts, return_attn_mask=False):
         """See RTModel class for details.
         """
         #batchify whatever is coming in
@@ -43,11 +43,13 @@ class GPT2Model(TransformersModel):
         if inputs.shape[1] > MAX_LENGTH:
             self.get_slidding_window_output(texts)
 
+        if return_attn_mask:
+            return (inputs, attn_mask, self.model(**inputs_dict).logits)
+
         #Mark last position without padding
         #this works because transformers tokenizer flags 
         #padding with an attention mask value of 0
         last_non_masked_idx = torch.sum(attn_mask, dim=1) - 1
-
         return (inputs, last_non_masked_idx, self.model(**inputs_dict).logits)
 
     @torch.no_grad()

@@ -49,7 +49,7 @@ class TFXLModel(TransformersModel):
         return encoding 
 
     @torch.no_grad()
-    def get_output(self, texts):
+    def get_output(self, texts, return_attn_mask=False):
         #batchify whatever is coming in
         if type(texts) == str:
             texts = [texts]
@@ -60,6 +60,9 @@ class TFXLModel(TransformersModel):
 
         inputs = inputs_dict["input_ids"]
         attn_mask = inputs_dict["attention_mask"]
+
+        if return_attn_mask:
+            return (inputs, attn_mask, self.model(**inputs_dict).logits)
 
         #Mark last position without padding
         last_non_masked_idx = torch.sum(attn_mask, dim=1) - 1

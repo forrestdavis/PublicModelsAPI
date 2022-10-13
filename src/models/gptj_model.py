@@ -23,7 +23,7 @@ class GPTJModel(TransformersModel):
         raise NotImplementedError
 
     @torch.no_grad()
-    def get_output(self, texts):
+    def get_output(self, texts, return_attn_mask=False):
         """See RTModel class for details.
         """
         #batchify whatever is coming in
@@ -43,6 +43,9 @@ class GPTJModel(TransformersModel):
         #if the input is longer than the maximum allowed use sliding_window
         if inputs.shape[1] > MAX_LENGTH:
             self.get_slidding_window_output(texts)
+
+        if return_attn_mask:
+            return (inputs, attn_mask, self.model(**inputs_dict).logits)
 
         #Mark last position without padding
         #this works because transformers tokenizer flags 

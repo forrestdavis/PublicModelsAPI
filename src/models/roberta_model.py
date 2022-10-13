@@ -22,7 +22,7 @@ class ROBERTAModel(TransformersModel):
         raise NotImplementedError
 
     @torch.no_grad()
-    def get_output(self, texts):
+    def get_output(self, texts, return_attn_mask=False):
         """See RTModel class for details.
         """
         #batchify whatever is coming in
@@ -50,6 +50,9 @@ class ROBERTAModel(TransformersModel):
         sent_input_dicts = self.tokens_to_masks(inputs_dict)
         #Get outputs
         logits = self.get_diagonaled_masked_output(sent_input_dicts)
+
+        if return_attn_mask:
+            return (inputs, attn_mask, self.model(**inputs_dict).logits)
 
         #Mark last position without padding
         #this works because transformers tokenizer flags 

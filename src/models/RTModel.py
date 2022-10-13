@@ -68,6 +68,7 @@ class RTModel(object):
 
         return string_ids
 
+    @torch.no_grad()
     def get_aligned_words_probabilities(self, texts, 
             include_punctuation=False):
         """Returns probabilities of each word for inputted text.
@@ -118,6 +119,7 @@ class RTModel(object):
 
         return ProbWords
 
+    @torch.no_grad()
     def get_aligned_words_surprisals(self, texts, 
             include_punctuation=False):
         """Returns surprisal of each word for inputted text.
@@ -219,6 +221,7 @@ class RTModel(object):
 
         return return_data
     
+    @torch.no_grad()
     def get_output(self, text):
         """Returns input token ids, last nonmasked idx, 
             and logits for inputted text.
@@ -243,6 +246,7 @@ class RTModel(object):
         # [2, 1]
         raise NotImplementedError
 
+    @torch.no_grad()
     def get_targeted_word_surprisals(self, context, target, 
             aggregate_funct = sum):
         """Returns the surprisals for target words given the context
@@ -309,6 +313,7 @@ class RTModel(object):
 
         return return_surps
 
+    @torch.no_grad()
     def get_targeted_word_probabilities(self, context, target, 
             aggregate_funct = sum):
         """Returns the probability for target words given the context
@@ -433,6 +438,42 @@ class RTModel(object):
         return self.convert_to_surprisal(logits)
 
     @torch.no_grad()
+    def get_sentence_likelihood(self, text):
+        """Returns likelihood of each sentence in text.  
+        For autoregressive models this is simply the joint probability
+        of each word conditioned on the preceding context. For masked langauge
+        models, we mask each token in the input to get its probability, then
+        determine the joint probability across all tokens. No MASKTOKEN should
+        be passed in for this use case. 
+
+        Args: 
+            text (List[str] | str ): A batch of strings or a string. Batches with 
+                                    non equal length will be padded (though padding 
+                                    will be ignored in return).
+
+        Returns:
+            List: predicted probabilites of each sentence in text
+                                shape (batch_size, 1)
+        """
+        token_surps = self.get_by_token_surprisals(text)
+
+        likelihoods = []
+
+        if type(token_surps[0]) == tuple:
+            ll = 0
+            for _, surp in token_surps:
+                ll+=surp
+            likelihoods.append(2**(-ll))
+        else:
+            for token_surp in token_surps:
+                ll = 0
+                for _, surp in token_surp:
+                    ll+=surp
+                likelihoods.append(2**(-ll))
+
+        return likelihoods
+
+    @torch.no_grad()
     def convert_to_surprisal(self, logits):
         """Returns surprisals from logits
 
@@ -478,6 +519,7 @@ class RTModel(object):
         inputs, last_non_masked_idx, logits = self.get_output(text)
         return (inputs, last_non_masked_idx, self.convert_to_surprisal(logits))
 
+    @torch.no_grad()
     def get_by_token_surprisals(self, text):
         """Returns surprisal of each token for inputted text.
            Note that this requires that you've implemented
@@ -634,6 +676,7 @@ class RTModel(object):
 
         return return_data
 
+    @torch.no_grad()
     def get_aligned_words_similarities(self, texts, baseline_texts, 
             layer_number, include_punctuation=False):
         """Returns similarities of each word for inputted text to baseline.

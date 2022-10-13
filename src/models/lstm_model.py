@@ -99,7 +99,7 @@ class LSTMModel(RTModel):
         return self.tokenizer.convert_ids_to_tokens(token)[0] in string.punctuation
 
     @torch.no_grad()
-    def get_output(self, texts):
+    def get_output(self, texts, return_attn_mask=False):
         #batchify whatever is coming in
         if type(texts) == str:
             texts = [texts]
@@ -122,6 +122,9 @@ class LSTMModel(RTModel):
         #Flip it back to batch first
         logits = logits.transpose(1, 0)
         inputs = inputs.transpose(1, 0)
+
+        if return_attn_mask:
+            return (inputs, attn_mask, self.model(**inputs_dict).logits)
 
         return (inputs, last_non_masked_idx, logits)
 
