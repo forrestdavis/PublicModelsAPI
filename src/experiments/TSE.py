@@ -24,11 +24,6 @@ class TSE(Experiment):
             sys.stderr.write(f"The file {self.name} is not a recognized format\n")
             sys.exit(1)
 
-    def to_dataframe(self):
-        """Makes pandas dataframe from experiment.
-        """
-        return self.dataframe
-
     def load_special_list(self):
         """Loads the verbs from Newman et al. (2021) 
         which are contained in BERT/RoBERTa/LSTMs/GPT2/TFXL.

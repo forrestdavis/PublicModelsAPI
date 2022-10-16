@@ -1,6 +1,7 @@
 #### Set up the system interface
 from src.models import models
 from src.experiments.TSE import TSE
+from src.experiments.BLiMP import BLiMP
 from src.experiments.Interact import Interact
 from src.experiments.Incremental import Incremental
 import os
@@ -70,10 +71,17 @@ if __name__ == "__main__":
         exp = Interact(run_config)
         exp.run_interact()
 
-    elif run_config['exp'] == 'LL':
-        LM = models.load_models(run_config)[0]
-        text = ['the man who is tall', 'the men who is tall']
-        LM.get_sentence_likelihood(text)
+    elif run_config['exp'] == 'BLiMP':
+        exp = BLiMP()
+        LMs = models.load_models(run_config)
+
+        for model in LMs:
+            print(f"Running {model} on BLiMP...")
+            exp.get_likelihood_results(model)
+
+            outname = 'results/BLiMP_'+str(model).split('/')[-1].split('.')[0]+'.tsv'
+            print(f"Saving the output to {outname}...")
+            exp.save(outname)
 
     else:
         sys.stderr.write(f"The exp {run_config['exp']} has not been implemented\n")

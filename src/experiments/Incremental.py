@@ -20,11 +20,6 @@ class Incremental(Experiment):
             sys.stderr.write(f"The file {self.name} is not a recognized format\n")
             sys.exit(1)
 
-    def to_dataframe(self):
-        """Makes pandas dataframe from experiment.
-        """
-        return self.dataframe
-
     def get_incremental(self, model, batch_size=40, 
                         lowercase=True, include_punctuation=False,
                         return_type='prob'):

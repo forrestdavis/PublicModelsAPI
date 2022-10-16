@@ -9,6 +9,7 @@ from .gptj_model import GPTJModel
 from .tfxl_model import TFXLModel
 from .bert_model import BERTModel
 from .roberta_model import ROBERTAModel
+from .unigram_model import UnigramModel
 
 model_nickname_to_RTModel_class = {
         'lstm': LSTMModel,
@@ -18,7 +19,8 @@ model_nickname_to_RTModel_class = {
         'transfo-xl-wt103': TFXLModel,
         'tfxl': TFXLModel,
         'bert': BERTModel,
-        'roberta': ROBERTAModel
+        'roberta': ROBERTAModel,
+        'unigram': UnigramModel
         }
 
 def load_models(config):

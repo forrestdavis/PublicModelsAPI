@@ -49,8 +49,7 @@ class Experiment(object):
         Args:
             filename: output filename.
         """
-        dataframe = self.to_dataframe()
-        dataframe.to_csv(filename, sep='\t', index=False)
+        self.dataframe.to_csv(filename, sep='\t', index=False)
 
     def save_binary(self, filename):
         """Saves stimuli from experiment as binary.
@@ -67,11 +66,6 @@ class Experiment(object):
         """
         with open(filename, 'rb') as f:
             self._stimuli = dill.load(f)
-
-    def to_dataframe(self):
-        """Makes pandas dataframe from experiment.
-        """
-        raise NotImplementedError
 
     def load_experiment(self):
         """Loads the respective experiment and sets
