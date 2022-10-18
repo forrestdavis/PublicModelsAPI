@@ -8,5 +8,3 @@ models:
             - new_gulordava_models/en_vocab.txt
 
 
-return_type: prob
-
