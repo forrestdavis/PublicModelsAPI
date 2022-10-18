@@ -64,9 +64,11 @@ if __name__ == "__main__":
             exp.save(outname)
 
     elif run_config['exp'] == 'Interact':
-        assert len(run_config['models']) == 1, "Only one model type allowed for Interact"
-        for model_type in run_config['models']:
-            assert len(run_config['models'][model_type]) == 1, "Only one model allowed for Interact"
+        #this is lazy and should be fixed to really check for one model
+        if 'lstm' not in run_config['models']:
+            assert len(run_config['models']) == 1, "Only one model type allowed for Interact"
+            for model_type in run_config['models']:
+                assert len(run_config['models'][model_type]) == 1, "Only one model allowed for Interact"
         exp = Interact(run_config)
         exp.run_interact()
 

@@ -1,0 +1,12 @@
+exp: Interact
+
+models: 
+      lstm: 
+        model_files:
+            - new_gulordava_models/en_hidden650_batch128_dropout0.2_lr20.0.pt
+        vocab_files:
+            - new_gulordava_models/en_vocab.txt
+
+
+return_type: prob
+
