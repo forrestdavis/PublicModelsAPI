@@ -438,7 +438,7 @@ class RTModel(object):
         return self.convert_to_surprisal(logits)
 
     @torch.no_grad()
-    def get_sentence_likelihood(self, text, startPOS=0):
+    def get_sentence_likelihood(self, text, startPOS=0, log=False):
         """Returns likelihood of each sentence in text.  
         For autoregressive models this is simply the joint probability
         of each word conditioned on the preceding context. For masked language
@@ -454,6 +454,8 @@ class RTModel(object):
                             is 0 (the true beginning). If all sentences in
                             batch, should start from the same location use one
                             int. If you want varied starts, use a list.
+            log (bool): Whether to return log likelihood (sum of log probs of
+                            each token) default: false.
 
         Returns:
             List: predicted probabilites of each sentence in text
@@ -469,7 +471,10 @@ class RTModel(object):
             token_surps = token_surps[startPOS:]
             for _, surp in token_surps:
                 ll += surp
-            likelihoods.append(2**(-ll))
+            if log:
+                likelihoods.append(ll)
+            else:
+                likelihoods.append(2**(-ll))
         else:
             assert type(startPOS) == int or len(startPOS) == len(token_surps)
             for idx, token_surp in enumerate(token_surps):
@@ -483,7 +488,10 @@ class RTModel(object):
                 ll = 0
                 for _, surp in token_surp:
                     ll += surp
-                likelihoods.append(2**(-ll))
+                if log:
+                    likelihoods.append(ll)
+                else:
+                    likelihoods.append(2**(-ll))
 
         return likelihoods
 

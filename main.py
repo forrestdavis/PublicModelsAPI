@@ -72,7 +72,7 @@ if __name__ == "__main__":
         for fname, model in zip(fnames, LMs): 
             print(f"Running {model} on the data in {fname}...")
             exp = Cumulative(fname)
-            exp.get_likelihood_results(model)
+            exp.get_likelihood_results(model, batch_size=80, log=True)
 
             outname = 'results/LL_'+str(fname).split('/')[-1].split('.tsv')[0]
             outname += "_"+str(model)+'_prob.tsv'
