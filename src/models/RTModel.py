@@ -438,10 +438,10 @@ class RTModel(object):
         return self.convert_to_surprisal(logits)
 
     @torch.no_grad()
-    def get_sentence_likelihood(self, text):
+    def get_sentence_likelihood(self, text, startPOS=0):
         """Returns likelihood of each sentence in text.  
         For autoregressive models this is simply the joint probability
-        of each word conditioned on the preceding context. For masked langauge
+        of each word conditioned on the preceding context. For masked language
         models, we mask each token in the input to get its probability, then
         determine the joint probability across all tokens. No MASKTOKEN should
         be passed in for this use case. 
@@ -450,6 +450,10 @@ class RTModel(object):
             text (List[str] | str ): A batch of strings or a string. Batches with 
                                     non equal length will be padded (though padding 
                                     will be ignored in return).
+            startPOS (int | List[int]): The position to start summing from. Default
+                            is 0 (the true beginning). If all sentences in
+                            batch, should start from the same location use one
+                            int. If you want varied starts, use a list.
 
         Returns:
             List: predicted probabilites of each sentence in text
@@ -461,14 +465,24 @@ class RTModel(object):
 
         if type(token_surps[0]) == tuple:
             ll = 0
+            assert type(startPOS) == int
+            token_surps = token_surps[startPOS:]
             for _, surp in token_surps:
-                ll+=surp
+                ll += surp
             likelihoods.append(2**(-ll))
         else:
-            for token_surp in token_surps:
+            assert type(startPOS) == int or len(startPOS) == len(token_surps)
+            for idx, token_surp in enumerate(token_surps):
+
+                if type(startPOS) == int:
+                    sPOS = startPOS
+                else:
+                    sPOS = startPOS[idx]
+
+                token_surp = token_surp[sPOS:]
                 ll = 0
                 for _, surp in token_surp:
-                    ll+=surp
+                    ll += surp
                 likelihoods.append(2**(-ll))
 
         return likelihoods
@@ -477,8 +491,10 @@ class RTModel(object):
     def convert_to_surprisal(self, logits):
         """Returns surprisals from logits
 
-        Args: 
-            logits torch.Tensor: logits with shape (batch_size, number of tokens, vocab_size), as in output of get_output()
+        Args:
+            logits torch.Tensor: logits with shape (batch_size,
+            number of tokens, vocab_size),
+            as in output of get_output()
 
         Returns:
             torch.Tensor: surprisals with shape (batch_size, number of tokens, vocab_size)

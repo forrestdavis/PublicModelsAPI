@@ -82,12 +82,12 @@ I describe each parameter below.
 
 ### exp
 
-There are three options: TSE, Incremental, and Interactive. TSE does targeted
+There are three options: TSE, Incremental, Cumulative, and Interactive. TSE does targeted
 syntactic evaluations, so you will have some context and a target and this will
 look at that target conditioned on the context. Incremental calculates the by
-word measures. Interactive allows you to test out sentences on the command line
+word measures. Cumulative returns the log probability of a whole string
+(optionally conditioned on a context). Interactive allows you to test out sentences on the command line
 and see the incremental surprisal and probability values for each word. 
-
 ### models
 
 Models require a model type (bert|roberta|gpt2|lstm|tfxl|gptneo|gptj) which

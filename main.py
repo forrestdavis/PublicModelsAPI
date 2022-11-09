@@ -1,6 +1,7 @@
 #### Set up the system interface
 from src.models import models
 from src.experiments.TSE import TSE
+from src.experiments.Cumulative import Cumulative
 from src.experiments.BLiMP import BLiMP
 from src.experiments.Interact import Interact
 from src.experiments.Incremental import Incremental
@@ -44,7 +45,7 @@ if __name__ == "__main__":
                                      return_type=run_config['return_type'])
 
             outname = 'results/'+fname.split('/')[-1].split('.tsv')[0]
-            outname += '_'+str(model) + '_' + run_config['return_type']+'.tsv'
+            outname += '_'+str(model).replace('/', '_') + '_' + run_config['return_type']+'.tsv'
             print(f"Saving the output to {outname}...")
             exp.save(outname)
 
@@ -61,6 +62,20 @@ if __name__ == "__main__":
 
             outname = 'results/'+fname.split('/')[-1].split('.tsv')[0]
             outname += '_'+str(model) + '_' + run_config['return_type']+'.tsv'
+            print(f"Saving the output to {outname}...")
+            exp.save(outname)
+
+    elif run_config['exp'] == 'Cumulative':
+        LMs = models.load_models(run_config)
+        fnames = run_config['stimuli']
+        assert len(LMs) == len(fnames), "Add a stimuli file for each model (include duplicate entry if using the same file)"
+        for fname, model in zip(fnames, LMs): 
+            print(f"Running {model} on the data in {fname}...")
+            exp = Cumulative(fname)
+            exp.get_likelihood_results(model)
+
+            outname = 'results/LL_'+str(fname).split('/')[-1].split('.tsv')[0]
+            outname += "_"+str(model)+'_prob.tsv'
             print(f"Saving the output to {outname}...")
             exp.save(outname)
 
@@ -82,7 +97,6 @@ if __name__ == "__main__":
             outname = 'results/BLiMP_'+str(model).split('/')[-1].split('.')[0]+'.tsv'
             print(f"Saving the output to {outname}...")
             exp.save(outname)
-
     else:
         sys.stderr.write(f"The exp {run_config['exp']} has not been implemented\n")
         sys.exit(1)
