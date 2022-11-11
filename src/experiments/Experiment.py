@@ -89,7 +89,7 @@ class Experiment(object):
                 word.subworded = word_surp.isSplit
                 word.add_surp(word_surp.modelName, word_surp.surp)
 
-    def plot(self, X, Y, hue):
+    def plot(self, X, Y, hue, outname=None):
 
         import seaborn as sns
         import matplotlib.pyplot as plt
@@ -167,7 +167,10 @@ class Experiment(object):
                 col='model', 
                 kind='bar')
 
-        plt.show()
+        if outname is None:
+            plt.show()
+        else:
+            plt.savefig(outname)
 
         return
 

@@ -1,0 +1,16 @@
+exp: Cumulative
+
+models: 
+      xglm:
+          - facebook/xglm-564M
+
+stimuli:
+    - stimuli/GulordavaEnglish.tsv
+
+log: False
+
+batchSize: 20
+
+include_punct: False
+
+lower: True

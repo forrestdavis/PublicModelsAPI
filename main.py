@@ -70,7 +70,12 @@ if __name__ == "__main__":
         if hue is not None:
             assert hue in columns, f"{hue} column not in dataframe"
 
-        exp.plot(x, y, hue)
+        if 'savefname' in run_config:
+            savefname = run_config['savefname']
+        else:
+            savefname=None
+
+        exp.plot(x, y, hue, savefname)
 
     elif run_config['exp'] == 'CheckVocab':
         """
@@ -129,14 +134,21 @@ if __name__ == "__main__":
             exp.save(outname)
 
     elif run_config['exp'] == 'Cumulative':
+
         LMs = models.load_models(run_config)
         fnames = run_config['stimuli']
         assert len(LMs) == len(fnames), "Add a stimuli file for each model (include duplicate entry if using the same file)"
         for fname, model in zip(fnames, LMs): 
             print(f"Running {model} on the data in {fname}...")
             exp = Cumulative(fname)
-            exp.get_likelihood_results(model,
-                                       log=run_config['log'])
+
+            if 'batchSize' in run_config:
+                exp.get_likelihood_results(model,
+                                           batch_size=run_config['batchSize'],
+                                           log=run_config['log'])
+            else:
+                exp.get_likelihood_results(model,
+                                           log=run_config['log'])
 
             outname = 'results/LL_'+str(fname).split('/')[-1].split('.tsv')[0]
             outname += "_"+str(model).replace('/', '_')+'_prob.tsv'
