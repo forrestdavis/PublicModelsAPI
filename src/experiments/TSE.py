@@ -156,4 +156,3 @@ class TSE(Experiment):
             self.dataframe[str(model)+'_prob'] = target_measure
         elif return_type == 'surp':
             self.dataframe[str(model)+'_surp'] = target_measure
-

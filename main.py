@@ -34,12 +34,75 @@ if __name__ == "__main__":
     #add paths to run_config
     run_config['nc_path'] = path_config['libraries']['neural-complexity']
 
-    if run_config['exp'] == 'TSE':
+    if 'plot' in run_config['models']:
+
+        fnames = run_config['stimuli']
+        assert len(fnames) == 1
+        fname = fnames[0]
+
+        expname = run_config['exp']
+
+        if expname == 'TSE':
+            exp = TSE(fname)
+        elif expname == 'Cumulative':
+            exp = Cumulative(fname)
+        else:
+            sys.stderr.write(f"Plotting for exp {expname} has not been implemented\n")
+            sys.exit(1)
+
+        print(f"Plotting the {expname} results in {fname}...")
+
+        assert 'x' in run_config, 'X value column name needs to be specified'
+        assert 'y' in run_config, 'Y value column name needs to be specified'
+
+        x = run_config['x']
+        y = run_config['y']
+        if 'hue' in run_config:
+            hue = run_config['hue']
+        else:
+            hue = None
+
+        Ys = ['raw', 'diff', 'acc']
+
+        columns = set(exp.dataframe.columns.tolist())
+        assert x in columns, f"{x} column not in dataframe"
+        assert y in Ys, f"{y} not in options: {Ys}"
+        if hue is not None:
+            assert hue in columns, f"{hue} column not in dataframe"
+
+        exp.plot(x, y, hue)
+
+    elif run_config['exp'] == 'CheckVocab':
+        """
+        Assuming for the moment you just want to check target 
+        column in targeted syntactic evaluations.
+        """
+
+        LMs = models.load_models(run_config)
+
+        fnames = run_config['stimuli']
+        assert len(fnames) == 1
+        fname = fnames[0]
+
+        exp = TSE(fname)
+        exp.load_dataframe()
+
+        targets = exp.dataframe['target'].tolist()
+
+        for model in LMs:
+            for target in targets:
+                if model.word_in_vocab(target):
+                    continue
+                print(f"{target} not in {model} vocab")
+
+    elif run_config['exp'] == 'TSE':
+
         LMs = models.load_models(run_config)
         fnames = run_config['stimuli']
         assert len(LMs) == len(fnames), "Add a stimuli file for each model (include duplicate entry if using the same file)"
         for fname, model in zip(fnames, LMs): 
             exp = TSE(fname)
+
             print(f"Running {model} on the data in {fname}...")
             exp.get_targeted_results(model, lowercase=run_config['lower'],
                                      return_type=run_config['return_type'])
@@ -61,7 +124,7 @@ if __name__ == "__main__":
                                 return_type=run_config['return_type'])
 
             outname = 'results/'+fname.split('/')[-1].split('.tsv')[0]
-            outname += '_'+str(model) + '_' + run_config['return_type']+'.tsv'
+            outname += '_'+str(model).replace('/', '_') + '_' + run_config['return_type']+'.tsv'
             print(f"Saving the output to {outname}...")
             exp.save(outname)
 
@@ -72,10 +135,11 @@ if __name__ == "__main__":
         for fname, model in zip(fnames, LMs): 
             print(f"Running {model} on the data in {fname}...")
             exp = Cumulative(fname)
-            exp.get_likelihood_results(model, batch_size=80, log=True)
+            exp.get_likelihood_results(model, batch_size=80,
+                                       log=run_config['log'])
 
             outname = 'results/LL_'+str(fname).split('/')[-1].split('.tsv')[0]
-            outname += "_"+str(model)+'_prob.tsv'
+            outname += "_"+str(model).replace('/', '_')+'_prob.tsv'
             print(f"Saving the output to {outname}...")
             exp.save(outname)
 
@@ -96,7 +160,7 @@ if __name__ == "__main__":
             print(f"Running {model} on BLiMP...")
             exp.get_likelihood_results(model)
 
-            outname = 'results/BLiMP_'+str(model).split('/')[-1].split('.')[0]+'.tsv'
+            outname = 'results/BLiMP_'+str(model).replace('/', '_').split('.')[0]+'.tsv'
             print(f"Saving the output to {outname}...")
             exp.save(outname)
     else:

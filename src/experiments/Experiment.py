@@ -89,6 +89,88 @@ class Experiment(object):
                 word.subworded = word_surp.isSplit
                 word.add_surp(word_surp.modelName, word_surp.surp)
 
+    def plot(self, X, Y, hue):
+
+        import seaborn as sns
+        import matplotlib.pyplot as plt
+
+        self.load_dataframe()
+
+        MEASURES = ['surp', 'prob', 'LL']
+
+        columns = []
+        for measure in MEASURES:
+            columns = list(filter(lambda x: '_'+measure in x, self.dataframe.columns.to_list()))
+            if columns != []:
+                break
+
+        assert columns != [], f"There is no column with values from {MEASURES}"
+            
+        base_columns = list(filter(lambda x: f"_{measure}" not in x, self.dataframe.columns.to_list()))
+        plot_data = self.dataframe.copy()
+
+        plot_data = pd.melt(plot_data, 
+                            id_vars=base_columns, 
+                            var_name='model', 
+                            value_name=measure)
+
+        models = list(map(lambda x: x.replace('_'+measure, ''),
+                          plot_data['model'].tolist()))
+        plot_data['model'] = models
+
+        if Y in {'diff', 'acc'}:
+            # Format diffs
+            diffs = []
+            accs = []
+            for _, row in plot_data.iterrows():
+                if row['order'] == 'y':
+                    continue
+
+                x = row[measure]
+
+                # Get minimally different row
+                filtered = plot_data
+                filtered = filtered[(filtered['pairs'] == row['pairs']) & 
+                                   (filtered['order'] == 'y')]
+
+
+                y =  filtered[measure].tolist()
+                assert len(y) == 1
+
+                y = y[0]
+
+                diffs.append(x-y)
+                diffs.append(x-y)
+                accs.append(int(x > y))
+                accs.append(int(x > y))
+
+            plot_data['diff'] = diffs
+            plot_data['acc'] = accs
+            plot_data = plot_data[plot_data['order'] == 'x']
+
+        else:
+            Y = measure
+
+        if hue is not None:
+            g = sns.catplot(
+                data=plot_data, 
+                x=X,
+                y=Y, 
+                col='model', 
+                hue=hue, 
+                kind='bar')
+        else:
+            g = sns.catplot(
+                data=plot_data, 
+                x=X,
+                y=Y, 
+                col='model', 
+                kind='bar')
+
+        plt.show()
+
+        return
+
 """The various containers for different grains of data in Experiment: Word, Sentence, Stimulus"""
 class Stimulus(object):
     def __init__(self, stimID):

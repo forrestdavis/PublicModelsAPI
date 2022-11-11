@@ -31,7 +31,7 @@ class Cumulative(Experiment):
             sys.stderr.write(f"The file {self.name} is not a recognized format\n")
             sys.exit(1)
 
-    def get_likelihood_results(self, model, batch_size=40):
+    def get_likelihood_results(self, model, batch_size=40, log=False):
 
         if self.dataframe is None:
             self.load_dataframe()
@@ -60,7 +60,8 @@ class Cumulative(Experiment):
                     batch.append(context+' '+sent)
 
                 LLs.extend(model.get_sentence_likelihood(batch, 
-                                                         startPOS = startPOSs))
+                                                         startPOS = startPOSs, 
+                                                         log = log))
 
         else:
             sents = self.dataframe['sent'].tolist()
@@ -68,7 +69,8 @@ class Cumulative(Experiment):
             for idx in range(0, len(sents), batch_size):
                 sent_batch = sents[idx:idx+batch_size]
 
-                LLs.extend(model.get_sentence_likelihood(sent_batch, startPOS=6))
+                LLs.extend(model.get_sentence_likelihood(sent_batch, 
+                                                        log = log))
 
         assert len(LLs) == len(sents)
         self.dataframe[str(model)+'_LL'] = LLs
