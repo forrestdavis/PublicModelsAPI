@@ -10,6 +10,7 @@ from .tfxl_model import TFXLModel
 from .bert_model import BERTModel
 from .roberta_model import ROBERTAModel
 from .unigram_model import UnigramModel
+from .xglm_model import XGLMModel
 
 model_nickname_to_RTModel_class = {
         'lstm': LSTMModel,
@@ -20,7 +21,8 @@ model_nickname_to_RTModel_class = {
         'tfxl': TFXLModel,
         'bert': BERTModel,
         'roberta': ROBERTAModel,
-        'unigram': UnigramModel
+        'unigram': UnigramModel, 
+        'xglm': XGLMModel,
         }
 
 def load_models(config):
