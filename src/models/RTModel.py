@@ -472,7 +472,7 @@ class RTModel(object):
             for _, surp in token_surps:
                 ll += surp
             if log:
-                likelihoods.append(ll)
+                likelihoods.append(-ll)
             else:
                 likelihoods.append(2**(-ll))
         else:
@@ -489,7 +489,7 @@ class RTModel(object):
                 for _, surp in token_surp:
                     ll += surp
                 if log:
-                    likelihoods.append(ll)
+                    likelihoods.append(-ll)
                 else:
                     likelihoods.append(2**(-ll))
 

@@ -151,6 +151,11 @@ class Experiment(object):
         else:
             Y = measure
 
+        #Add a dummy variable (useful for plotting simple contrasts)
+        if X is None:
+            X = 'exp'
+            data['exp'] = 'na'
+
         if hue is not None:
             g = sns.catplot(
                 data=plot_data, 
