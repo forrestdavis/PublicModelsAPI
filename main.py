@@ -10,6 +10,7 @@ import sys
 
 import configparser
 import yaml
+import json
 
 try:
     from progress.bar import Bar
@@ -28,8 +29,15 @@ if __name__ == "__main__":
     else:
         run_config_fname = sys.argv[1]
 
+    extension = run_config_fname.split('.')[-1]
     with open(run_config_fname, 'r') as f:
-        run_config = yaml.load(f, Loader=yaml.FullLoader)
+        if extension == 'yaml':
+            run_config = yaml.load(f, Loader=yaml.FullLoader)
+        elif extension == 'json':
+            run_config = json.load(f)
+        else:
+            sys.stderr.write(f'Filetype: {extension} not recognized...\n')
+            sys.exit()
 
     #add paths to run_config
     run_config['nc_path'] = path_config['libraries']['neural-complexity']
