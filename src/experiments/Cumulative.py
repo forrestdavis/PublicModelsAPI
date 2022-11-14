@@ -40,11 +40,12 @@ class Cumulative(Experiment):
 
         LLs = []
 
-        if 'context' in columns:
-            sents = self.dataframe['sent'].tolist()
-            contexts = self.dataframe['context'].tolist()
+        if 'prime' in columns:
+            sents = self.dataframe['target'].tolist()
+            contexts = self.dataframe['prime'].tolist()
 
             assert len(contexts) == len(sents)
+
 
             for idx in range(0, len(sents), batch_size):
                 context_batch = contexts[idx:idx+batch_size]
