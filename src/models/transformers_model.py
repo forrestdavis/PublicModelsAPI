@@ -43,7 +43,15 @@ class TransformersModel(RTModel):
             self.model = model_cls.from_pretrained(version, output_hidden_states=True).to(self.device)
         self.model.eval()
 
-        self._tokenizer = tokenizer_cls.from_pretrained(version)
+        try:
+            self._tokenizer = tokenizer_cls.from_pretrained(version)
+        except:
+            sys.stderr.write(f"Loading tokenizer with {tokenizer_cls} failed...\n")
+            sys.stderr.write(f"Trying loading tokenizer with AutoTokenizer class...\n")
+            from transformers import AutoTokenizer
+            tokenizer_cls = AutoTokenizer
+            self._tokenizer = tokenizer_cls.from_pretrained(version)
+
         if add_padding_token:
             if not self._tokenizer.pad_token:
                 if self._tokenizer.eos_token_id is not None:
