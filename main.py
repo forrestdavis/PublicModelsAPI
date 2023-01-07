@@ -52,6 +52,7 @@ if __name__ == "__main__":
 
         if expname == 'TSE':
             exp = TSE(fname)
+            exp.load_dataframe()
         elif expname == 'Cumulative':
             exp = Cumulative(fname)
         else:
