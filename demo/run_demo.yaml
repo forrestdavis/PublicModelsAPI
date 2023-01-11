@@ -1,0 +1,16 @@
+exp: TSE
+
+models: 
+      gpt2:
+        - DeepESP/gpt2-spanish
+        - gpt2
+
+stimuli:
+    - stimuli/Full_Spanish.tsv
+    - stimuli/Full_English.tsv
+
+return_type: prob
+
+include_punct: False
+
+lower: False

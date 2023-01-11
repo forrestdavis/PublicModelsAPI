@@ -1,0 +1,4852 @@
+﻿item	m_sg	m_pl	f_sg	f_pl	inVocabs
+0	partidario	partidarios	partidaria		0
+1	búlgaro	búlgaros	búlgara	búlgaras	0
+2	abierto	abiertos	abierta	abiertas	1
+3	democrático	democráticos	democrática	democráticas	0
+4	ex	ex			0
+5	primer	primeros	primera	primeras	1
+6	descontento	descontentos			0
+7	cardíaco	cardíacos	cardíaca	cardíacas	0
+8	chino	chinos	china	chinas	1
+9	celebrado	celebrados	celebrada	celebradas	1
+10	nuevo	nuevos	nueva	nuevas	1
+11	peruano	peruanos	peruana		1
+12	expresado	expresados	expresada	expresadas	1
+13	segundo	segundos	segunda	segundas	1
+14	interno	internos	interna	internas	1
+15	elegido	elegidos	elegida		1
+16	único	únicos	única	únicas	0
+17	dispuesto	dispuestos	dispuesta	dispuestas	1
+18	claro	claros	clara	claras	1
+19	pacífico	pacíficos	pacífica	pacíficas	0
+20	no-alineados	no-alineados			0
+21	largo	largos	larga	largas	1
+22	político	políticos	política	políticas	0
+23	económico	económicos	económica	económicas	0
+24	científico	científicos	científica	científicas	0
+25	excesivo	excesivos	excesiva	excesivas	1
+26	buen	buenos	buena	buenas	1
+27	cercano	cercanos	cercana	cercanas	1
+28	urbano	urbanos	urbana	urbanas	1
+29	nefasto	nefastos	nefasta	nefastas	0
+30	español	españoles	española	españolas	0
+31	roto	rotos	rota	rotas	1
+32	viejo	viejos	vieja	viejas	1
+33	alto	altos	alta	altas	1
+34	hecho	hechos	hecha	hechas	1
+35	asqueroso	asquerosos	asquerosa	asquerosas	0
+36	coquetón			coquetonas	0
+37	apetitoso	apetitosos			0
+38	intacto	intactos	intacta	intactas	1
+39	puro	puros	pura		1
+40	duro	duros	dura	duras	1
+41	regalado	regalados	regalada	regaladas	0
+42	eterno	eternos	eterna	eternas	1
+43	organizado	organizados	organizada	organizadas	1
+44	fino	finos	fina	finas	1
+45	próspero	prósperos	próspera	prósperas	0
+46	desarrollado	desarrollados	desarrollada	desarrolladas	1
+47	humano	humanos	humana	humanas	1
+48	atlético	atléticos	atlética		0
+49	blando	blandos	blanda	blandas	0
+50	confiado	confiados			0
+51	enemigo	enemigos	enemiga	enemigas	1
+52	derecho	derechos	derecha	derechas	1
+53	táctico	tácticos	táctica	tácticas	0
+54	parecido	parecidos	parecida	parecidas	1
+55	embrollado	embrollados	embrollada	embrolladas	0
+56	analítico	analíticos	analítica	analíticas	0
+57	justo	justos	justa	justas	1
+58	inesperado	inesperados	inesperada	inesperadas	1
+59	atemorizador				0
+60	agresivo	agresivos	agresiva	agresivas	1
+61	pasivo	pasivos	pasiva	pasivas	0
+62	solo	solos	sola	solas	1
+63	prestigioso	prestigiosos	prestigiosa	prestigiosas	0
+64	galo	galos	gala		1
+65	advenedizo	advenedizos			0
+66	justificado	justificados	justificada	justificadas	0
+67	atípico			atípicas	0
+68	gallego	gallegos	gallega	gallegas	0
+69	medio	medios	media	medias	1
+70	aplaudido	aplaudidos	aplaudida	aplaudidas	0
+71	raro	raros	rara	raras	1
+72	conocido	conocidos	conocida	conocidas	1
+73	federativo	federativos	federativa		0
+74	tercer	terceros	tercera	terceras	1
+75	autóctono	autóctonos	autóctona	autóctonas	0
+76	europeo	europeos	europea	europeas	1
+77	periodístico	periodísticos	periodística	periodísticas	0
+78	servido	servidos	servida		0
+79	provinciano	provincianos			0
+80	disfrazado	disfrazados	disfrazada		0
+81	directivo	directivos	directiva		1
+82	descoyuntado	descoyuntados	descoyuntada	descoyuntadas	0
+83	enamorado	enamorados	enamorada	enamoradas	1
+84	vaporoso				0
+85	obsequioso				0
+86	conflictivo	conflictivos	conflictiva	conflictivas	0
+87	blanco	blancos	blanca	blancas	1
+88	deportivo	deportivos	deportiva	deportivas	1
+89	moderno	modernos	moderna	modernas	1
+90	sorprendido	sorprendidos	sorprendida	sorprendidas	1
+91	defraudado	defraudados			0
+92	cuestionado	cuestionados	cuestionada	cuestionadas	0
+93	valiosísimo	valiosísimos	valiosísima	valiosísimas	0
+94	supremo	supremos	suprema	supremas	1
+95	evolutivo	evolutivos	evolutiva	evolutivas	0
+96	protector	protectores	protectora	protectoras	1
+97	sencillo	sencillos	sencilla	sencillas	1
+98	expuesto	expuestos	expuesta	expuestas	1
+99	quitinoso	quitinosos	quitinosa	quitinosas	0
+100	calcáreo	calcáreos			0
+101	variado	variados	variada	variadas	1
+102	conformado	conformados	conformada	conformadas	1
+103	mínimo	mínimos	mínima	mínimas	0
+104	sesudo	sesudos			0
+105	modificado	modificados	modificada	modificadas	1
+106	deshilachado	deshilachados			0
+107	desplegado	desplegados	desplegada	desplegadas	0
+108	avezado	avezados			0
+109	vírico				0
+110	repetido	repetidos	repetida	repetidas	0
+111	directo	directos	directa	directas	1
+112	segregado	segregados	segregada	segregadas	0
+113	primitivo	primitivos	primitiva	primitivas	1
+114	vivo	vivos	viva	vivas	1
+115	determinado	determinados	determinada	determinadas	1
+116	sucesivo	sucesivos	sucesiva	sucesivas	0
+117	pequeño	pequeños	pequeña	pequeñas	0
+118	arrollador	arrolladores	arrolladora	arrolladoras	0
+119	llamado	llamados	llamada	llamadas	1
+120	movido	movidos	movida	movidas	1
+121	continuado	continuados	continuada		1
+122	patentado	patentados	patentada	patentadas	0
+123	mecánico	mecánicos	mecánica	mecánicas	0
+124	diseñado	diseñados	diseñada	diseñadas	0
+125	orgánico	orgánicos	orgánica	orgánicas	0
+126	verdadero	verdaderos	verdadera	verdaderas	1
+127	técnico	técnicos	técnica	técnicas	0
+128	genético	genéticos	genética	genéticas	0
+129	nucléico	nucléicos			0
+130	implícito	implícitos	implícita		0
+131	corrector	correctores	correctora	correctoras	0
+132	ecológico	ecológicos	ecológica	ecológicas	0
+133	vagabundo	vagabundos			0
+134	autónomo	autónomos	autónoma	autónomas	0
+135	curioso	curiosos	curiosa		1
+136	inmunológico				0
+137	gigantesco	gigantescos	gigantesca	gigantescas	0
+138	adecuado	adecuados	adecuada	adecuadas	1
+139	almacenado	almacenados	almacenada	almacenadas	0
+140	necesario	necesarios	necesaria	necesarias	1
+141	grabado	grabados	grabada	grabadas	1
+142	desconocido	desconocidos	desconocida	desconocidas	1
+143	ilimitado	ilimitados	ilimitada	ilimitadas	0
+144	escrito	escritos	escrita	escritas	1
+145	herido	heridos	herida	heridas	1
+146	satisfactorio	satisfactorios	satisfactoria		1
+147	debido	debidos	debida	debidas	1
+148	máximo	máximos	máxima	máximas	0
+149	correcto	correctos	correcta	correctas	1
+150	cruento	cruentos	cruenta		0
+151	reglamentario	reglamentarios	reglamentaria	reglamentarias	0
+152	físico	físicos	física	físicas	0
+153	rayado	rayados			0
+154	comentado	comentados	comentada		0
+155	conductor	conductores	conductora	conductoras	0
+156	producido	producidos	producida	producidas	1
+157	inorgánico			inorgánicas	0
+158	superconductor	superconductores	superconductora	superconductoras	0
+159	aromático	aromáticos	aromática	aromáticas	0
+160	fusionado	fusionados	fusionada	fusionadas	0
+161	electroquímico	electroquímicos	electroquímica	electroquímicas	0
+162	coulómbico	coulómbicos	coulómbica	coulómbicas	0
+163	propio	propios	propia	propias	1
+164	aceptor	aceptores	aceptora	aceptoras	0
+165	extendido	extendidos	extendida	extendidas	1
+166	heterocíclico	heterocíclicos			0
+167	electronegativo				0
+168	bajo	bajos	baja	bajas	1
+169	químico	químicos	química	químicas	0
+170	distinto	distintos	distinta	distintas	1
+171	sustituido	sustituidos	sustituida		0
+172	polimérico	poliméricos	polimérica	poliméricas	0
+173	metálico	metálicos	metálica	metálicas	0
+174	conjugado			conjugadas	0
+175	dopado	dopados	dopada		0
+176	térmico	térmicos	térmica	térmicas	0
+177	apropiado	apropiados	apropiada		1
+178	benigno	benignos			0
+179	doméstico	domésticos	doméstica	domésticas	0
+180	empírico	empíricos	empírica	empíricas	0
+181	mero	meros	mera	meras	1
+182	lógico	lógicos	lógica		0
+183	dado	dados	dada	dadas	1
+184	decisivo	decisivos	decisiva	decisivas	1
+185	corpóreo	corpóreos	corpórea	corpóreas	0
+186	divino	divinos	divina		1
+187	nulo	nulos	nula	nulas	1
+188	colectivo	colectivos	colectiva	colectivas	1
+189	riguroso	rigurosos	rigurosa		0
+190	digno	dignos	digna		1
+191	orgulloso	orgullosos	orgullosa		1
+192	concentrado	concentrados	concentrada		0
+193	lesionado	lesionados			0
+194	sancionado	sancionados			0
+195	decrépito				0
+196	retardado	retardados			0
+197	peligroso	peligrosos	peligrosa	peligrosas	1
+198	activo	activos	activa	activas	1
+199	instalado	instalados	instalada	instaladas	1
+200	reñido	reñidos	reñida		0
+201	andaluz	andaluces	andaluza	andaluzas	0
+202	divorciado	divorciados	divorciada	divorciadas	0
+203	autonómico	autonómicos	autonómica	autonómicas	0
+204	financiero	financieros	financiera	financieras	1
+205	revolucionario	revolucionarios	revolucionaria	revolucionarias	1
+206	francés	franceses	francesa	francesas	0
+207	intervenido	intervenidos	intervenida	intervenidas	0
+208	amplio	amplios	amplia	amplias	1
+209	especializado	especializados	especializada	especializadas	1
+210	fatídico			fatídicas	0
+211	atento	atentos	atenta		1
+212	obcecado	obcecados	obcecada	obcecadas	0
+213	seguro	seguros	segura	seguras	1
+214	satisfecho	satisfechos	satisfecha		1
+215	hegemónico	hegemónicos	hegemónica		0
+216	revuelto	revueltos			0
+217	negro	negros	negra	negras	1
+218	lento	lentos	lenta	lentas	1
+219	sabio	sabios	sabia		1
+220	adaptado	adaptados	adaptada		1
+221	clavado	clavados	clavada	clavadas	0
+222	prohibido	prohibidos	prohibida	prohibidas	1
+223	plateado	plateados	plateada	plateadas	0
+224	inmenso	inmensos	inmensa	inmensas	1
+225	ciego	ciegos	ciega		1
+226	irritado	irritados	irritada	irritadas	0
+227	cerrado	cerrados	cerrada	cerradas	1
+228	baboso	babosos	babosa	babosas	0
+229	burlón			burlonas	0
+230	fingido	fingidos	fingida	fingidas	0
+231	debilitado	debilitados	debilitada	debilitadas	0
+232	convertido	convertidos	convertida	convertidas	0
+233	furioso	furiosos	furiosa		1
+234	perdido	perdidos	perdida	perdidas	1
+235	romano	romanos	romana	romanas	1
+236	lírico	líricos	lírica	líricas	0
+237	sonoro	sonoros	sonora	sonoras	0
+238	nacido	nacidos	nacida	nacidas	1
+239	absoluto	absolutos	absoluta		1
+240	transitorio	transitorios	transitoria	transitorias	0
+241	vasto	vastos	vasta	vastas	1
+242	susodicho	susodichos	susodicha	susodichas	0
+243	corpulento	corpulentos	corpulenta		0
+244	lleno	llenos	llena	llenas	1
+245	sano	sanos	sana	sanas	1
+246	bello	bellos	bella	bellas	1
+247	desmadrado				0
+248	huesudo	huesudos	huesuda	huesudas	0
+249	separado	separados	separada	separadas	1
+250	mojado	mojados	mojada	mojadas	0
+251	blanquecino	blanquecinos	blanquecina		0
+252	fofo	fofos	fofa	fofas	0
+253	hondo				0
+254	condenado	condenados	condenada		1
+255	feo	feos	fea	feas	1
+256	matutino	matutinos	matutina	matutinas	0
+257	izquierdo	izquierdos	izquierda		1
+258	violento	violentos	violenta	violentas	1
+259	monótono	monótonos	monótona		0
+260	sólido	sólidos	sólida	sólidas	0
+261	hundido	hundidos	hundida		0
+262	fijo	fijos	fija	fijas	1
+263	liso	lisos	lisa	lisas	0
+264	embaldosado	embaldosados	embaldosada	embaldosadas	0
+265	tendido	tendidos	tendida		0
+266	sucio	sucios	sucia	sucias	1
+267	alicatado	alicatados	alicatada	alicatadas	0
+268	paralelo	paralelos	paralela	paralelas	1
+269	desconcertado				0
+270	abandonado	abandonados	abandonada	abandonadas	1
+271	inofensivo	inofensivos	inofensiva	inofensivas	0
+272	auténtico	auténticos	auténtica	auténticas	0
+273	prolongado	prolongados	prolongada	prolongadas	1
+274	periódico	periódicos	periódica	periódicas	0
+275	tímida		tímida		0
+276	enfermizo	enfermizos	enfermiza	enfermizas	0
+277	alimentado	alimentados	alimentada	alimentadas	0
+278	generoso	generosos	generosa	generosas	1
+279	grotesco				0
+280	decorado	decorados	decorada	decoradas	0
+281	futuro	futuros	futura	futuras	1
+282	hermoso	hermosos	hermosa		1
+283	calculado	calculados	calculada	calculadas	0
+284	previo	previos	previa	previo	1
+285	repentino	repentinos	repentina	repentinas	1
+286	absurdo	absurdos	absurda	absurdas	1
+287	acumulado	acumulados	acumulada	acumuladas	0
+288	vacío	vacíos	vacía	vacías	0
+289	malagueño	malagueños	malagueña	malagueñas	0
+290	emocionado	emocionados	emocionada	emocionadas	1
+291	quinto	quintos	quinta	quintas	1
+292	electo	electos	electa	electas	0
+293	preocupado	preocupados	preocupada		1
+294	mayoritario	mayoritarios	mayoritaria		0
+295	histórico	históricos	histórica	históricas	0
+296	relativo	relativos	relativa	relativas	1
+297	argentino	argentinos	argentina	argentinas	1
+298	público	públicos	pública	públicas	0
+299	falso	falsos	falsa	falsas	1
+300	acusado	acusados	acusada	acusadas	1
+301	supuesto	supuestos	supuesta	supuestas	1
+302	médico	médicos	médica	médicas	0
+303	avalado			avaladas	0
+304	imputado	imputados			0
+305	rojiblanco	rojiblancos	rojiblanca	rojiblancas	0
+306	anónimo	anónimos	anónima	anónimas	0
+307	jurídico	jurídicos	jurídica	jurídicas	0
+308	dirigido	dirigidos	dirigida	dirigidas	1
+309	mismo	mismos	misma	mismas	1
+310	jerárquico	jerárquicos	jerárquica	jerárquicas	0
+311	efectuado	efectuados	efectuada	efectuadas	1
+312	enviado	enviados	enviada	enviadas	1
+313	secretario				0
+314	selectivo	selectivos	selectiva		0
+315	rechazado	rechazados	rechazada	rechazadas	1
+316	previsto	previstos	prevista	previstas	1
+317	energético	energéticos	energética		0
+318	próximo	próximos	próxima	próximas	0
+319	centroamericano	centroamericanos	centroamericana		0
+320	panameño	panameños	panameña	panameñas	0
+321	programado	programados	programada		1
+322	pasado	pasados	pasada	pasadas	1
+323	venezolano	venezolanos	venezolana	venezolanas	1
+324	diario	diarios	diaria	diarias	1
+325	suscrito	suscritos	suscrita	suscritas	0
+326	derivado	derivados	derivada	derivadas	1
+327	alemán	alemanes	alemana	alemanas	0
+328	vigésimo	vigésimos	vigésima	vigésimas	0
+329	cuarto	cuartos	cuarta		1
+330	cubano	cubanos	cubana	cubanas	1
+331	estonio				0
+332	disputado	disputados	disputada	disputadas	0
+333	olímpico	olímpicos	olímpica	olímpicas	0
+334	último	últimos	última	últimas	0
+335	extremeño	extremeños	extremeña		0
+336	afiliado	afiliados	afiliada	afiliadas	0
+337	concreto	concretos	concreta	concretas	1
+338	motivado	motivados	motivada		0
+339	estipulado			estipuladas	0
+340	manifestado				0
+341	afín				0
+342	íntimo	íntimos	íntima	íntimas	0
+343	otorgado	otorgados	otorgada		1
+344	mixto	mixtos	mixta	mixtas	1
+345	colapsado	colapsados	colapsada		0
+346	significativo	significativos	significativa	significativas	1
+347	adulto	adultos	adulta	adultas	1
+348	pesquero	pesqueros	pesquera	pesqueras	0
+349	permitido	permitidos	permitida	permitidas	0
+350	congelador	congeladores	congeladora		0
+351	indirecto	indirectos	indirecta		0
+352	hispano-argentinos	hispano-argentinos			0
+353	creado	creados	creada	creadas	1
+354	perverso	perversos	perversa		0
+355	integrado	integrados	integrada	integradas	1
+356	vizcaíno	vizcaínos	vizcaína	vizcaínas	0
+357	prologado				0
+358	bilbaíno	bilbaínos	bilbaína	bilbaínas	0
+359	malo	malos	mala	malas	1
+360	devaluado	devaluados	devaluada	devaluadas	0
+361	desapercibido	desapercibidos	desapercibida		0
+362	publicado	publicados	publicada	publicadas	1
+363	experimentado	experimentados	experimentada		0
+364	cinematográfico	cinematográficos	cinematográfica	cinematográficas	0
+365	fragmentado	fragmentados	fragmentada	fragmentadas	0
+366	británico	británicos	británica	británicas	0
+367	norteamericano	norteamericanos	norteamericana	norteamericanas	1
+368	inversor	inversores	inversora	inversoras	0
+369	definitivo	definitivos	definitiva	definitivas	1
+370	esterlino	esterlinos	esterlina	esterlinas	0
+371	negativo	negativos	negativa	negativas	1
+372	mediano	medianos	mediana	medianas	1
+373	elevado	elevados	elevada	elevadas	1
+374	encontrado	encontrados	encontrada	encontradas	1
+375	retroactivo	retroactivos	retroactiva		0
+376	ajeno	ajenos	ajena	ajenas	1
+377	adherido	adheridos	adherida		0
+378	añejo	añejos	añeja	añejas	0
+379	estratégico	estratégicos	estratégica	estratégicas	0
+380	compacto	compactos	compacta	compactas	0
+381	anunciado	anunciados	anunciada		0
+382	automovilístico	automovilísticos	automovilística	automovilísticas	0
+383	mobiliario	mobiliarios			0
+384	bancario	bancarios	bancaria	bancarias	1
+385	regulado	regulados	regulada	reguladas	0
+386	denominado	denominados	denominada	denominadas	1
+387	involucrado	involucrados	involucrada	involucradas	1
+388	sometido	sometidos	sometida	sometidas	1
+389	vinculado	vinculados	vinculada	vinculadas	1
+390	obligado	obligados	obligada	obligadas	1
+391	simplificados	simplificadoses	simplificada	simplificadas	0
+392	masculino	masculinos	masculina	masculinas	1
+393	pleno	plenos	plena	plenas	1
+394	innovador	innovadores	innovadora	innovadoras	0
+395	beneficiado	beneficiados	beneficiada	beneficiadas	0
+396	entero	enteros	entera	enteras	1
+397	deseado	deseados	deseada		1
+398	explosivo	explosivos	explosiva	explosivas	0
+399	sostenido	sostenidos	sostenida	sostenidas	1
+400	alterado	alterados	alterada	alteradas	1
+401	originario	originarios	originaria	originarias	1
+402	femenino	femeninos	femenina	femeninas	1
+403	italiano	italianos	italiana	italianas	1
+404	cortado	cortados	cortada	cortadas	1
+405	invicto	invictos	invicta		0
+406	polémico	polémicos	polémica	polémicas	0
+407	jamaicano	jamaicanos	jamaicana	jamaicanas	0
+408	glorioso	gloriosos	gloriosa	gloriosas	1
+409	exitoso	exitosos	exitosa	exitosas	1
+410	cubierto	cubiertos	cubierta	cubiertas	1
+411	dilatado	dilatados	dilatada	dilatadas	0
+412	positivo	positivos	positiva	positivas	1
+413	séptimo	séptimos	séptima	séptimas	0
+414	ganador	ganadores	ganadora	ganadoras	1
+415	incómodo	incómodos	incómoda		0
+416	interrumpdo	interrumpidos			0
+417	detonador	detonadores			0
+418	apoyado	apoyados	apoyada		1
+419	comprometido	comprometidos	comprometida	comprometidas	1
+420	consecutivo	consecutivos	consecutiva	consecutivas	0
+421	incontrolado	incontrolados	incontrolada	incontroladas	0
+422	australiano	australianos	australiana	australianas	1
+423	ganado	ganados	ganada		0
+424	japonés	japoneses	japonesa	japonesas	0
+425	navarro	navarros	navarra	navarras	0
+426	eólico	eólicos	eólica		0
+427	transpirenaico	transpirenaicos	transpirenaica	transpirenaicas	0
+428	duradero	duraderos	duradera	duraderas	0
+429	respetuoso	respetuosos	respetuosa	respetuosas	0
+430	generador	generadores	generadora	generadoras	0
+431	eléctrico	eléctricos	eléctrica	eléctricas	0
+432	recogido	recogidos	recogida	recogidas	1
+433	ambicioso	ambiciosos	ambiciosa		0
+434	centralizado			centralizadas	0
+435	descentralizado	descentralizados	descentralizada		0
+436	cierto	ciertos	cierta	ciertas	1
+437	extraordinario	extraordinarios	extraordinaria	extraordinarias	1
+438	entregado	entregados	entregada	entregadas	1
+439	apasionado	apasionados	apasionada	apasionadas	0
+440	destacado	destacados	destacada	destacadas	1
+441	esperanzador	esperanzadores	esperanzadora		0
+442	firmado	firmados	firmada	firmadas	1
+443	encargado	encargados	encargada	encargadas	1
+444	cristiano	cristianos	cristiana	cristianas	1
+445	sentido	sentidos	sentida	sentidas	0
+446	muerto	muertos	muerta	muertas	1
+447	nombrado				0
+448	abanderado			abanderadas	0
+449	espartano	espartanos	espartana		0
+450	estricto	estrictos	estricta	estrictas	1
+451	alimenticio	alimenticios	alimenticia		0
+452	respectivo	respectivos	respectiva	respectivas	0
+453	eslovaco				0
+454	trágico	trágicos	trágica	trágicas	0
+455	embestido				0
+456	cardiaco	cardiacos	cardiaca	cardiacas	0
+457	inaugurado	inaugurados	inaugurada		1
+458	nigeriano			nigerianas	0
+459	enfermo	enfermos	enferma	enfermas	1
+460	decidido	decididos	decidida	decididas	1
+461	geopolítico	geopolíticos	geopolítica	geopolíticas	0
+462	representativo	representativos	representativa	representativas	1
+463	simbólico	simbólicos	simbólica	simbólicas	0
+464	conseguido	conseguidos	conseguida	conseguidas	0
+465	completo	completos	completa	completas	1
+466	hispano	hispanos	hispana		0
+467	superado	superados	superada	superadas	0
+468	cosechado	cosechados			0
+469	carismático			carismáticas	0
+470	rebasado				0
+471	distónico	distónicos			0
+472	parapléjico	parapléjicos	parapléjica	parapléjicas	0
+473	poderoso	poderosos	poderosa	poderosas	1
+474	paralímpico	paralímpicos	paralímpica	paralímpicas	0
+475	tetrapléjico				0
+476	sexto	sextos	sexta		1
+477	subcampeón				0
+478	psíquico	psíquicos	psíquica		0
+479	brasileño	brasileños	brasileña	brasileñas	0
+480	favorito	favoritos	favorita	favoritas	1
+481	llegado	llegados	llegada	llegadas	1
+482	amistoso	amistosos	amistosa	amistosas	1
+483	cansado	cansados	cansada		1
+484	preparado	preparados	preparada	preparadas	1
+485	altísimo	altísimos	altísima	altísimas	0
+486	tranquilo	tranquilos	tranquila		1
+487	precavido				0
+488	colombiano	colombianos	colombiana	colombianas	1
+489	chileno	chilenos	chilena	chilenas	1
+490	práctico	prácticos	práctica	prácticas	0
+491	pobre		pobrísima	pobrísimas	0
+492	promisorio				0
+493	bruto	brutos	bruta	brutas	1
+494	destinado	destinados	destinada	destinadas	1
+495	autogenerado	autogenerados			0
+496	neto	netos	neta	netas	0
+497	ordinario	ordinarios	ordinaria	ordinarias	1
+498	intermediado	intermediados			0
+499	crediticio	crediticios	crediticia	crediticias	0
+500	asumido	asumidos	asumida	asumidas	0
+501	documentario	documentarios			0
+502	situado	situados	situada	situadas	1
+503	decimotercer				0
+504	asturiano	asturianos	asturiana	asturianas	0
+505	lanzado	lanzados	lanzada	lanzadas	1
+506	presentado	presentados	presentada	presentadas	1
+507	autorizado	autorizados	autorizada		1
+508	adoptado	adoptados	adoptada	adoptadas	1
+509	desautorizado	desautorizados			0
+510	multimillonario	multimillonarios	multimillonaria		0
+511	germano	germanos	germana	germanas	0
+512	irónico	irónicos	irónica		0
+513	pésimo	pésimos	pésima	pésimas	0
+514	escaso	escasos	escasa	escasas	1
+515	ofrecido	ofrecidos	ofrecida	ofrecidas	0
+516	designado	designados			0
+517	elaborado	elaborados	elaborada	elaboradas	1
+518	petrolero	petroleros	petrolera	petroleras	0
+519	barato	baratos	barata	baratas	1
+520	universitario	universitarios	universitaria	universitarias	1
+521	válido	válidos	válida	válidas	0
+522	ascendido				0
+523	marcado	marcados	marcada	marcadas	1
+524	perdedor				0
+525	católico	católicos	católica	católicas	0
+526	itálico	itálicos	itálica	itálicas	0
+527	contento	contentos	contenta		1
+528	dramático	dramáticos	dramática	dramáticas	0
+529	rojo	rojos	roja	rojas	1
+530	intenso	intensos	intensa	intensas	1
+531	atunero	atuneros	atunera	atuneras	0
+532	bacaladero	bacaladeros	bacaladera	bacaladeras	0
+533	diplomático	diplomáticos	diplomática	diplomáticas	0
+534	comunitario	comunitarios	comunitaria	comunitarias	1
+535	izado				0
+536	restrictivo	restrictivos	restrictiva	restrictivas	0
+537	geoestacionario	geoestacionarios	geoestacionaria	geoestacionarias	0
+538	junto	juntos	junta	juntas	1
+539	modesto	modestos	modesta	modestas	1
+540	inmerso	inmersos	inmersa		0
+541	acompañado	acompañados	acompañada	acompañadas	0
+542	coreado	coreados	coreada	coreadas	0
+543	vestido	vestidos	vestida	vestidas	1
+544	mentiroso	mentirosos			0
+545	privilegiado	privilegiados	privilegiada		0
+546	desolador				0
+547	vistoso	vistosos	vistosa	vistosas	0
+548	culto	cultos	culta	cultas	0
+549	provocado	provocados	provocada	provocadas	1
+550	comparado	comparados	comparada	comparadas	1
+551	realizado	realizados	realizada	realizadas	1
+552	emitido	emitidos	emitida	emitidas	1
+553	descontado			descontadas	0
+554	corto	cortos	corta	cortas	1
+555	secundario	secundarios	secundaria	secundarias	1
+556	canario	canarios	canaria	canarias	0
+557	rojillo				0
+558	liguero	ligueros	liguera	ligueras	0
+559	resuelto	resueltos	resuelta	resueltas	0
+560	encajado				0
+561	aislado	aislados	aislada	aisladas	1
+562	protagonizado	protagonizados	protagonizada	protagonizadas	0
+563	acreedor	acreedores			0
+564	suelto	sueltos	suelta	sueltas	1
+565	opuesto	opuestos	opuesta	opuestas	1
+566	esperado	esperados	esperada	esperadas	0
+567	apretado	apretados	apretada		0
+568	poco	pocos	poca	pocas	1
+569	tecnológico	tecnológicos	tecnológica	tecnológicas	0
+570	moderado	moderados	moderada	moderadas	1
+571	sacudido	sacudidos	sacudida	sacudidas	0
+572	religioso	religiosos	religiosa	religiosas	1
+573	judío	judíos	judía	judías	0
+574	sirio	sirios	siria	sirias	0
+575	turístico	turísticos	turística	turísticas	0
+576	estancado	estancados	estancada	estancadas	0
+577	capturado	capturados			0
+578	perfecto	perfectos	perfecta	perfectas	1
+579	efectivo	efectivos	efectiva	efectivas	1
+580	numérico	numéricos	numérica	numéricas	0
+581	mexicano	mexicanos	mexicana	mexicanas	1
+582	ofensivo	ofensivos	ofensiva	ofensivas	1
+583	férreo	férreos	férrea	férreas	0
+584	surtido	surtidos			0
+585	inocuo				0
+586	árbitro				0
+587	necesitado	necesitados	necesitada	necesitadas	0
+588	airoso	airosos	airosa		0
+589	reiterativo				0
+590	asesino	asesinos	asesina		1
+591	externo	externos	externa	externas	1
+592	convencido	convencidos	convencida		1
+593	basado	basados	basada		1
+594	dominicano	dominicanos	dominicana	dominicanas	0
+595	heredado			heredadas	0
+596	arancelario	arancelarios	arancelaria	arancelarias	0
+597	tributario	tributarios	tributaria	tributarias	0
+598	aéreo	aéreos	aérea	aéreas	0
+599	exento	exentos	exenta		0
+600	importado	importados	importada	importadas	0
+601	precedido	precedidos	precedida	precedidas	0
+602	agropecuario	agropecuarios	agropecuaria		0
+603	básico	básicos	básica	básicas	0
+604	incluir	incluidos	incluida	incluidas	1
+605	productivo	productivos	productiva	productivas	1
+606	perjudicado	perjudicados	perjudicada	perjudicadas	0
+607	macroeconómico	macroeconómicos	macroeconómica	macroeconómicas	0
+608	privado	privados	privada	privadas	1
+609	duodécimo	duodécimos	duodécima	duodécimas	0
+610	envejecido	envejecidos	envejecida	envejecidas	0
+611	financiado	financiados	financiada	financiadas	0
+612	antiguo	antiguos	antigua	antiguas	1
+613	ciudadrealeño	ciudadrealeños	ciudadrealeña	ciudadrealeñas	0
+614	americano	americanos	americana	americanas	1
+615	comedido	comedidos			0
+616	repetitivo	repetitivos	repetitiva	repetitivas	0
+617	serbio	serbios	serbia	serbias	0
+618	ruso	rusos	rusa	rusas	1
+619	sagrado	sagrados	sagrada	sagradas	1
+620	caduco			caducas	0
+621	soporífero	soporíferos			0
+622	complementario	complementarios	complementaria	complementarias	0
+623	alternativo	alternativos	alternativa	alternativas	1
+624	fichado	fichados			0
+625	usado	usados	usada	usadas	1
+626	paulatino	paulatinos	paulatina	paulatinas	0
+627	formado	formados	formada		1
+628	biológico	biológicos	biológica	biológicas	0
+629	complejo	complejos	compleja	complejas	1
+630	propietario	propietarios	propietaria		1
+631	condicionado	condicionados	condicionada	condicionadas	0
+632	meteorológico	meteorológicos	meteorológica	meteorológicas	0
+633	polaco	polacos	polaca	polacas	1
+634	humillado				0
+635	famoso	famosos	famosa	famosas	1
+636	equivocado	equivocados	equivocada		1
+637	ligero-pesado				0
+638	súper-pesado				0
+639	aficionado	aficionados	aficionada		0
+640	listo	listos	lista	listas	1
+641	pesado	pesados	pesada	pesadas	1
+642	primario	primarios	primaria	primarias	1
+643	asegurado	asegurados	asegurada		1
+644	republicano	republicanos	republicana	republicanas	1
+645	programático	programáticos	programática		0
+646	controvertido	controvertidos	controvertida	controvertidas	0
+647	mágico	mágicos	mágica	mágicas	0
+648	sureño	sureños			0
+649	incluido	incluidos	incluida	incluidas	1
+650	parlamentario	parlamentarios	parlamentaria	parlamentarias	1
+651	dimisionario	dimisionarios	dimisionaria		0
+652	compuesto	compuestos	compuesta		1
+653	solitario	solitarios	solitaria	solitarias	1
+654	noruego	noruegos	noruega	noruegas	1
+655	nocivo	nocivos	nociva	nocivas	0
+656	acordado	acordados	acordada		0
+657	severo	severos	severa	severas	1
+658	danés	daneses	danesa	danesas	0
+659	precario	precarios	precaria		0
+660	desempleado	desempleados	desempleada	desempleadas	0
+661	parado	parados	parada	paradas	1
+662	contratado	contratados	contratada		0
+663	ligero	ligeros	ligera	ligeras	1
+664	contaminado	contaminados	contaminada	contaminadas	0
+665	distribuido	distribuidos	distribuida	distribuidas	1
+666	petrolífero	petrolíferos	petrolífera	petrolíferas	0
+667	salido	salidos	salida		1
+668	devastador	devastadores	devastadora	devastadoras	0
+669	sufrido	sufridos	sufrida	sufridas	0
+670	dañado	dañados	dañada	dañadas	0
+671	remoto	remotos	remota	remotas	1
+672	numeroso	numerosos	numerosa	numerosas	0
+673	óptimo	óptimos	óptima	óptimas	0
+674	pronto	prontos	pronta	prontas	0
+675	insólito	insólitos	insólita		0
+676	estropeado	estropeados	estropeada		0
+677	propuesto	propuestos	propuesta	propuestas	1
+678	fallecido	fallecidos	fallecida	fallecidas	0
+679	posoperatorio	posoperatorios	posoperatoria	posoperatorias	0
+680	presente	presentes			0
+681	solidario	solidarios	solidaria		0
+682	magnífico	magníficos	magnífica		0
+683	contemporáneo	contemporáneos	contemporánea	contemporáneas	0
+684	ambiguo	ambiguos	ambigua		0
+685	encarnado	encarnados	encarnada	encarnadas	0
+686	desorientado	desorientados	desorientada	desorientadas	0
+687	alistado				0
+688	extraño	extraños	extraña	extrañas	0
+689	enigmático	enigmáticos	enigmática	enigmáticas	0
+690	maduro	maduros	madura	maduras	1
+691	exquisito	exquisitos	exquisita	exquisitas	0
+692	culinario	culinarios	culinaria	culinarias	0
+693	interpretado	interpretados	interpretada		1
+694	experto	expertos	experta	expertas	1
+695	pretérito	pretéritos			0
+696	abstracto	abstractos	abstracta	abstractas	0
+697	extranjero	extranjeros	extranjera	extranjeras	1
+698	suramericano	suramericanos	suramericana	suramericanas	0
+699	octavo	octavos	octava	octavas	1
+700	estadístico	estadísticos	estadística		0
+701	suspendido	suspendidos	suspendida	suspendidas	1
+702	inquieto	inquietos	inquieta	inquietas	0
+703	mediático	mediáticos	mediática	mediáticas	0
+704	nocturno	nocturnos	nocturna	nocturnas	1
+705	querido	queridos	querida		1
+706	protegido	protegidos	protegida	protegidas	1
+707	clónico	clónicos	clónica	clónicas	0
+708	temeroso	temerosos	temerosa		0
+709	fidelizado				0
+710	blindado	blindados			0
+711	momentáneo	momentáneos	momentánea	momentáneas	0
+712	dedicado	dedicados	dedicada	dedicadas	1
+713	secuestrado	secuestrados	secuestrada	secuestradas	1
+714	justiciero	justicieros			0
+715	kafkiano	kafkianos	kafkiana	kafkianas	0
+716	nutrido	nutridos	nutrida	nutridas	0
+717	destrozado	destrozados			0
+718	mezclado	mezclados	mezclada		0
+719	envuelto	envueltos	envuelta		0
+720	guardado	guardados			0
+721	publicitado				0
+722	dominguero	domingueros	dominguera	domingueras	0
+723	amenazado	amenazados	amenazada		1
+724	serio	serios	seria	serias	1
+725	honrado	honrados	honrada		0
+726	informativo	informativos	informativa		0
+727	anticipado	anticipados	anticipada	anticipadas	0
+728	generado	generados	generada	generadas	1
+729	arbitrario	arbitrarios	arbitraria	arbitrarias	0
+730	capacitado	capacitados	capacitada	capacitadas	0
+731	armado	armados	armada	armadas	1
+732	palestino	palestinos	palestina	palestinas	0
+733	libanés	libaneses	libanesa		0
+734	caótico	caóticos	caótica	caóticas	0
+735	destructivo	destructivos	destructiva		0
+736	ocupado	ocupados	ocupada		1
+737	veterano	veteranos	veterana		0
+738	escocés				0
+739	estupendo	estupendos	estupenda		1
+740	inglés	ingleses	inglesa	inglesas	0
+741	valioso	valiosos	valiosa	valiosas	1
+742	catalán	catalanes	catalana	catalanas	0
+743	televisivo	televisivos	televisiva	televisivas	1
+744	subtitulado				0
+745	auditivo			auditivas	0
+746	indicativo			indicativas	0
+747	liberalizados				0
+748	garantizado	garantizados	garantizada		0
+749	beneficiario	beneficiarios	beneficiaria		0
+750	inscrito	inscritos			0
+751	vasco	vascos	vasca	vascas	1
+752	aplazado				0
+753	agosteño	agosteños	agosteña	agosteñas	0
+754	ciudadano	ciudadanos	ciudadana	ciudadanas	1
+755	victorioso	victoriosos	victoriosa	victoriosas	0
+756	reconvertido				0
+757	amargo	amargos	amarga	amargas	0
+758	nervioso	nerviosos	nerviosa		1
+759	descansado	descansados			0
+760	instaurado	instaurados			0
+761	dotado	dotados	dotada		0
+762	desaparecido	desaparecidos	desaparecida		1
+763	agitado	agitados	agitada	agitadas	0
+764	desesperado	desesperados	desesperada		1
+765	indebido	indebidos	indebida	indebidas	0
+766	inmediato	inmediatos	inmediata	inmediatas	1
+767	madrileño	madrileños	madrileña	madrileñas	0
+768	crítico	críticos	crítica	críticas	0
+769	logrado	logrados	lograda		0
+770	sobrado	sobrados	sobrada	sobradas	0
+771	reducido	reducidos	reducida	reducidas	1
+772	mono	monos	mona	monas	0
+773	aprobado	aprobados	aprobada	aprobadas	1
+774	clásico	clásicos	clásica	clásicas	0
+775	gratuito	gratuitos	gratuita	gratuitas	1
+776	flamenco	flamencos	flamenca	flamencas	0
+777	requerido	requeridos	requerida		1
+778	derrotado	derrotados	derrotada		0
+779	yugoslavo	yugoslavos	yugoslava	yugoslavas	0
+780	arropado	arropados	arropada	arropadas	0
+781	convocado	convocados	convocada	convocadas	0
+782	radiofónico	radiofónicos	radiofónica	radiofónicas	0
+783	democratacristiano				0
+784	diverso	diversos	diversa	diversas	0
+785	ideológico	ideológicos	ideológica	ideológicas	0
+786	expedientado	expedientados	expedientada	expedientadas	0
+787	laico	laicos			0
+788	discreto	discretos	discreta	discretas	0
+789	hermético				0
+790	propagandístico	propagandísticos	propagandística		0
+791	innovadoro			innovadoras	0
+792	confuso	confusos	confusa	confusas	1
+793	logístico	logísticos	logística	logísticas	0
+794	limitado	limitados	limitada	limitadas	1
+795	dicho	dichos	dicha	dichas	1
+796	avanzado	avanzados	avanzada	avanzadas	1
+797	estabilizado	estabilizados			0
+798	legítimo	legítimos	legítima		0
+799	contrario	contrarios	contraria	contrarias	1
+800	retributivo			retributivas	0
+801	cacareado	cacareados			0
+802	egipcio	egipcios	egipcia	egipcias	1
+803	cisjordano	cisjordanos	cisjordana	cisjordanas	0
+804	afilado	afilados	afilada	afiladas	0
+805	extremo	extremos	extrema	extremas	1
+806	bravo			bravas	0
+807	airado				0
+808	lacónico				0
+809	aburrido	aburridos			0
+810	parco			parcas	0
+811	característico	característicos	característica		0
+812	gélido	gélidos	gélida	gélidas	0
+813	atractivo	atractivos	atractiva	atractivas	1
+814	turbador			turbadoras	0
+815	preconizado			preconizadas	0
+816	mediterráneo	mediterráneos	mediterránea	mediterráneas	0
+817	legislativo	legislativos	legislativa	legislativas	1
+818	corso	corsos	corsa		0
+819	sujeto	sujetos	sujeta	sujetas	1
+820	profundo	profundos	profunda	profundas	1
+821	dueño	dueños			0
+822	detenido	detenidos	detenida	detenidas	1
+823	penitenciario	penitenciarios	penitenciaria	penitenciarias	0
+824	satánico	satánicos			0
+825	visitado	visitados	visitada	visitadas	0
+826	luciferino			luciferinas	0
+827	arreglado	arreglados	arreglada	arregladas	0
+828	soviético	soviéticos	soviética	soviéticas	0
+829	complicado	complicados	complicada	complicadas	1
+830	soberano	soberanos	soberana	soberanas	1
+831	quebequés				0
+832	musulmán	musulmanes	musulmana	musulmanas	0
+833	minusválido	minusválidos			0
+834	bonito	bonitos	bonita	bonitas	1
+835	inspirado	inspirados	inspirada	inspiradas	1
+836	plantado	plantados	plantada	plantadas	0
+837	tupido				0
+838	estético	estéticos	estética		0
+839	valenciano	valencianos	valenciana		0
+840	lesbiano	lesbianos	lesbiana	lesbianas	0
+841	olvidado	olvidados	olvidada	olvidadas	0
+842	escondido	escondidos	escondida	escondidas	1
+843	calificado	calificados	calificada	calificadas	0
+844	allegado	allegados			0
+845	guerrillero	guerrilleros	guerrillera	guerrilleras	0
+846	checheno	chechenos	chechena	chechenas	0
+847	checo	checos	checa		1
+848	sanitario	sanitarios	sanitaria	sanitarias	1
+849	indonesio	indonesios	indonesia		0
+850	implicado	implicados	implicada	implicadas	0
+851	perpetrado	perpetrados	perpetrada	perpetradas	0
+852	formulado	formulados	formulada	formuladas	0
+853	callejero	callejeros	callejera		0
+854	colocado	colocados	colocada	colocadas	1
+855	sospechoso	sospechosos	sospechosa	sospechosas	1
+856	enterrado	enterrados	enterrada	enterradas	1
+857	recibido	recibidos	recibida	recibidas	1
+858	pronunciado	pronunciados	pronunciada	pronunciadas	0
+859	progresivo	progresivos	progresiva	progresivas	1
+860	desgarrador	desgarradores	desgarradora	desgarradoras	0
+861	holandés	holandeses	holandesa		0
+862	creativo	creativos	creativa	creativas	1
+863	subterráneo	subterráneos	subterránea	subterráneas	0
+864	circulatorio	circulatorios	circulatoria	circulatorias	0
+865	constructivo	constructivos	constructiva	constructivas	0
+866	acabado	acabados	acabada	acabadas	1
+867	acuático	acuáticos	acuática	acuáticas	0
+868	matriculado	matriculados	matriculada	matriculadas	0
+869	inmovilizado	inmovilizados	inmovilizada		0
+870	calcinado	calcinados	calcinada		0
+871	hallado	hallados	hallada	halladas	0
+872	unido	unidos	unida	unidas	1
+873	desunido	desunidos			0
+874	distorsionado	distorsionados	distorsionada	distorsionadas	0
+875	tractor	tractores	tractora	tractoras	0
+876	subcontratado			subcontratadas	0
+877	afectado	afectados	afectada	afectadas	1
+878	ferroviario	ferroviarios	ferroviaria	ferroviarias	1
+879	ingresado	ingresados	ingresada	ingresadas	0
+880	atendido	atendidos			0
+881	dictado	dictados	dictada	dictadas	0
+882	presunto	presuntos	presunta	presuntas	1
+883	disciplinario	disciplinarios	disciplinaria	disciplinarias	0
+884	asociativo	asociativos	asociativa	asociativas	0
+885	sustituto				0
+886	penado	penados			0
+887	cotidiano	cotidianos	cotidiana	cotidianas	0
+888	crudo	crudos	cruda	crudas	0
+889	ginecológico				0
+890	doloroso			dolorosas	0
+891	hospitalario	hospitalarios	hospitalaria	hospitalarias	0
+892	homogéneo	homogéneos	homogénea	homogéneas	0
+893	indicado	indicados	indicada		1
+894	oligofrénico				0
+895	alcohólico	alcohólicos	alcohólica	alcohólicas	0
+896	mal				0
+897	urbanístico	urbanísticos	urbanística	urbanísticas	0
+898	desnudo	desnudos	desnuda	desnudas	1
+899	suizo	suizos	suiza		1
+900	enmarcado				0
+901	contributivo			contributivas	0
+902	adquisitivo			adquisitivas	0
+903	irrisorio	irrisorios	irrisoria	irrisorias	0
+904	zanjado	zanjados	zanjada	zanjadas	0
+905	accidentado	accidentados			0
+906	registrado	registrados	registrada	registradas	1
+907	operativo	operativos	operativa	operativas	1
+908	utilizado	utilizados	utilizada	utilizadas	1
+909	desbordado	desbordados	desbordada	desbordadas	0
+910	vicioso				0
+911	sembrado			sembradas	0
+912	descompensado				0
+913	barredor			barredoras	0
+914	provisto	provistos	provista		0
+915	estudiado	estudiados	estudiada	estudiadas	0
+916	decepcionado	decepcionados	decepcionada		0
+917	contado	contados	contada		0
+918	liberalizador			liberalizadoras	0
+919	portugués	portugueses	portuguesa		0
+920	muchísimo	muchísimos	muchísima	muchísimas	0
+921	mantenido	mantenidos	mantenida	mantenidas	0
+922	incorporado	incorporados			0
+923	negociador	negociadores	negociadora	negociadoras	0
+924	bloqueado	bloqueados	bloqueada	bloqueadas	0
+925	alguno	algunos	alguna	algunas	1
+926	jubilado				0
+927	alquilado	alquilados	alquilada	alquiladas	0
+928	nórdico	nórdicos	nórdica		0
+929	austríaco	austríacos	austríaca	austríacas	0
+930	reconocido	reconocidos	reconocida	reconocidas	1
+931	remitido	remitidos	remitida	remitidas	0
+932	antidopaje				0
+933	tildado				0
+934	pedagógico	pedagógicos	pedagógica	pedagógicas	0
+935	nico	nicos	nica	nicas	0
+936	continuo	continuos	continua	continuas	1
+937	automatizado	automatizados	automatizada	automatizadas	0
+938	idóneo	idóneos	idónea	idóneas	0
+939	equilibrado	equilibrados	equilibrada	equilibradas	0
+940	preso	presos	presa	presas	1
+941	retirado	retirados	retirada	retiradas	1
+942	procesado	procesados			0
+943	solicitado	solicitados	solicitada	solicitadas	0
+944	propicio	propicios	propicia	propicias	0
+945	seguido	seguidos	seguida	seguidas	1
+946	cívico	cívicos	cívica	cívicas	0
+947	ecuatoriano	ecuatorianos	ecuatoriana	ecuatorianas	0
+948	amarillo	amarillos	amarilla	amarillas	1
+949	acoplado			acopladas	0
+950	botón			botón	0
+951	rico	ricos	rica	ricas	1
+952	imbuido				0
+953	sarcástico	sarcásticos			0
+954	pequeñoburgués	pequeñoburgueses			0
+955	cariado	cariados			0
+956	ensartado	ensartados			0
+957	alternado	alternados	alternada	alternadas	0
+958	idéntico	idénticos	idéntica	idénticas	0
+959	rojizo	rojizos	rojiza	rojizas	0
+960	tumultuoso				0
+961	enrabietado	enrabietados	enrabietada	enrabietadas	0
+962	cochambrosete				0
+963	populachero	populacheros	populachera	populacheras	0
+964	desarrapado	desarrapados	desarrapada	desarrapadas	0
+965	viejorro	viejorros	viejorra	viejorras	0
+966	pendedero	pendederos	pendedera	pendederas	0
+967	maleado	maleados	maleada	maleadas	0
+968	retorcido	retorcidos	retorcida	retorcidas	0
+969	campesino	campesinos	campesina	campesinas	1
+970	acalambrado				0
+971	antipático				0
+972	pamplinoso				0
+973	sumido	sumidos	sumida		0
+974	bravío				0
+975	compulsivo	compulsivos	compulsiva	compulsivas	0
+976	dialéctico	dialécticos	dialéctica	dialécticas	0
+977	metido	metidos	metida		0
+978	aleccionado	aleccionados			0
+979	paralizado	paralizados	paralizada	paralizadas	0
+980	defensivo	defensivos	defensiva	defensivas	1
+981	específico	específicos	específica	específicas	0
+982	potentísimo				0
+983	enganchado	enganchados	enganchada	enganchadas	0
+984	puesto	puestos	puesta	puestas	1
+985	espléndido	espléndidos	espléndida	espléndidas	0
+986	culminado			culminadas	0
+987	soberbio				0
+988	expresivo	expresivos	expresiva	expresivas	0
+989	escueto	escuetos	escueta	escuetas	0
+990	rectilíneo	rectilíneos			0
+991	intermedio	intermedios	intermedia	intermedia	1
+992	traslúcido				0
+993	hipnotizado				0
+994	enriquecido	enriquecidos			0
+995	alusivo	alusivos			0
+996	lícito	lícitos	lícita	lícitas	0
+997	obrero	obreros	obrera	obreras	1
+998	rotundo	rotundos	rotunda	rotundas	0
+999	temerario	temerarios	temeraria		0
+1000	rudo	rudos	ruda		0
+1001	resbaladizo	resbaladizos			0
+1002	perfeccionado	perfeccionados	perfeccionada	perfeccionadas	0
+1003	problemático	problemáticos	problemática		0
+1004	grueso	gruesos	gruesa	gruesas	1
+1005	adiposo			adiposas	0
+1006	protéico	protéicos	protéica	protéicas	0
+1007	mismísimo	mismísimos	mismísima	mismísimas	0
+1008	críptico			crípticas	0
+1009	cromático	cromáticos			0
+1010	pardo	pardos	parda	pardas	0
+1011	costero	costeros	costera	costeras	0
+1012	oneroso	onerosos	onerosa	onerosas	0
+1013	agotado	agotados	agotada	agotadas	0
+1014	armonioso	armoniosos	armoniosa	armoniosas	0
+1015	paterno	paternos	paterna		0
+1016	asiduo	asiduos			0
+1017	urdido	urdidos	urdida	urdidas	0
+1018	cortesano	cortesanos			0
+1019	rancio	rancios	rancia		0
+1020	forzado	forzados	forzada	forzadas	1
+1021	psicológico	psicológicos	psicológica	psicológicas	0
+1022	llevado	llevados	llevada	llevadas	1
+1023	preciso	precisos	precisa	precisas	1
+1024	exacto	exactos	exacta	exactas	1
+1025	causado	causados	causada	causadas	1
+1026	balístico	balísticos	balística		0
+1027	igualado	igualados	igualada	igualadas	0
+1028	gravitatorio				0
+1029	medido	medidos	medida	medidas	0
+1030	recordado	recordados	recordada	recordadas	0
+1031	sudafricano	sudafricanos	sudafricana	sudafricanas	0
+1032	extraviado	extraviados	extraviada	extraviadas	0
+1033	sucedido				0
+1034	exculpatorio				0
+1035	mudo	mudos	muda	mudas	1
+1036	precipitado	precipitados	precipitada	precipitadas	0
+1037	preferido	preferidos	preferida		1
+1038	añorado				0
+1039	caribeño	caribeños	caribeña	caribeñas	0
+1040	agrario	agrarios	agraria	agrarias	0
+1041	puestísimo				0
+1042	levantisco	levantiscos	levantisca		0
+1043	cabreado				0
+1044	deprimido			deprimidas	0
+1045	destructor	destructores	destructora	destructoras	0
+1046	doctrinario	doctrinarios	doctrinaria	doctrinarias	0
+1047	conmocionado	conmocionados			0
+1048	ocurrido	ocurridos			0
+1049	sito	sitos	sita	sitas	0
+1050	citado	citados	citada	citadas	1
+1051	soltero	solteros	soltera	solteras	1
+1052	mencionado	mencionados	mencionada		1
+1053	callado	callados	callada	calladas	0
+1054	educado	educados	educada		0
+1055	misterioso	misteriosos	misteriosa	misteriosas	1
+1056	apelusado	apelusados	apelusada	apelusadas	0
+1057	burro	burros	burra	burras	0
+1058	gordo	gordos	gorda	gordas	1
+1059	áspero	ásperos	áspera	ásperas	0
+1060	oscuro	oscuros	oscura	oscuras	1
+1061	tostado				0
+1062	rubio	rubios	rubia	rubias	1
+1063	publicitario	publicitarios	publicitaria	publicitarias	0
+1064	oxidado			oxidadas	0
+1065	arañado			arañadas	0
+1066	presidido	presididos	presidida	presididas	1
+1067	constructor	constructores	constructora	constructoras	0
+1068	turbio	turbios	turbia	turbias	0
+1069	haitiano	haitianos			0
+1070	incautado	incautados	incautada	incautadas	0
+1071	decimotercero	decimoterceros	decimotercera	decimoterceras	0
+1072	empadronado			empadronadas	0
+1073	temprano	tempranos	temprana	tempranas	1
+1074	fraudulento	fraudulentos	fraudulenta	fraudulentas	0
+1075	opositor	opositores	opositora	opositoras	0
+1076	impregnado	impregnados	impregnada		0
+1077	mutuo	mutuos	mutua	mutuas	1
+1078	camuflado	camuflados			0
+1079	organizador	organizadores	organizadora	organizadoras	0
+1080	especificado	especificados	especificada	especificadas	0
+1081	indocumentado	indocumentados	indocumentada	indocumentadas	0
+1082	automático	automáticos	automática		0
+1083	ubicado	ubicados	ubicada	ubicadas	1
+1084	ofertado	ofertados			0
+1085	demandado	demandados	demandada	demandadas	0
+1086	casado	casados	casada	casadas	1
+1087	establecido	establecidos	establecida	establecidas	1
+1088	señalado	señalados	señalada	señaladas	0
+1089	interesado	interesados	interesada	interesadas	1
+1090	típico	típicos	típica	típicas	0
+1091	asiático	asiáticos	asiática	asiáticas	0
+1092	flojo	flojos	floja		0
+1093	cuadrado	cuadrados	cuadrada	cuadradas	1
+1094	novedoso	novedosos	novedosa	novedosas	0
+1095	milenario	milenarios	milenaria	milenarias	0
+1096	conjunto	conjuntos	conjunta	conjuntas	1
+1097	comunicado	comunicados	comunicada	comunicadas	0
+1098	monetario	monetarios	monetaria	monetarias	1
+1099	guiado			guiadas	0
+1100	paraguayo				0
+1101	emparejado				0
+1102	copero				0
+1103	gaditano				0
+1104	extensísimo	extensísimos	extensísima	extensísimas	0
+1105	gráfico	gráficos	gráfica	gráficas	0
+1106	canterano				0
+1107	competitivo	competitivos	competitiva	competitivas	0
+1108	añadido	añadidos	añadida		0
+1109	disminuido	disminuidos	disminuida	disminuidas	0
+1110	obligatorio	obligatorios	obligatoria	obligatorias	1
+1111	televisado	televisados	televisada	televisadas	0
+1112	masivo	masivos	masiva	masivas	1
+1113	ortodoxo	ortodoxos	ortodoxa	ortodoxas	0
+1114	enardecido	enardecidos	enardecida	enardecidas	0
+1115	conservador	conservadores	conservadora	conservadoras	1
+1116	cruzado	cruzados	cruzada		1
+1117	tardío	tardíos	tardía		0
+1118	cooperativo	cooperativos	cooperativa	cooperativas	0
+1119	empatado	empatados	empatada		0
+1120	alimentario	alimentarios	alimentaria	alimentarias	0
+1121	humanitario	humanitarios	humanitaria	humanitarias	0
+1122	desproporcionado	desproporcionados	desproporcionada	desproporcionadas	0
+1123	cometido	cometidos	cometida	cometidas	0
+1124	tibio	tibios	tibia	tibias	0
+1125	indiscriminado	indiscriminados	indiscriminada	indiscriminadas	0
+1126	escandinavo	escandinavos	escandinava		0
+1127	compartido	compartidos	compartida	compartidas	1
+1128	aritmético	aritméticos	aritmética	aritméticas	0
+1129	recorrido	recorridos			0
+1130	hondureño	hondureños	hondureña	hondureñas	0
+1131	anulado				0
+1132	finalizado	finalizados	finalizada	finalizadas	1
+1133	terminado	terminados	terminada		1
+1134	futbolístico	futbolísticos	futbolística	futbolísticas	0
+1135	ordenado	ordenados	ordenada	ordenadas	1
+1136	demostrado	demostrados	demostrada	demostradas	0
+1137	sentenciado	sentenciados	sentenciada	sentenciadas	0
+1138	interactivo	interactivos	interactiva	interactivas	0
+1139	alcanzado	alcanzados			0
+1140	quieto	quietos	quieta		1
+1141	guipuzcoano	guipuzcoanos	guipuzcoana		0
+1142	ilusionado	ilusionados	ilusionada		0
+1143	empinado			empinadas	0
+1144	polarizado	polarizados	polarizada	polarizadas	0
+1145	enfrentado	enfrentados	enfrentada	enfrentadas	0
+1146	fluido	fluidos	fluida		0
+1147	planteado	planteados	planteada		0
+1148	prioritario	prioritarios	prioritaria	prioritarias	0
+1149	injusto	injustos	injusta	injustas	1
+1150	asignado	asignados	asignada	asignadas	1
+1151	inhumano			inhumanas	0
+1152	molesto	molestos	molesta	molestas	1
+1153	redondo	redondos	redonda	redondas	1
+1154	seleccionado	seleccionados	seleccionada	seleccionadas	1
+1155	artificioso	artificiosos			0
+1156	islámico	islámicos	islámica	islámicas	0
+1157	coránico	coránicos	coránica	coránicas	0
+1158	indefinido	indefinidos	indefinida	indefinidas	0
+1159	encarcelado	encarcelados			0
+1160	boliviano	bolivianos	boliviana	bolivianas	0
+1161	amazónico	amazónicos	amazónica		0
+1162	anotado				0
+1163	adversa	adversos	adversa	adversas	0
+1164	turco	turcos	turca	turcas	1
+1165	teórico	teóricos	teórica		0
+1166	echado	echados	echada	echadas	0
+1167	rápido	rápidos	rápida	rápida	0
+1168	cualificado	cualificados	cualificada		0
+1169	opositoro	opositoros	opositora	opositoras	0
+1170	habilitado	habilitados	habilitada		0
+1171	escrutado	escrutados	escrutada	escrutadas	0
+1172	lituano	lituanos	lituana		0
+1173	agrónomo				0
+1174	respaldado	respaldados	respaldada		0
+1175	productor	productores	productora		1
+1176	difundido	difundidos	difundida	difundidas	0
+1177	despótico				0
+1178	excluido	excluidos			0
+1179	impuesto	impuestos	impuesta	impuestas	1
+1180	encerrado	encerrados	encerrada		1
+1181	minero	mineros	minera	mineras	1
+1182	hotelero	hoteleros	hotelera	hoteleras	0
+1183	espontáneo	espontáneos	espontánea	espontáneas	0
+1184	articulado	articulados	articulada	articuladas	0
+1185	hídrico	hídricos	hídrica	hídricas	0
+1186	dinámico	dinámicos	dinámica	dinámicas	0
+1187	exportador	exportadores	exportadora	exportadoras	0
+1188	reciclado	reciclados			0
+1189	Verdes	verdes			0
+1190	considerado	considerados	considerada		1
+1191	sólo				0
+1192	reiterado	reiterados	reiterada	reiteradas	0
+1193	generalizado	generalizados	generalizada	generalizadas	1
+1194	surafricano				0
+1195	autoritario	autoritarios	autoritaria		0
+1196	plagado	plagados	plagada	plagadas	0
+1197	arduo	arduos	ardua		0
+1198	delicado	delicados	delicada	delicadas	1
+1199	javanés	javanéses	javanesa	javanesas	0
+1200	coreografiado	coreografiados	coreografiada		0
+1201	impulsivo	impulsivos	impulsiva	impulsivas	0
+1202	desmoralizad	desmoralizados			0
+1203	contradictorio	contradictorios	contradictoria	contradictorias	0
+1204	turbulento	turbulentos	turbulenta		0
+1205	anticuado	anticuados	anticuada	anticuadas	0
+1206	electrónico	electrónicos	electrónica	electrónicas	0
+1207	vigoroso	vigorosos	vigorosa	vigorosas	0
+1208	vigués				0
+1209	sinónimo				0
+1210	vitoriano				0
+1211	aragonés	aragoneses	aragonesa	aragonesas	0
+1212	afortunado	afortunados	afortunada		1
+1213	verdiblanco				0
+1214	decimoséptimo				0
+1215	decimoctavo	decimoctavos	decimoctava	decimoctavas	0
+1216	regulador	reguladores	reguladora	reguladoras	0
+1217	construido	construidos	construida	construidas	1
+1218	educativo	educativos	educativa	educativas	1
+1219	ultraortodoxo				0
+1220	sorpresivo	sorpresivos	sorpresiva	sorpresivas	0
+1221	penúltimo	penúltimos	penúltima	penúltimas	0
+1222	alejado	alejados	alejada		1
+1223	oportuno	oportunos	oportuna	oportunas	0
+1224	norteño	norteños	norteña	norteñas	0
+1225	viario	viarios	viaria	viarias	0
+1226	explotador	explotadores	explotadora		0
+1227	referido	referidos	referida		1
+1228	concesionario	concesionarios	concesionaria	concesionarias	0
+1229	supeditado	supeditados	supeditada	supeditadas	0
+1230	suplementario	suplementarios	suplementaria	suplementarias	0
+1231	divulgado				0
+1232	encuestadoro			encuestadoras	0
+1233	votado	votados	votada		0
+1234	manifiesto	manifiestos	manifiesta	manifiestas	1
+1235	recluido			recluidas	0
+1236	capitalino	capitalinos	capitalina	capitalinas	0
+1237	imposibilitado	imposibilitados	imposibilitada	imposibilitadas	0
+1238	fotografiado	fotografiados	fotografiada	fotografiadas	0
+1239	fotográfico	fotográficos	fotográfica	fotográficas	0
+1240	homónimo	homónimos	homónima	homónimas	0
+1241	telefónico	telefónicos	telefónica	telefónicas	0
+1242	personalizado	personalizados	personalizada	personalizadas	0
+1243	iniciativo	iniciativos	iniciativa	iniciativas	0
+1244	íntegro	íntegros	íntegra	íntegras	0
+1245	fraccionado	fraccionados			0
+1246	pirenaico	pirenaicos	pirenaica	pirenaicas	0
+1247	nevado	nevados	nevada	nevadas	0
+1248	levantado				0
+1249	devastado				0
+1250	operístico	operísticos	operística	operísticas	0
+1251	imaginado	imaginados	imaginada	imaginadas	0
+1252	estilizado	estilizados	estilizada		0
+1253	fatuo	fatuos			0
+1254	liceístico			liceísticas	0
+1255	dominado	dominados	dominada	dominadas	0
+1256	frío	fríos	fría	frías	0
+1257	ingrato				0
+1258	centenario	centenarios	centenaria	centenarias	0
+1259	avispado	avispados			0
+1260	pionero	pioneros	pionera	pioneras	0
+1261	inmobiliario	inmobiliarios	inmobiliaria	inmobiliarias	1
+1262	encantado	encantados	encantada	encantadas	1
+1263	giratorio	giratorios	giratoria	giratorias	0
+1264	pétreo	pétreos	pétrea	pétreas	0
+1265	renovador	renovadores	renovadora		0
+1266	delegado	delegados	delegada	delegadas	0
+1267	capitaneado	capitaneados	capitaneada	capitaneadas	0
+1268	participado	participados	participada	participadas	0
+1269	clasificado	clasificados	clasificada		1
+1270	dificilísimo				0
+1271	rítmico	rítmicos	rítmica	rítmicas	0
+1272	reservado	reservados	reservada	reservadas	1
+1273	relajado	relajados	relajada		0
+1274	premeditado	premeditados	premeditada	premeditadas	0
+1275	honesto	honestos	honesta		1
+1276	preclaro	preclaros	preclara	preclaras	0
+1277	maravilloso	maravillosos	maravillosa	maravillosas	1
+1278	ético	éticos	ética		0
+1279	simpático	simpáticos	simpática	simpáticas	0
+1280	ochentero	ochenteros	ochentera	ochenteras	0
+1281	discográfico	discográficos	discográfica		0
+1282	vendido	vendidos	vendida	vendidas	1
+1283	corto-medio				0
+1284	inadvertido	inadvertidos	inadvertida	inadvertidas	0
+1285	civilizado	civilizados	civilizada		0
+1286	vikingo	vikingos	vikinga	vikingas	0
+1287	bobalicón	bobalicones			0
+1288	avinagrado				0
+1289	flemático				0
+1290	estreñido				0
+1291	facilongo	facilongos	facilonga	facilongas	0
+1292	badalonés				0
+1293	organizativo	organizativos	organizativa	organizativas	0
+1294	undécimo	undécimos	undécima	undécimas	0
+1295	ligado	ligados	ligada	ligadas	1
+1296	centrado	centrados	centrada	centradas	1
+1297	negociado	negociados	negociada		0
+1298	noveno	novenos	novena	novenas	1
+1299	convulsionado				0
+1300	díscolo				0
+1301	taciturno				0
+1302	forjado				0
+1303	fantástico	fantásticos	fantástica		0
+1304	malsano	malsanos	malsana	malsanas	0
+1305	esperpéntico				0
+1306	burgués	burguéses	burguesa	burguesas	0
+1307	demacrado	demacrados			0
+1308	parapetado	parapetados			0
+1309	indeterminado				0
+1310	ensordecedor				0
+1311	espeso	espesos	espesa	espesas	0
+1312	intercalado	intercalados	intercalada	intercaladas	0
+1313	ponzoñoso	ponzoñosos	ponzoñosa	ponzoñosas	0
+1314	etílico				0
+1315	emparentado			emparentadas	0
+1316	reseco	resecos	reseca	resecas	0
+1317	caluroso	calurosos	calurosa		0
+1318	pútrido	pútridos	pútrida	pútridas	0
+1319	inédito	inéditos	inédita	inéditas	0
+1320	tasado				0
+1321	estimado			estimadas	0
+1322	cotizado	cotizados	cotizada	cotizadas	0
+1323	sofisticado	sofisticados	sofisticada	sofisticadas	0
+1324	instintivo	instintivos	instintiva	instintivas	0
+1325	paradójico	paradójicos	paradójica	paradójicas	0
+1326	esnob				0
+1327	sacrosanto	sacrosantos	sacrosanta	sacrosantas	0
+1328	anárquico	anárquicos	anárquica	anárquicas	0
+1329	xenófobo	xenófobos	xenófoba	xenófobas	0
+1330	fanático	fanáticos	fanática	fanáticas	0
+1331	declarado	declarados			0
+1332	vencedor	vencedores			0
+1333	tremendo	tremendos	tremenda		1
+1334	antagónico	antagónicos	antagónica		0
+1335	apagado				0
+1336	cómodo	cómodos	cómoda	cómodas	0
+1337	literario	literarios	literaria	literarias	1
+1338	titulado	titulados	titulada	tituladas	1
+1339	autobiográfico	autobiográficos	autobiográfica	autobiográficas	0
+1340	polifacético				0
+1341	cargado	cargados	cargada	cargadas	1
+1342	filmado	filmados			0
+1343	aclamado	aclamados			0
+1344	indignado	indignados	indignada	indignadas	0
+1345	nostálgico	nostálgicos	nostálgica	nostálgicas	0
+1346	constituido	constituidos	constituida	constituidas	1
+1347	concedido	concedidos	concedida	concedidas	1
+1348	vertido	vertidos	vertida	vertidas	0
+1349	destronado	destronados	destronada	destronadas	0
+1350	desmedido	desmedidos	desmedida	desmedidas	0
+1351	caritativo	caritativos	caritativa	caritativas	0
+1352	seductor	seductores	seductora	seductoras	0
+1353	encendido	encendidos	encendida		1
+1354	innecesario	innecesarios	innecesaria	innecesarias	0
+1355	multitudinario	multitudinarios	multitudinaria		0
+1356	desmentido	desmentidos	desmentida	desmentidas	0
+1357	abatido				0
+1358	arraigado	arraigados	arraigada		0
+1359	cuidadoso	cuidadosos	cuidadosa	cuidadosas	1
+1360	remilgado				0
+1361	invalidado			invalidadas	0
+1362	albanés	albaneses	albanesa		0
+1363	macedonio	macedonios	macedonia	macedonias	0
+1364	rodeado	rodeados	rodeada	rodeadas	1
+1365	relacionado	relacionados	relacionada	relacionadas	1
+1366	complicadísimo				0
+1367	marroquí				0
+1368	damnificado	damnificados			0
+1369	análogo	análogos	análoga		0
+1370	ilustrado	ilustrados	ilustrada	ilustradas	0
+1371	descartado	descartados	descartada	descartadas	0
+1372	interiorizado				0
+1373	arcaico	arcaicos			0
+1374	socieconómico	socieconómicos	socieconómica	socieconómicas	0
+1375	comprensivo	comprensivos			0
+1376	vigilado	vigilados	vigilada	vigiladas	0
+1377	acosado				0
+1378	longevo	longevos	longeva	longevas	0
+1379	asesinado	asesinados	asesinada		1
+1380	todopoderoso	todopoderosos	todopoderosa	todopoderosas	0
+1381	ejecutor	ejecutores	ejecutora	ejecutoras	0
+1382	montado	montados	montada		0
+1383	balcanizado				0
+1384	imperativo		imperativo		0
+1385	acuñado				0
+1386	burocrático	burocráticos	burocrática	burocráticas	0
+1387	corrupto	corruptos	corrupta	corruptas	0
+1388	apadrinado	apadrinados			0
+1389	domiciliario	domiciliarios			0
+1390	delictivo	delictivos	delictiva		0
+1391	secreto	secretos	secreta	secretas	1
+1392	trasero	traseros	trasera	traseras	1
+1393	supersticioso	supersticiosos	supersticiosa	supersticiosas	0
+1394	gastado	gastados	gastada	gastadas	0
+1395	distraído	distraídos	distraída	distraídas	0
+1396	destripado				0
+1397	modernizado	modernizados			0
+1398	contenido	contenidos	contenida	contenidas	1
+1399	presupuestario	presupuestarios	presupuestaria		0
+1400	preventivo	preventivos	preventiva	preventivas	0
+1401	sumergido	sumergidos	sumergida		0
+1402	encuestado	encuestados			0
+1403	cautivador	cautivadores	cautivadora	cautivadoras	0
+1404	exótico	exóticos	exótica	exóticas	0
+1405	loco	locos	loca	locas	1
+1406	liderado	liderados	liderada		1
+1407	menudo	menudos	menuda	menudas	0
+1408	salpicado	salpicados	salpicada	salpicadas	0
+1409	rendido				0
+1410	conectado	conectados	conectada	conectadas	1
+1411	inexplorado				0
+1412	desolado				0
+1413	esparcido			esparcidas	0
+1414	transgénico	transgénicos	transgénica	transgénicas	0
+1415	reproducido	reproducidos	reproducida	reproducidas	0
+1416	farmacéutico	farmacéuticos	farmacéutica	farmacéuticas	0
+1417	leridano	leridanos	leridana	leridanas	0
+1418	rescatado	rescatados	rescatada		0
+1419	director	directores	directora		1
+1420	hipotético	hipotéticos	hipotética	hipotéticas	0
+1421	norteafricano	norteafricanos	norteafricana		0
+1422	benévolo	benévolos	benévola	benévolas	0
+1423	doloso				0
+1424	intencionado	intencionados	intencionada		0
+1425	barcelonés	barcelonéses	barcelonesa	barcelonesas	0
+1426	retribuido	retribuidos	retribuida		0
+1427	letrado	letrados			0
+1428	confiscatorio				0
+1429	informatizado	informatizados	informatizada		0
+1430	inequívoco	inequívocos	inequívoca	inequívocas	0
+1431	quirúrgico	quirúrgicos	quirúrgica		0
+1432	arrojadizo	arrojadizos	arrojadiza	arrojadizas	0
+1433	arquitectónico	arquitectónicos	arquitectónica	arquitectónicas	0
+1434	conocedor	conocedores	conocedora	conocedoras	0
+1435	costoso	costosos	costosa	costosas	0
+1436	anexo	anexos	anexa	anexas	0
+1437	emblemático	emblemáticos	emblemática	emblemáticas	0
+1438	aliado	aliados	aliada	aliadas	0
+1439	adquirido	adquiridos	adquirida		1
+1440	apto	aptos	apta	aptas	0
+1441	controlado	controlados	controlada	controladas	1
+1442	porcino	porcinos	porcina	porcinas	0
+1443	sumado			sumadas	0
+1444	chárter				0
+1445	encapuchado	encapuchados			0
+1446	emprendido	emprendidos	emprendida		0
+1447	parisino	parisinos	parisina		0
+1448	millonario	millonarios	millonaria	millonarias	0
+1449	consultado	consultados	consultada	consultadas	0
+1450	comprendido				0
+1451	presupuestado	presupuestados	presupuestada	presupuestadas	0
+1452	rodado	rodados	rodada	rodadas	0
+1453	gestionado	gestionados	gestionada	gestionadas	0
+1454	degradado	degradados	degradada		0
+1455	ancho	anchos	ancha	anchas	1
+1456	lúdico	lúdicos	lúdica		0
+1457	protocolario				0
+1458	libertador				0
+1459	gozoso			gozosas	0
+1460	craso				0
+1461	tapado	tapados			0
+1462	materno	maternos	materna	maternas	1
+1463	editado				0
+1464	fijado	fijados	fijada	fijadas	1
+1465	materializado	materializados	materializada	materializadas	0
+1466	resumido	resumidos	resumida	resumidas	0
+1467	preconcebir	preconcebidos			0
+1468	desbocado				0
+1469	dudoso	dudosos	dudosa	dudosas	0
+1470	austriaco	austriacos	austriaca	austriacas	0
+1471	comprado	comprados	comprada	compradas	0
+1472	planeado				0
+1473	helvético	helvéticos	helvética		0
+1474	combinado	combinados	combinada	combinadas	1
+1475	ejecutivo	ejecutivos	ejecutiva	ejecutivas	1
+1476	cosmético	cosméticos	cosmética		0
+1477	bancario-financiero				0
+1478	surgido	surgidos	surgida	surgidas	0
+1479	concertado	concertados	concertada	concertadas	0
+1480	especulativo	especulativos	especulativa	especulativas	0
+1481	desestabilizador	desestabilizadores			0
+1482	rumano	rumanos	rumana	rumanas	0
+1483	ajustado	ajustados	ajustada		0
+1484	exigido	exigidos	exigida	exigidas	0
+1485	informático	informáticos	informática	informáticas	0
+1486	halagüeño			halagüeñas	0
+1487	maratoniano	maratonianos	maratoniana	maratonianas	0
+1488	contestado	contestados	contestada		0
+1489	recíproco	recíprocos	recíproca	recíprocas	0
+1490	enfocado	enfocados	enfocada		0
+1491	andino	andinos	andina	andinas	0
+1492	fiyiano	fiyianos	fiyiana	fiyianas	0
+1493	retenido	retenidos	retenida	retenidas	0
+1494	escoltado	escoltados			0
+1495	autoproclamado				0
+1496	homólogo				0
+1497	consultor			consultoras	0
+1498	postcomunisto	postcomunistos	postcomunista	postcomunistas	0
+1499	depuesto				0
+1500	procedente			procedentes	0
+1501	exportado	exportados	exportada	exportadas	0
+1502	sostenido				0
+1503	recesivo				0
+1504	manufacturero	manufactureros	manufacturera	manufactureras	0
+1505	desestimado				0
+1506	inválido			inválidas	0
+1507	observador	observadores	observadora	observadoras	0
+1508	guatemalteco				0
+1509	reelegido				0
+1510	ilegítimo	ilegítimos	ilegítima	ilegítimas	0
+1511	latinoamericano	latinoamericanos	latinoamericana	latinoamericanas	1
+1512	primo	primos	prima	primas	1
+1513	diferido				0
+1514	encabezado	encabezados	encabezada	encabezadas	1
+1515	incentivado	incentivados			0
+1516	introducido	introducidos	introducida	introducidas	1
+1517	geográfico	geográficos	geográfica	geográficas	0
+1518	administrativo	administrativos	administrativa	administrativas	1
+1519	matizado				0
+1520	arrojado			arrojadas	0
+1521	céntrico	céntricos	céntrica	céntricas	0
+1522	vertiginoso				0
+1523	escandaloso	escandalosos	escandalosa	escandalosas	0
+1524	adjunto	adjuntos	adjunta		0
+1525	preguntado	preguntados	preguntada	preguntadas	0
+1526	cesado				0
+1527	tirado	tirados	tirada		1
+1528	desgraciado	desgraciados			0
+1529	cárnico	cárnicos	cárnica	cárnicas	0
+1530	absorbido	absorbidos	absorbida	absorbidas	0
+1531	curado				0
+1532	priorizado	priorizados			0
+1533	forzoso	forzosos	forzosa	forzosas	0
+1534	expandido				0
+1535	sistemático	sistemáticos	sistemática	sistemáticas	0
+1536	aproximado	aproximados	aproximada	aproximadas	1
+1537	identificado	identificados	identificada		1
+1538	alicantino	alicantinos	alicantina	alicantinas	0
+1539	detectado	detectados	detectada	detectadas	0
+1540	general	generales			0
+1541	franco	francos	franca	francas	1
+1542	tenso	tensos	tensa	tensas	1
+1543	agrio	agrios	agria	agrias	0
+1544	ruidoso	ruidosos	ruidosa	ruidosas	0
+1545	indigno	indignos	indigna	indignas	0
+1546	comprometedor			comprometedoras	0
+1547	incapacitado	incapacitados	incapacitada	incapacitadas	0
+1548	nipón	nipones	nipona	niponas	0
+1549	migratorio	migratorios	migratoria	migratorias	0
+1550	deportado	deportados			0
+1551	fronterizo	fronterizos	fronteriza	fronterizas	1
+1552	viceprimer				0
+1553	limpio	limpios	limpia	limpias	1
+1554	caballero				0
+1555	inusitado				0
+1556	reclamado	reclamados	reclamada	reclamadas	0
+1557	gobernado	gobernados	gobernada	gobernadas	0
+1558	criticado	criticados	criticada		0
+1559	tachado	tachados			0
+1560	invitado	invitados	invitada		1
+1561	neozelandés			neozelandesas	0
+1562	ultrarreligioso	ultrarreligiosos	ultrarreligiosa	ultrarreligiosas	0
+1563	dividido	divididos	dividida		1
+1564	divertido	divertidos	divertida	divertidas	1
+1565	cínico	cínicos	cínica	cínicas	0
+1566	tallado	tallados	tallada		0
+1567	tedioso	tediosos	tediosa	tediosas	0
+1568	acostumbrado	acostumbrados	acostumbrada		1
+1569	clarísimo				0
+1570	infinito	infinitos	infinita	infinitas	1
+1571	enredador				0
+1572	adormecido				0
+1573	disparado	disparados			0
+1574	impreso			impresas	0
+1575	pintado	pintados	pintada	pintadas	1
+1576	ridículo	ridículos	ridícula	ridículas	0
+1577	disociado	disociados			0
+1578	hierático	hieráticos	hierática	hieráticas	0
+1579	chabacano	chabacanos	chabacana	chabacanas	0
+1580	despiadado	despiadados	despiadada	despiadadas	0
+1581	ignoto	ignotos	ignota	ignotas	0
+1582	empingorotado	empingorotados			0
+1583	fornido	fornidos			0
+1584	sórdido	sórdidos	sórdida		0
+1585	respiratorio	respiratorios	respiratoria	respiratorias	0
+1586	ridiculizado			ridiculizadas	0
+1587	cómico	cómicos	cómica	cómicas	0
+1588	burlesco			burlescas	0
+1589	sepultado				0
+1590	erudito	eruditos	erudita	eruditas	0
+1591	lingüístico	lingüísticos	lingüística	lingüísticas	0
+1592	ingenuo	ingenuos	ingenua		0
+1593	fervoroso	fervorosos	fervorosa	fervorosas	0
+1594	nobilísimo	nobilísimos	nobilísima	nobilísimas	0
+1595	exclusivo	exclusivos	exclusiva	exclusivas	1
+1596	trasnochado				0
+1597	silencioso	silenciosos	silenciosa	silenciosas	1
+1598	ignorado				0
+1599	inveterado				0
+1600	disperso	dispersos	dispersa	dispersas	0
+1601	metodológico	metodológicos	metodológica	metodológicas	0
+1602	vario	varios	varia	varias	0
+1603	bibliográfico			bibliográficas	0
+1604	atlántico	atlánticos	atlántica	atlánticas	0
+1605	africano	africanos	africana	africanas	1
+1606	transcurrido	transcurridos			0
+1607	óptico	ópticos	óptica	ópticas	0
+1608	minúsculo	minúsculos	minúscula		0
+1609	sordo	sordos			0
+1610	acústico	acústicos	acústica		0
+1611	presumido			presumidas	0
+1612	siniestro	siniestros			0
+1613	recóndito	recónditos	recóndita	recónditas	0
+1614	imaginario	imaginarios	imaginaria		0
+1615	vitalicio	vitalicios			0
+1616	obstinado			obstinadas	0
+1617	mutilado	mutilados	mutilada	mutiladas	0
+1618	zambo	zambos	zamba	zambas	0
+1619	mestizo	mestizos	mestiza	mestizas	0
+1620	limeño	limeños	limeña	limeñas	0
+1621	varado	varados			0
+1622	astillado	astillados			0
+1623	suburbano	suburbanos	suburbana	suburbanas	0
+1624	subhumano	subhumanos	subhumana	subhumanas	0
+1625	canceroso	cancerosos	cancerosa	cancerosas	0
+1626	mugriento	mugrientos			0
+1627	poblado	poblados	poblada		1
+1628	sabroso	sabrosos	sabrosa	sabrosas	0
+1629	conmovedor				0
+1630	embrutecido			embrutecidas	0
+1631	heroico	heroicos	heroica	heroicas	0
+1632	consolador	consoladores	consoladora	consoladoras	0
+1633	quemado	quemados	quemada	quemadas	1
+1634	montuno				0
+1635	soñado	soñados	soñada	soñadas	0
+1636	anglosajón	anglosajones			0
+1637	mítico	míticos	mítica	míticas	0
+1638	animado	animados	animada	animadas	1
+1639	censurado	censurados			0
+1640	campechano	campechanos	campechana		0
+1641	afeitado	afeitados			0
+1642	fruncido				0
+1643	castigado	castigados	castigada		0
+1644	plano	planos	plana	planas	1
+1645	doblado			dobladas	0
+1646	recalentado	recalentados	recalentada	recalentadas	0
+1647	sensiblero			sensibleras	0
+1648	artístico	artísticos	artística	artísticas	0
+1649	entusiasmado	entusiasmados	entusiasmada		0
+1650	absorto				0
+1651	castizo	castizos	castiza	castizas	0
+1652	reaccionario	reaccionarios	reaccionaria	reaccionarias	0
+1653	estúpido	estúpidos	estúpida	estúpidas	0
+1654	altivo				0
+1655	sincero	sinceros	sincera	sinceras	1
+1656	marico	maricas			0
+1657	sodomizado	sodomizados	sodomizada	sodomizadas	0
+1658	chispero	chisperos	chispera	chisperas	0
+1659	chillón	chillones			0
+1660	profano	profanos	profana	profanas	0
+1661	pálido	pálidos	pálida	pálidas	0
+1662	valeroso				0
+1663	marchito	marchitos	marchita		0
+1664	escogido				0
+1665	ojeroso				0
+1666	encantador	encantadores			0
+1667	lindo	lindos	linda	lindas	1
+1668	dormido	dormidos	dormida	dormidas	1
+1669	indefenso			indefensas	0
+1670	vespertino			vespertinas	0
+1671	inventado			inventadas	0
+1672	burocratizado	burocratizados	burocratizada	burocratizadas	0
+1673	conmovido				0
+1674	bosnio	bosnios			0
+1675	poseído	poseídos	poseída	poseídas	0
+1676	destituido	destituidos			0
+1677	rosado			rosadas	0
+1678	cambiao				0
+1679	concienciado	concienciados			0
+1680	becado	becados			0
+1681	dulzón				0
+1682	ensimismado	ensimismados			0
+1683	vecino	vecinos	vecina	vecinas	1
+1684	evocador			evocadoras	0
+1685	caro	caros	cara	caras	1
+1686	carísimo				0
+1687	obsequiado				0
+1688	entrometido	entrometidos	entrometida	entrometidas	0
+1689	chistoso	chistosos			0
+1690	patoso	patosos			0
+1691	tacaño	tacaños			0
+1692	encadenado				0
+1693	brioso	briosos	briosa	briosas	0
+1694	menopáusico	menopáusicos	menopáusica	menopáusicas	0
+1695	semivacío			semivacías	0
+1696	marujón				0
+1697	exterminador				0
+1698	amargado	amargados	amargada	amargadas	0
+1699	revenido	revenidos	revenida	revenidas	0
+1700	abrasivo	abrasivos			0
+1701	derramado	derramados	derramada	derramadas	0
+1702	crematorio				0
+1703	discriminatorio	discriminatorios	discriminatoria	discriminatorias	0
+1704	desparramado	desparramados	desparramada	desparramadas	0
+1705	amalgamado	amalgamados	amalgamada	amalgamadas	0
+1706	cercado	cercados			0
+1707	galdosiano	galdosianos	galdosiana	galdosianas	0
+1708	antitrabajador	antitrabajadores			0
+1709	represivo			represivas	0
+1710	cochambroso			cochambrosas	0
+1711	resentido	resentidos	resentida	resentidas	0
+1712	estrecho	estrechos	estrecha	estrechas	1
+1713	maniático	maniáticos	maniática	maniáticas	0
+1714	dejado	dejados			0
+1715	étnico	étnicos	étnica	étnicas	0
+1716	superciclotímico				0
+1717	santo	santos	santa	santas	1
+1718	grandísimo	grandísimos	grandísima	grandísimas	0
+1719	agonioso	agoniosos	agoniosa	agoniosas	0
+1720	mustio	mustios	mustia	mustias	0
+1721	solito	solitos	solita	solitas	0
+1722	recuperado	recuperados			0
+1723	japi				0
+1724	tresanchantado	tresanchantados	tresanchantada	tresanchantadas	0
+1725	uruguayo	uruguayos	uruguaya		0
+1726	venidero	venideros	venidera	venideras	0
+1727	precioso	preciosos	preciosa	preciosas	1
+1728	insatisfecho				0
+1729	ineducado	ineducados			0
+1730	difamado				0
+1731	ensalzado				0
+1732	envidiado				0
+1733	abolido				0
+1734	cumplido	cumplidos			0
+1735	galardonado	galardonados	galardonada	galardonadas	0
+1736	pelirrojo				0
+1737	mediado	mediados			0
+1738	fecundo	fecundos	fecunda	fecundas	0
+1739	andado	andados			0
+1740	bebido	bebidos			0
+1741	pendenciero				0
+1742	guapo	guapos	guapa	guapas	1
+1743	esbeltísimo	esbeltísimos	esbeltísima	esbeltísimas	0
+1744	liberador	liberadores	liberadora	liberadoras	0
+1745	recio	recios	recia		0
+1746	paradigmático				0
+1747	buscador	buscadores	buscadora	buscadoras	0
+1748	tierno	tiernos	tierna	tiernas	0
+1749	abrumador	abrumadores	abrumadora	abrumadoras	0
+1750	ungido				0
+1751	tonsurado				0
+1752	brumoso	brumosos	brumosa	brumosas	0
+1753	lóbrego	lóbregos	lóbrega	lóbregas	0
+1754	quebrado	quebrados	quebrada	quebradas	0
+1755	escayolado				0
+1756	harto	hartos			0
+1757	frito	fritos	frita	fritas	0
+1758	hazañoso	hazañosos			0
+1759	abrazado				0
+1760	encefálico	encefálicos	encefálica	encefálicas	0
+1761	jurásico			jurásicas	0
+1762	tomado	tomados	tomada	tomadas	1
+1763	thailandés				0
+1764	espantoso				0
+1765	pajolero				0
+1766	recto	rectos	recta		1
+1767	delgadísimo	delgadísimos	delgadísima	delgadísimas	0
+1768	apresurado	apresurados	apresurada	apresuradas	0
+1769	caprichoso	caprichosos	caprichosa		0
+1770	tonto	tontos	tonta		1
+1771	acristalado	acristalados	acristalada	acristaladas	0
+1772	sabido			sabidas	0
+1773	concluido	concluidos	concluida	concluidas	0
+1774	semiolvidado				0
+1775	indoloro				0
+1776	fresco	frescos	fresca	frescas	1
+1777	simbolizado	simbolizados	simbolizada	simbolizadas	0
+1778	ubicuo	ubicuos			0
+1779	contemplado				0
+1780	prodigioso	prodigiosos	prodigiosa	prodigiosas	0
+1781	reflejado	reflejados	reflejada	reflejadas	0
+1782	jugado	jugados	jugada	jugadas	1
+1783	pasajero	pasajeros	pasajera		0
+1784	predilecto	predilectos	predilecta	predilectas	0
+1785	casquivano				0
+1786	atrasado			atrasadas	0
+1787	entrenado				0
+1788	agudo	agudos	aguda	agudas	1
+1789	glamouroso	glamourosos	glamourosa	glamourosas	0
+1790	aventajado	aventajados			0
+1791	endémico	endémicos	endémica	endémicas	0
+1792	anticuadísimo				0
+1793	alocado				0
+1794	cándido	cándidos			0
+1795	correctivo			correctivas	0
+1796	pequeñito	pequeñitos			0
+1797	prematuro	prematuros	prematura		0
+1798	sietemesino				0
+1799	ininterrumpido				0
+1800	desheredado	desheredados			0
+1801	disciplinado	disciplinados			0
+1802	reclutado	reclutados			0
+1803	dominador	dominadores	dominadora	dominadoras	0
+1804	flacucho				0
+1805	bajito				0
+1806	inexpresivo	inexpresivos	inexpresiva	inexpresivas	0
+1807	legendario	legendarios	legendaria	legendarias	0
+1808	californiano	californianos	californiana		0
+1809	incompleto	incompletos	incompleta	incompletas	0
+1810	espasmódico				0
+1811	interesantísimo				0
+1812	discutido				0
+1813	húmedo	húmedos	húmeda	húmedas	0
+1814	volcado	volcados	volcada	volcadas	0
+1815	pueblerino	pueblerinos	pueblerina	pueblerinas	0
+1816	traicionero				0
+1817	jugoso				0
+1818	trazado	trazados	trazada	trazadas	0
+1819	kilométrico			kilométricas	0
+1820	juntito	juntitos			0
+1821	sumarísimo				0
+1822	montañoso	montañosos	montañosa	montañosas	0
+1823	soleado				0
+1824	vivido	vividos	vivida	vividas	0
+1825	reunido	reunidos	reunida		0
+1826	postrer	postreres	postrera	postreras	0
+1827	cariñoso				0
+1828	certero			certeras	0
+1829	plañidero				0
+1830	dignísimo	dignísimos	dignísima	dignísimas	0
+1831	rabioso	rabiosos	rabiosa		0
+1832	enmascarado	enmascarados			0
+1833	dañino	dañinos			0
+1834	entablado	entablados			0
+1835	casero	caseros	casera		1
+1836	ilógico				0
+1837	acertado	acertados			0
+1838	placentero	placenteros	placentera	placenteras	0
+1839	retrasado				0
+1840	lacrimoso			lacrimosas	0
+1841	adversario	adversarios	adversaria	adversarias	0
+1842	aciago				0
+1843	desconsiderado	desconsiderados	desconsiderada	desconsideradas	0
+1844	latino	latinos	latina	latinas	1
+1845	depresivo	depresivos			0
+1846	anímico	anímicos	anímica	anímicas	0
+1847	diminuto	diminutos	diminuta		0
+1848	hebbiano				0
+1849	localizado	localizados	localizada		1
+1850	matemático	matemáticos	matemática	matemáticas	0
+1851	cazador	cazadores			0
+1852	simulado	simulados	simulada		0
+1853	bautizado	bautizados	bautizada	bautizadas	0
+1854	sintético	sintéticos	sintética		0
+1855	definido	definidos	definida	definidas	1
+1856	variopinto			variopintas	0
+1857	alterno	alternos	alterna	alternas	0
+1858	alineado			alineadas	0
+1859	insertado			insertadas	0
+1860	atómico	atómicos	atómica	atómicas	0
+1861	maligno	malignos	maligna	malignas	0
+1862	radiactivo	radiactivos	radiactiva		0
+1863	terapéutico	terapéuticos	terapéutica	terapéuticas	0
+1864	computerizado	computerizados	computerizada	computerizadas	0
+1865	magnético	magnéticos	magnética	magnéticas	0
+1866	metabólico	metabólicos	metabólica	metabólicas	0
+1867	somático	somáticos	somática	somáticas	0
+1868	irradiado				0
+1869	hereditario			hereditarias	0
+1870	aplástico			aplásticas	0
+1871	liofilizado				0
+1872	ammiótico				0
+1873	azufrado				0
+1874	bermejo	bermejos	bermeja	bermejas	0
+1875	cabezudo				0
+1876	atmosférico	atmosféricos	atmosférica	atmosféricas	0
+1877	evolucionado	evolucionados	evolucionada	evolucionadas	0
+1878	repartido	repartidos	repartida	repartidas	0
+1879	vuelto				0
+1880	extenso	extensos	extensa	extensas	1
+1881	sanguíneo	sanguíneos	sanguínea	sanguíneas	0
+1882	fantasmagórico			fantasmagóricas	0
+1883	cósmico	cósmicos	cósmica	cósmicas	0
+1884	astronómico	astronómicos	astronómica	astronómicas	0
+1885	estrellado	estrellados	estrellada	estrelladas	0
+1886	grandioso			grandiosas	0
+1887	emplazado	emplazados	emplazada	emplazadas	0
+1888	refinado	refinadísimos	refinada	refinadas	0
+1889	irisado	irisados			0
+1890	concebido				0
+1891	moteado			moteadas	0
+1892	atado	atados	atada		0
+1893	macho	machos			0
+1894	hembro			hembras	0
+1895	templado	templados	templada		0
+1896	representado	representados	representada	representadas	1
+1897	receptivo	receptivos	receptiva	receptivas	0
+1898	preñado	preñados	preñada	preñadas	0
+1899	asustado	asustados	asustada		1
+1900	imperioso	imperiosos	imperiosa	imperiosas	0
+1901	décimo	décimos	décima	décimas	0
+1902	catastrófico			catastróficas	0
+1903	acaecido	acaecidos	acaecida	acaecidas	0
+1904	temido	temidos			0
+1905	indeseado	indeseados			0
+1906	descuidado				0
+1907	codiciado	codiciados			0
+1908	pequeñísimo			pequeñísimas	0
+1909	enfriado			enfriadas	0
+1910	helado	helados	helada	heladas	1
+1911	seco	secos	seca	secas	1
+1912	comprimido	comprimidos			0
+1913	fabricado	fabricados	fabricada	fabricadas	0
+1914	infectado			infectadas	0
+1915	inmunizado				0
+1916	indisputado				0
+1917	pintoresco			pintorescas	0
+1918	adosado	adosados	adosada	adosadas	0
+1919	delantero	delanteros	delantera	delanteras	1
+1920	hípico				0
+1921	utilitario				0
+1922	acomodado	acomodados	acomodada	acomodadas	0
+1923	ácido	ácidos	ácida		0
+1924	geológico	geológicos	geológica		0
+1925	captado	captados	captada	captadas	0
+1926	descubierto			descubiertas	0
+1927	rocoso	rocosos	rocosa		0
+1928	perplejo	perplejos			0
+1929	introvertido	introvertidos	introvertida	introvertidas	0
+1930	extrovertido	extrovertidos	extrovertida	extrovertidas	0
+1931	atónito	atónitos	atónita		0
+1932	encarnizado	encarnizados	encarnizada		0
+1933	visto	vistos	vista	vistas	1
+1934	ultracongelado			ultracongeladas	0
+1935	líquido	líquidos	líquida	líquidas	0
+1936	arrastrado	arrastrados			0
+1937	descabellado	descabellados	descabellada	descabelladas	0
+1938	judiciario				0
+1939	revestido				0
+1940	romántico	románticos	romántica	románticas	0
+1941	practicado	practicados	practicada	practicadas	0
+1942	caballeroso			caballerosas	0
+1943	originado	originados	originada	originadas	0
+1944	luxemburgués	luxemburguéses	luxemburguesa	luxemburguesas	0
+1945	inflamado				0
+1946	incierto			inciertas	0
+1947	tóxico	tóxicos	tóxica		0
+1948	desnaturalizado				0
+1949	portador	portadores			0
+1950	infeccioso	infecciosos	infecciosa	infecciosas	0
+1951	verídico			verídicas	0
+1952	higiénico				0
+1953	putrefacto	putrefactos			0
+1954	asediado			asediadas	0
+1955	insidioso	insidiosos	insidiosa	insidiosas	0
+1956	biomédico	biomédicos	biomédica	biomédicas	0
+1957	microscópico				0
+1958	fulminado	fulminados			0
+1959	ensombrecido	ensombrecidos			0
+1960	repleto	repletos	repleta	repletas	0
+1961	bacteriológico			bacteriológicas	0
+1962	chino-japonés				0
+1963	instalado-AB	instalado-ABes	instalada	instaladas	0
+1964	llevadero	llevaderos	llevadera	llevaderas	0
+1965	impedido	impedidos	impedida	impedidas	0
+1966	intrépido	intrépidos	intrépida	intrépidas	0
+1967	lumínico			lumínicas	0
+1968	emisor				0
+1969	influido	influidos	influida		0
+1970	receptor	receptores			0
+1971	patógeno	patógenos			0
+1972	microbiológico	microbiológicos	microbiológica		0
+1973	desmoralizador				0
+1974	atacado	atacados	atacada	atacadas	1
+1975	agresor			agresoras	0
+1976	destruido	destruidos	destruida	destruidas	1
+1977	despoblado			despobladas	0
+1978	ovino				0
+1979	concienzudo	concienzudos	concienzuda	concienzudas	0
+1980	botulímico			botulímicas	0
+1981	neurotóxico	neurotóxicos	neurotóxica	neurotóxicas	0
+1982	borroso	borrosos	borrosa	borrosas	0
+1983	incendiario	incendiarios	incendiaria	incendiarias	0
+1984	mortífero	mortíferos	mortífera	mortíferas	0
+1985	diseminador	diseminadores			0
+1986	transportado	transportados			0
+1987	terrorífico	terroríficos			0
+1988	radiocontrolado	radiocontrolados			0
+1989	arriesgado	arriesgados	arriesgada	arriesgadas	0
+1990	tentado	tentados			0
+1991	propiciatorio			propiciatorias	0
+1992	involuntario	involuntarios			0
+1993	manipulado	manipulados			0
+1994	patológico			patológicas	0
+1995	truculento	truculentos	truculenta	truculentas	0
+1996	monstruoso	monstruosos	monstruosa	monstruosas	0
+1997	agarrotado	agarrotados			0
+1998	patético				0
+1999	rígido			rígidas	0
+2000	parapsicológico				0
+2001	ideado				0
+2002	lejano	lejanos	lejana		1
+2003	amiotrófico	amiotróficos	amiotrófica	amiotróficas	0
+2004	cabelludo				0
+2005	fotorreceptor			fotorreceptoras	0
+2006	luminoso	luminosos	luminosa	luminosas	0
+2007	antropológico	antropológicos	antropológica	antropológicas	0
+2008	importantísimo	importantísimos	importantísima	importantísimas	0
+2009	porfirínico	porfirínicos	porfirínica	porfirínicas	0
+2010	investigador	investigadores	investigadora	investigadoras	1
+2011	dador	dadores	dadora	dadoras	0
+2012	iónico			iónicas	0
+2013	intrínseco	intrínsecos	intrínseca	intrínsecas	0
+2014	cristalino	cristalinos	cristalina	cristalinas	0
+2015	restringido	restringidos	restringida	restringidas	1
+2016	semiconductor			semiconductoras	0
+2017	neutro	neutros	neutra	neutras	0
+2018	ionizado			ionizadas	0
+2019	monocargado	monocargados			0
+2020	poliacetileno				0
+2021	pommérico	pomméricos			0
+2022	canónico	canónicos	canónica		0
+2023	obvio	obvios	obvia	obvias	1
+2024	sintetizado			sintetizadas	0
+2025	monocíclico				0
+2026	espectroscópico	espectroscópicos			0
+2027	deformado	deformados	deformada	deformadas	0
+2028	dicianometileno				0
+2029	policonjugado	policonjugados	policonjugada	policonjugadas	0
+2030	hidrocarbonado	hidrocarbonados	hidrocarbonada	hidrocarbonadas	0
+2031	observado	observados	observada	observadas	0
+2032	deslocalizado	deslocalizados	deslocalizada		0
+2033	esclarecido	esclarecidos	esclarecida	esclarecidas	0
+2034	amorfo			amorfas	0
+2035	prometedor	prometedores	prometedora	prometedoras	0
+2036	macrocíclico				0
+2037	coordinado	coordinados	coordinada	coordinadas	0
+2038	metalomacrocíclico	metalomacrocíclicos			0
+2039	octaédrico	octaédricos	octaédrica	octaédricas	0
+2040	obtenido	obtenidos	obtenida	obtenidas	1
+2041	periférico	periféricos	periférica	periféricas	0
+2042	discótico			discóticas	0
+2043	descrito	descritos	descrita	descritas	1
+2044	plástico	plásticos	plástica		0
+2045	dadoraceptor				0
+2046	desorganizado			desorganizadas	0
+2047	cristalográfico	cristalográficos			0
+2048	favorecido				0
+2049	alcalino	alcalinos	alcalina	alcalinas	0
+2050	anisotrópico				0
+2051	descalificativo				0
+2052	encomiástico				0
+2053	melancólico	melancólicos	melancólica		0
+2054	asténico	asténicos	asténica	asténicas	0
+2055	embadurnado	embadurnados	embadurnada	embadurnadas	0
+2056	jocoso	jocosos	jocosa		0
+2057	ficticio	ficticios	ficticia		0
+2058	percibido				0
+2059	proyectado	proyectados	proyectada	proyectadas	0
+2060	desastroso	desastrosos	desastrosa	desastrosas	0
+2061	sobrecargado	sobrecargados	sobrecargada	sobrecargadas	0
+2062	cervantino	cervantinos	cervantina	cervantinas	0
+2063	caricaturesco	caricaturescos			0
+2064	tico			ticas	0
+2065	tardorromántico	tardorrománticos	tardorromántica	tardorrománticas	0
+2066	manchego				0
+2067	vencido	vencidos	vencida	vencidas	1
+2068	objetivo	objetivos	objetiva	objetivas	1
+2069	subjetivo	subjetivos	subjetiva		0
+2070	humorístico	humorísticos	humorística	humorísticas	0
+2071	equívoco				0
+2072	corrosivo	corrosivos			0
+2073	estrafalario			estrafalarias	0
+2074	melodramático	melodramáticos			0
+2075	amoroso	amorosos	amorosa	amorosas	1
+2076	circunstanciado	circunstanciados	circunstanciada	circunstanciadas	0
+2077	desembozado				0
+2078	onírico				0
+2079	sádico	sádicos	sádica	sádicas	0
+2080	bárbaro	bárbaros	bárbara	bárbaras	0
+2081	insinuado				0
+2082	excelso				0
+2083	escarmentado	escarmentados	escarmentada	escarmentadas	0
+2084	esclavo	esclavos	esclava		1
+2085	cabizbajo				0
+2086	explícito	explícitos	explícita		0
+2087	definitorio	definitorios	definitoria	definitorias	0
+2088	sacro				0
+2089	globalizador	globalizadores	globalizadora	globalizadoras	0
+2090	germánico	germánicos	germánica	germánicas	0
+2091	socioeconómico	socioeconómicos	socioeconómica	socioeconómicas	0
+2092	acumulativo	acumulativos	acumulativa	acumulativas	0
+2093	diferenciado	diferenciados	diferenciada	diferenciadas	0
+2094	acientífico				0
+2095	creador	creadores	creadora	creadoras	0
+2096	semántico	semánticos	semántica	semánticas	0
+2097	despertado				0
+2098	extraído	extraídos	extraída	extraídas	0
+2099	etnográfico				0
+2100	sociológico				0
+2101	entendido	entendidos	entendida	entendidas	0
+2102	pagado	pagados	pagada	pagadas	0
+2103	agravado	agravados	agravada	agravadas	0
+2104	alienador				0
+2105	metafísico	metafísicos	metafísica	metafísicas	0
+2106	regulativo	regulativos	regulativa	regulativas	0
+2107	kantiano	kantianos	kantiana	kantianas	0
+2108	colegislador				0
+2109	intestino	intestinos	intestina	intestinas	0
+2110	individualizado				0
+2111	aguijoneado	aguijoneados	aguijoneada	aguijoneadas	0
+2112	impulsado	impulsados	impulsada	impulsadas	0
+2113	despierto			despiertas	0
+2114	letárgico				0
+2115	nouménico	nouménicos			0
+2116	autolegislador	autolegisladores	autolegisladora	autolegisladoras	0
+2117	legislador	legisladores	legisladora	legisladoras	0
+2118	prefigurado				0
+2119	innato	innatos	innata	innatas	0
+2120	heterónomo	heterónomos	heterónoma	heterónomas	0
+2121	vano	vanos			0
+2122	saqueado			saqueadas	0
+2123	desplazado	desplazados	desplazada	desplazadas	0
+2124	bélico	bélicos	bélica		0
+2125	intensivo	intensivos	intensiva	intensivas	0
+2126	orientado	orientados	orientada		1
+2127	reforzado	reforzados	reforzada	reforzadas	1
+2128	socarrón				0
+2129	antioqueño	antioqueños	antioqueña	antioqueñas	0
+2130	trasladado			trasladadas	0
+2131	criminalizado				0
+2132	proscrito			proscritas	0
+2133	cantado	cantados			0
+2134	enérgico				0
+2135	portorriqueño	portorriqueños			0
+2136	desguazado	desguazados			0
+2137	desvencijado			desvencijadas	0
+2138	herético				0
+2139	incontaminado	incontaminados	incontaminada	incontaminadas	0
+2140	cuidado	cuidados	cuidada		0
+2141	ultralimpio			ultralimpias	0
+2142	peinado	peinados			0
+2143	sajón	sajónes	sajona	sajonas	0
+2144	desaliñado	desaliñados	desaliñada	desaliñadas	0
+2145	caracterizado	caracterizados	caracterizada	caracterizadas	1
+2146	genérico	genéricos			0
+2147	licenciado	licenciados	licenciada	licenciadas	0
+2148	huido				0
+2149	desbaratado				0
+2150	atraído	atraídos	atraída	atraídas	0
+2151	conminatorio			conminatorias	0
+2152	mafioso	mafiosos	mafiosa	mafiosas	0
+2153	fundado	fundados	fundada	fundadas	1
+2154	chantajeado	chantajeados			0
+2155	acrecentado	acrecentados	acrecentada	acrecentadas	0
+2156	desarticulado	desarticulados			0
+2157	pretendido	pretendidos	pretendida		0
+2158	sangriento	sangrientos	sangrienta		1
+2159	siderúrgico	siderúrgicos	siderúrgica	siderúrgicas	0
+2160	acorralado	acorralados	acorralada		0
+2161	premiado	premiados	premiada	premiadas	0
+2162	intempestivo	intempestivos			0
+2163	planchado	planchados	planchada	planchadas	0
+2164	atronador			atronadoras	0
+2165	furibundo	furibundos	furibunda	furibundas	0
+2166	amarillento			amarillentas	0
+2167	cauteloso	cautelosos	cautelosa		0
+2168	enaltecido	enaltecidos	enaltecida	enaltecidas	0
+2169	turbado	turbados	turbada	turbadas	0
+2170	reverdecido	reverdecidos	reverdecida	reverdecidas	0
+2171	desierto	desiertos	desierta	desiertas	0
+2172	instigado				0
+2173	furtivo	furtivos	furtiva	furtivas	0
+2174	amortajado			amortajadas	0
+2175	entrecortado	entrecortados			0
+2176	desconsolado	desconsolados	desconsolada	desconsoladas	0
+2177	preservado	preservados	preservada	preservadas	0
+2178	ilusorio	ilusorios	ilusoria	ilusorias	0
+2179	aturdido	aturdidos	aturdida	aturdidas	0
+2180	prisionero	prisioneros	prisionera	prisioneras	0
+2181	celoso	celosos	celosa		1
+2182	terco	tercos	terca	tercas	0
+2183	sentado	sentados	sentada	sentadas	1
+2184	semilleno	semillenos	semillena	semillenas	0
+2185	azulado	azulados	azulada	azuladas	0
+2186	tuberculoso				0
+2187	esquivo	esquivos	esquiva	esquivas	0
+2188	umbrío				0
+2189	receloso	recelosos			0
+2190	oscurecido	oscurecidos	oscurecida	oscurecidas	0
+2191	entristecido	entristecidos	entristecida	entristecidas	0
+2192	mañanero	mañaneros	mañanera	mañaneras	0
+2193	maravillado	maravillados	maravillada	maravilladas	0
+2194	rutinario	rutinarios	rutinaria	rutinarias	0
+2195	retrovisor				0
+2196	trepador	trepadores	trepadora	trepadoras	0
+2197	obsesivo	obsesivos	obsesiva	obsesivas	0
+2198	turulato			turulatas	0
+2199	desgajado	desgajados	desgajada	desgajadas	0
+2200	despejado	despejados	despejada	despejadas	0
+2201	excitado				0
+2202	majestuoso			majestuosas	0
+2203	tozudo	tozudos	tozuda	tozudas	0
+2204	hepático	hepáticos	hepática	hepáticas	0
+2205	contrastado	contrastados	contrastada	contrastadas	0
+2206	iluminado	iluminados	iluminada	iluminadas	0
+2207	perlado	perlados	perlada	perladas	0
+2208	frustrado	frustrados	frustrada		0
+2209	diluido	diluidos			0
+2210	axiomático	axiomáticos	axiomática	axiomáticas	0
+2211	gozadero			gozaderas	0
+2212	friolero				0
+2213	heleno	helenos	helena	helenas	0
+2214	diurno	diurnos	diurna	diurnas	0
+2215	desmazalado				0
+2216	decorativo	decorativos	decorativa	decorativas	0
+2217	totémico				0
+2218	ateo				0
+2219	sugeridor	sugeridores	sugeridora	sugeridoras	0
+2220	obtuso	obtusos			0
+2221	esquilmado	esquilmados	esquilmada	esquilmadas	0
+2222	funerario	funerarios	funeraria		0
+2223	sacristanesco				0
+2224	sanguinario	sanguinarios	sanguinaria	sanguinarias	0
+2225	saturniano				0
+2226	valetudinario				0
+2227	panzudo	panzudos			0
+2228	piponcito	piponcitos			0
+2229	adulatorio				0
+2230	merecedor	merecedores	merecedora	merecedoras	0
+2231	aristocrático			aristocráticas	0
+2232	bordeado	bordeados	bordeada	bordeadas	0
+2233	frondoso	frondosos	frondosa		0
+2234	atrapado	atrapados	atrapada	atrapadas	1
+2235	fumador	fumadores	fumadora	fumadoras	0
+2236	denodado	denodados			0
+2237	engrasado			engrasadas	0
+2238	aceitoso			aceitosas	0
+2239	atravesado				0
+2240	moribundo	moribundos	moribunda	moribundas	0
+2241	faldicorto	faldicortos	faldicorta	faldicortas	0
+2242	metódico	metódicos	metódica	metódicas	0
+2243	asombroso	asombrosos	asombrosa		1
+2244	redoblado				0
+2245	digestivo	digestivos	digestiva	digestivas	0
+2246	puerco			puercas	0
+2247	cansino	cansinos	cansina	cansinas	0
+2248	escocido	escocidos	escocida	escocidas	0
+2249	despatarrado	despatarrados	despatarrada	despatarradas	0
+2250	tieso				0
+2251	feísimo	feísimos			0
+2252	igualito	igualitos			0
+2253	abrasado				0
+2254	descolorido	descoloridos	descolorida	descoloridas	0
+2255	sumo	sumos	suma	sumas	1
+2256	embelesado	embelesados	embelesada	embelesadas	0
+2257	deshojado				0
+2258	goloso	golosos	golosa	golosas	0
+2259	aturullado	aturullados	aturullada	aturulladas	0
+2260	mordisqueado				0
+2261	curtido	curtidos			0
+2262	maldito	malditos	maldita	malditas	1
+2263	fugitivo	fugitivos			0
+2264	nauseabundo				0
+2265	podrido	podridos	podrida	podridas	0
+2266	rosáceo	rosáceos	rosácea	rosáceas	0
+2267	encausado	encausados	encausada	encausadas	0
+2268	burdo	burdos	burda	burdas	0
+2269	angustioso	angustiosos	angustiosa	angustiosas	0
+2270	pródigo	pródigos			0
+2271	encharcado				0
+2272	empedrado	empedrados	empedrada	empedradas	0
+2273	curvo				0
+2274	lamido	lamidos	lamida	lamidas	0
+2275	desmochado	desmochados	desmochada	desmochadas	0
+2276	arrugado	arrugados	arrugada	arrugadas	0
+2277	teñido	teñidos	teñida	teñidas	0
+2278	hinchado	hinchados	hinchada		0
+2279	aterrador	aterradores			0
+2280	luchador	luchadores			0
+2281	todoterreno				0
+2282	pletórico	pletóricos	pletórica	pletóricas	0
+2283	batido	batidos	batida	batidas	0
+2284	ártico			árticas	0
+2285	barajado			barajadas	0
+2286	atribuido	atribuidos	atribuida		0
+2287	fortuito	fortuitos	fortuita		0
+2288	iberoamericano	iberoamericanos	iberoamericana	iberoamericanas	0
+2289	participativo	participativos	participativa		0
+2290	globalizado	globalizados	globalizada	globalizadas	0
+2291	desperdigado			desperdigadas	0
+2292	minado	minados	minada	minadas	0
+2293	transatlántico	transatlánticos	transatlántica	transatlánticas	0
+2294	marino	marinos	marina	marinas	1
+2295	malasio	malasios	malasia	malasias	0
+2296	espinoso	espinosos	espinosa		0
+2297	adorado				0
+2298	enfervorecido				0
+2299	compasivo	compasivos			0
+2300	aplicado	aplicados	aplicada	aplicadas	1
+2301	afirmativo	afirmativos	afirmativa	afirmativas	0
+2302	emotivo	emotivos	emotiva		0
+2303	consejero				0
+2304	jordano	jordanos	jordana	jordanas	0
+2305	plenario	plenarios	plenaria	plenarias	0
+2306	nítido				0
+2307	concurrido	concurridos	concurrida	concurridas	0
+2308	monográfico	monográficos			0
+2309	cuantitativo				0
+2310	cualitativo				0
+2311	hospitalizado	hospitalizados			0
+2312	omiso				0
+2313	detallado	detallados	detallada	detalladas	1
+2314	abrupto	abruptos	abrupta	abruptas	0
+2315	proclamado				0
+2316	benéfico	benéficos	benéfica	benéficas	0
+2317	agradecido	agradecidos	agradecida		1
+2318	eliminado	eliminados			0
+2319	neurálgico				0
+2320	coorganizado				0
+2321	refugiado	refugiados	refugiada	refugiadas	0
+2322	subsidiario	subsidiarios	subsidiaria	subsidiarias	0
+2323	malayo				0
+2324	unitario	unitarios	unitaria	unitarias	0
+2325	suspensivo			suspensivas	0
+2326	administrado	administrados	administrada	administradas	0
+2327	poquito	poquitos	poquita	poquitas	0
+2328	presionado	presionados	presionada		0
+2329	planificado	planificados	planificada	planificadas	0
+2330	riojano			riojanas	0
+2331	cedido	cedidos			0
+2332	toledano	toledanos	toledana	toledanas	0
+2333	interpuesto	interpuestos	interpuesta	interpuestas	0
+2334	acentuado	acentuados	acentuada	acentuadas	0
+2335	centígrado	centígrados			0
+2336	marrón	marrones	marrone	marrones	0
+2337	predeterminado	predeterminados	predeterminada	predeterminadas	0
+2338	sevillano	sevillanos	sevillana	sevillanas	0
+2339	compensatorio	compensatorios	compensatoria	compensatorias	0
+2340	leonés	leonéses	leonesa	leonesas	0
+2341	levantino	levantinos	levantina	levantinas	0
+2342	novato				0
+2343	tocado	tocados	tocada	tocadas	0
+2344	lanzadoro	lanzadoros	lanzadora	lanzadoras	0
+2345	difunto			difuntas	0
+2346	cálido	cálidos	cálida	cálidas	0
+2347	improvisado	improvisados	improvisada	improvisadas	0
+2348	prestado	prestados	prestada		0
+2349	nacionalista-conservadoro	nacionalista-conservadoros	nacionalista-conservadora	nacionalista-conservadoras	0
+2350	colegiado	colegiados	colegiada	colegiadas	0
+2351	extinto	extintos	extinta	extintas	0
+2352	iniciado	iniciados	iniciada	iniciadas	1
+2353	prometido	prometidos			0
+2354	bávaro	bávaros	bávara	bávaras	0
+2355	socialcristiano				0
+2356	desempeñado				0
+2357	asombrado				0
+2358	exógeno	exógenos	exógena	exógenas	0
+2359	sudamericano	sudamericanos	sudamericana	sudamericanas	0
+2360	coruñés	coruñeses			0
+2361	trigésimo				0
+2362	abonado				0
+2363	decimosexto	decimosextos	decimosexta	decimosextas	0
+2364	apartado				0
+2365	goleadoro	goleadoros	goleadora	goleadoras	0
+2366	co-promotoro	co-promotoros	co-promotora	co-promotoras	0
+2367	redactado				0
+2368	facilitados	facilitados	facilitada	facilitadas	0
+2369	perforador	perforadores	perforadora	perforadoras	0
+2370	ileso	ilesos	ilesa	ilesas	0
+2371	interoceánico	interoceánicos	interoceánica	interoceánicas	0
+2372	portuario	portuarios	portuaria		0
+2373	ítalo-argentino				0
+2374	ofrececido	ofrececidos	ofrecida	ofrecidas	0
+2375	clasificatorio	clasificatorios	clasificatoria	clasificatorias	0
+2376	vacuno	vacunos	vacuna	vacunas	1
+2377	alpino	alpinos	alpina	alpinas	0
+2378	monopolístico	monopolísticos	monopolística	monopolísticas	0
+2379	desviado	desviados	desviada		0
+2380	conducido	conducidos	conducida	conducidas	0
+2381	protestado	protestados	protestada	protestadas	0
+2382	habilidoso	habilidosos			0
+2383	custodiado	custodiados	custodiada		0
+2384	consumido	consumidos			0
+2385	estático	estáticos	estática	estáticas	0
+2386	desordenado	desordenados	desordenada		0
+2387	oficioso			oficiosas	0
+2388	aceptado	aceptados	aceptada	aceptadas	1
+2389	esporádico	esporádicos	esporádica	esporádicas	0
+2390	indeciso	indecisos			0
+2391	transmitido				0
+2392	bulímico			bulímicas	0
+2393	raso	rasos			0
+2394	atrevido	atrevidos			0
+2395	restaurado				0
+2396	tejido	tejidos			0
+2397	maestro	maestros	maestra	maestras	1
+2398	gótico	góticos	gótica	góticas	0
+2399	puntero	punteros	puntera	punteras	0
+2400	neurodegenerativo			neurodegenerativas	0
+2401	confiscado			confiscadas	0
+2402	óseo	óseos	ósea	óseas	0
+2403	caído	caídos	caída	caídas	0
+2404	sueco	suecos	sueca	suecas	1
+2405	báltico	bálticos			0
+2406	disuelto	disueltos	disuelta	disueltas	0
+2407	unificado	unificados			0
+2408	marítimo	marítimos	marítima	marítimas	0
+2409	mecanizado	mecanizados	mecanizada	mecanizadas	0
+2410	perecedero	perecederos	perecedera	perecederas	0
+2411	borracho	borrachos			0
+2412	privatizado	privatizados	privatizada		0
+2413	indexado	indexados			0
+2414	tailandés	tailandeses	tailandesa		0
+2415	lácteo	lácteos			0
+2416	papelero			papeleras	0
+2417	metalúrgico	metalúrgicos	metalúrgica	metalúrgicas	0
+2418	adulterado	adulterados			0
+2419	promocionado	promocionados	promocionada	promocionadas	0
+2420	interino	interinos	interina	interinas	0
+2421	compensado				0
+2422	alentado	alentados	alentada	alentadas	0
+2423	minoritario	minoritarios	minoritaria	minoritarias	0
+2424	acelerado	acelerados	acelerada	aceleradas	0
+2425	santanderino				0
+2426	cántabro	cántabros			0
+2427	salvado	salvados			0
+2428	cafetero	cafeteros	cafetera	cafeteras	0
+2429	industrializado	industrializados			0
+2430	minuto				0
+2431	totalitario	totalitarios			0
+2432	llamativo	llamativos	llamativa	llamativas	0
+2433	milanés				0
+2434	turinés				0
+2435	juventino				0
+2436	incisivo				0
+2437	estacionado	estacionados	estacionada		0
+2438	mecanográfico				0
+2439	defensor	defensores			0
+2440	tejano			tejanas	0
+2441	perforado				0
+2442	hispánico	hispánicos	hispánica	hispánicas	0
+2443	temático	temáticos	temática	temáticas	0
+2444	corporativo	corporativos	corporativa	corporativas	0
+2445	defendido	defendidos	defendida	defendidas	0
+2446	asociado	asociados	asociada	asociadas	1
+2447	valorado	valorados	valorada	valoradas	0
+2448	beneficioso	beneficiosos	beneficiosa	beneficiosas	0
+2449	accesorio	accesorios	accesoria	accesorias	0
+2450	patrio	patrios	patria	patrias	1
+2451	suscitado	suscitados	suscitada		0
+2452	preceptivo	preceptivos	preceptiva		0
+2453	denunciado	denunciados	denunciada	denunciadas	0
+2454	habanero	habaneros	habanera		0
+2455	amigo	amigos	amiga	amigas	1
+2456	inhabilitado	inhabilitados			0
+2457	abridor				0
+2458	admitido	admitidos			0
+2459	ucraniano	ucranianos	ucraniana	ucranianas	0
+2460	apeado	apeados			0
+2461	académico	académicos	académica	académicas	0
+2462	hidráulico	hidráulicos	hidráulica	hidráulicas	0
+2463	semitapado				0
+2464	pensado	pensados	pensada	pensadas	0
+2465	simultáneo	simultáneos	simultánea	simultáneas	0
+2466	puertorriqueño	puertorriqueños	puertorriqueña	puertorriqueñas	0
+2467	eliminatorio	eliminatorios	eliminatoria		0
+2468	inactivo	inactivos			0
+2469	magro	magros			0
+2470	expulsado	expulsados	expulsada	expulsadas	0
+2471	falto	faltos			0
+2472	afectivo	afectivos	afectiva	afectivas	0
+2473	vendedoro	vendedoros	vendedora	vendedoras	0
+2474	efímero	efímeros			0
+2475	encaminado			encaminadas	0
+2476	cafetalero	cafetaleros	cafetalera		0
+2477	pactado	pactados	pactada		0
+2478	súbito			súbitas	0
+2479	ocasionado	ocasionados	ocasionada	ocasionadas	0
+2480	controlado				0
+2481	patrocinador				0
+2482	controlador				0
+2483	agónico	agónicos	agónica	agónicas	0
+2484	preolímpico	preolímpicos	preolímpica	preolímpicas	0
+2485	agroalimentario				0
+2486	sulfúrico				0
+2487	vetado	vetados	vetada	vetadas	0
+2488	familiarizado			familiarizadas	0
+2489	alérgico	alérgicos	alérgica	alérgicas	0
+2490	aeronáutico	aeronáuticos	aeronáutica	aeronáuticas	0
+2491	apelado	apelados	apelada	apeladas	0
+2492	robado	robados			0
+2493	catalogado				0
+2494	improductivo	improductivos	improductiva	improductivas	0
+2495	granulado	granulados			0
+2496	deshidratados				0
+2497	embarazado	embarazados	embarazada	embarazadas	0
+2498	abultado	abultados	abultada		0
+2499	inflado	inflados	inflada	infladas	0
+2500	exhaustivo	exhaustivos	exhaustiva	exhaustivas	0
+2501	trabajador	trabajadores	trabajadora	trabajadoras	1
+2502	angoleño	angoleños	angoleña	angoleñas	0
+2503	preparatorio	preparatorios	preparatoria		0
+2504	frenado	frenados			0
+2505	dorado	dorados	dorada		1
+2506	pragmático	pragmáticos	pragmática	pragmáticas	0
+2507	merecido	merecidos	merecida	merecidas	0
+2508	penoso				0
+2509	dilapidado			dilapidadas	0
+2510	desairado	desairados	desairada	desairadas	0
+2511	paneuropeo	paneuropeos	paneuropea	paneuropeas	0
+2512	zurdo				0
+2513	provechoso	provechosos	provechosa	provechosas	0
+2514	divisorio	divisorios	divisoria	divisorias	0
+2515	revisado	revisados	revisada	revisadas	1
+2516	arrestado	arrestados	arrestada		0
+2517	rogatorio	rogatorios	rogatoria	rogatorias	0
+2518	leído			leídas	0
+2519	juzgado	juzgados	juzgada		0
+2520	dispensado	dispensados			0
+2521	crónico	crónicos	crónica	crónicas	0
+2522	federado			federadas	0
+2523	gestor	gestores	gestora	gestoras	0
+2524	llano	llanos	llana	llanas	0
+2525	polvoriento	polvorientos	polvorienta		0
+2526	decimocuarto	decimocuartos	decimocuarta	decimocuartas	0
+2527	reservón	reservones			0
+2528	consabido				0
+2529	cúbico	cúbicos	cúbica		0
+2530	ebrio				0
+2531	inexperto			inexpertas	0
+2532	desconocedor			desconocedoras	0
+2533	regladoQ	regladoQes	reglada	regladas	0
+2534	gubernativo	gubernativos	gubernativa	gubernativas	0
+2535	irrespetuoso				0
+2536	policiaco	policiacos	policiaca	policiacas	0
+2537	dentífrico	dentífricos			0
+2538	persecutorio	persecutorios	persecutoria	persecutorias	0
+2539	púbico				0
+2540	enrevesado	enrevesados	enrevesada	enrevesadas	0
+2541	empleado	empleados			0
+2542	oligopólico				0
+2543	propenso	propensos	propensa		0
+2544	colchonero	colchoneros	colchonera	colchoneras	0
+2545	disuasorio	disuasorios	disuasoria	disuasorias	0
+2546	distendido				0
+2547	cegado				0
+2548	tempranero	tempraneros	tempranera	tempraneras	0
+2549	aftoso	aftosos	aftosa	aftosas	0
+2550	epidemiológico	epidemiológicos	epidemiológica	epidemiológicas	0
+2551	ganadero	ganaderos	ganadera		0
+2552	sugerido	sugeridos			0
+2553	recomendado				0
+2554	interbancario				0
+2555	hispano-francés	hispano-francéses	hispano-francesa	hispano-francesas	0
+2556	democristiano	democristianos	democristiana	democristianas	0
+2557	resolutivo	resolutivos	resolutiva	resolutivas	0
+2558	insolidario				0
+2559	ímprobo	ímprobos			0
+2560	posicionado	posicionados	posicionada	posicionadas	0
+2561	botado				0
+2562	soriano	sorianos	soriana	sorianas	0
+2563	impreciso				0
+2564	vallesano	vallesanos			0
+2565	orensano				0
+2566	rector				0
+2567	osado	osados	osada		0
+2568	balcánico	balcánicos	balcanica	balcanicas	0
+2569	importador	importadores			0
+2570	expreso	expresos	expresa	expresas	1
+2571	relleno	rellenos			0
+2572	ratificado	ratificados	ratificada	ratificadas	0
+2573	perpetuo	perpetuos	perpetua	perpetuas	0
+2574	confirmado	confirmados	confirmada	confirmadas	1
+2575	decimoquinto	decimoquintos	decimoquinta	decimoquintas	0
+2576	naufragado				0
+2577	subacuático			subacuáticas	0
+2578	asesorado				0
+2579	voluminoso	voluminosos	voluminosa	voluminosas	0
+2580	desfigurado	desfigurados	desfigurada	desfiguradas	0
+2581	explorado	explorados	explorada	exploradas	0
+2582	traído	traídos	traída	traídas	0
+2583	resistido	resistidos	resistida	resistidas	0
+2584	denso	densos	densa	densas	1
+2585	especifico			específicas	0
+2586	asesor				0
+2587	adelantado	adelantados	adelantada	adelantadas	0
+2588	folclórico	folclóricos	folclórica		0
+2589	acrobático				0
+2590	mil				0
+2591	bueno	buenos	buena	buenas	1
+2592	tercer				0
+2593	mallorquín				0
+2594	octogenario				0
+2595	condonado	condonados	condonada	condonadas	0
+2596	contraído	contraídos	contraída	contraídas	0
+2597	acontecido	acontecidos			0
+2598	preseleccionado	preseleccionados			0
+2599	climático	climáticos	climática	climáticas	0
+2600	mostrado	mostrados	mostrada	mostradas	0
+2601	averiado				0
+2602	informado	informados	informada		0
+2603	suministrado	suministrados	suministrada	suministradas	0
+2604	remolcado				0
+2605	consensuado				0
+2606	armónico	armónicos	armónica	armónicas	0
+2607	inadecuado	inadecuados	inadecuada	inadecuadas	0
+2608	ejecutado				0
+2609	geotécnico				0
+2610	navideño	navideños	navideña	navideñas	0
+2611	chafado	chafados			0
+2612	subido				0
+2613	isleño	isleños	isleña		0
+2614	grancanario				0
+2615	envasado	envasados			0
+2616	expendedor			expendedoras	0
+2617	sobredimensionado	sobredimensionados	sobredimensionada	sobredimensionadas	0
+2618	neoyorquino	neoyorquinos	neoyorquina	neoyorquinas	0
+2619	instantáneo	instantáneos	instantánea	instantáneas	0
+2620	hablado	hablados	hablada	habladas	0
+2621	honorario				0
+2622	donado				0
+2623	desafortunado			desafortunadas	0
+2624	fallido	fallidos	fallida	fallidas	0
+2625	institucionalizado	institucionalizados	institucionalizada	institucionalizadas	0
+2626	embarazoso	embarazosos	embarazosa	embarazosas	0
+2627	bendito				0
+2628	náufrago				0
+2629	desatado	desatados	desatada	desatadas	0
+2630	hidrográfico	hidrográficos	hidrográfica	hidrográficas	0
+2631	expansivo	expansivos	expansiva	expansivas	0
+2632	arbolado	arbolados	arbolada	arboladas	0
+2633	antoniano	antonianos	antoniana	antonianas	0
+2634	esloveno				0
+2635	difamatorio	difamatorios	difamatoria	difamatorias	0
+2636	impropio				0
+2637	filipino	filipinos	filipina	filipinas	0
+2638	tabacalero	tabacaleros	tabacalera	tabacaleras	0
+2639	maltrecho	maltrechos	maltrecha	maltrechas	0
+2640	exhibida		exhibida		0
+2641	tricolor	tricolores			0
+2642	anémico				0
+2643	ultradefensivo				0
+2644	aportado	aportados	aportada		0
+2645	refundido				0
+2646	diligenciado	diligenciados			0
+2647	pormenorizado	pormenorizados	pormenorizada	pormenorizadas	0
+2648	enumerado			enumeradas	0
+2649	relegado			relegada	0
+2650	lujoso	lujosos	lujosa	lujosas	0
+2651	anodino	anodinos	anodina	anodinas	0
+2652	aerodinámico	aerodinámicos	aerodinámica	aerodinámicas	0
+2653	ocioso	ociosos	ociosa		0
+2654	incrementado	incrementados	incrementada	incrementadas	0
+2655	termo-eléctrico	termo-eléctricos	termo-eléctrica	termo-eléctricas	0
+2656	irlandés	irlandeses	irlandesa		0
+2657	jerezano				0
+2658	alcarreño				0
+2659	defectuoso				0
+2660	proeuropeo	proeuropeos	proeuropea	proeuropeas	0
+2661	promonárquico				0
+2662	sellado	sellados	sellada	selladas	0
+2663	promovido	promovidos	promovida	promovidas	0
+2664	lucido	lucidos			0
+2665	subvencionado				0
+2666	telemático	telemáticos			0
+2667	coordinador				0
+2668	fuengiroleño				0
+2669	veleño				0
+2670	angelino				0
+2671	consolidado	consolidados	consolidada		0
+2672	apoderado	apoderados			0
+2673	getafeño				0
+2674	ensangrentado	ensangrentados	ensangrentada	ensangrentadas	0
+2675	alertado			alertadas	0
+2676	asentado	asentados	asentada	asentadas	0
+2677	entorpecido	entorpecidos	entorpecida	entorpecidas	0
+2678	viciado			viciadas	0
+2679	él	suyos			0
+2680	minucioso	minuciosos	minuciosa	minuciosas	0
+2681	salmantino				0
+2682	vallisoletano	vallisoletanos			0
+2683	climatológico	climatológicos			0
+2684	normativo				0
+2685	fáctico			fácticas	0
+2686	auspiciado				0
+2687	multiétnico				0
+2688	cruceño				0
+2689	jurado	jurados	jurada	juradas	0
+2690	sustancioso	sustanciosos	sustanciosa	sustanciosas	0
+2691	ilícito	ilícitos	ilícita	ilícitas	0
+2692	burlado				0
+2693	honorífico	honoríficos	honorífica	honoríficas	0
+2694	griego	griegos	griega	griegas	1
+2695	bombardeado				0
+2696	congregado	congregados	congregada	congregadas	0
+2697	sobre-explotado			sobre-explotadas	0
+2698	salvadoreño	salvadoreños	salvadoreña	salvadoreñas	0
+2699	agotador	agotadores	agotadora	agotadoras	0
+2700	jubiloso	jubilosos	jubilosa	jubilosas	0
+2701	afroamericano	afroamericanos			0
+2702	expropiado	expropiados			0
+2703	decomisado	decomisados			0
+2704	clínico	clínicos	clínica	clínicas	0
+2705	bogotano	bogotanos	bogotana	bogotanas	0
+2706	transoceánico	transoceánicos	transoceánica	transoceánicas	0
+2707	náutico	náuticos	náutica	náuticas	0
+2708	clamoroso	clamorosos	clamorosa	clamorosas	0
+2709	suministrador			suministradoras	0
+2710	luso	lusos	lusa		0
+2711	aclarado			aclaradas	0
+2712	sismológico	sismológicos			0
+2713	submarino	submarinos	submarina	submarinas	0
+2714	circulado			circuladas	0
+2715	oriundo	oriundos			0
+2716	sinuoso	sinuosos	sinuosa	sinuosas	0
+2717	empeñado	empeñados	empeñada	empeñadas	0
+2718	incrédulo	incrédulos	incrédula		0
+2719	festivo	festivos	festiva	festivas	0
+2720	delgado	delgados	delgada	delgadas	1
+2721	antológico	antológicos	antológica		0
+2722	zaragozano	zaragozanos	zaragozana		0
+2723	húngaro	húngaros	húngara		0
+2724	falsificado	falsificados			0
+2725	desorbitado			desorbitadas	0
+2726	avilesino				0
+2727	pegado	pegados	pegada		0
+2728	promulgado	promulgados	promulgada		0
+2729	acometido			acometidas	0
+2730	extraparlamentario	extraparlamentarios			0
+2731	montenegrino	montenegrinos	montenegrina	montenegrinas	0
+2732	apodado				0
+2733	virulento			virulentas	0
+2734	odiado				0
+2735	desprovisto				0
+2736	parejo	parejos	pareja	parejas	0
+2737	ponderado				0
+2738	centralizador				0
+2739	descentralizador	descentralizadores			0
+2740	pedido	pedidos	pedida	pedidas	0
+2741	acreditado	acreditados	acreditada		0
+2742	resignado	resignados			0
+2743	semi				0
+2744	desertizado				0
+2745	sectario	sectarios	sectaria	sectarias	0
+2746	destemplado			destempladas	0
+2747	multifacético				0
+2748	cronológico				0
+2749	prolífico	prolíficos	prolífica	prolíficas	0
+2750	descoordinado			descoordinadas	0
+2751	aleatorio	aleatorios	aleatoria	aleatorias	0
+2752	cultivador	cultivadores			0
+2753	infiltrado				0
+2754	remontado	remontados	remontada	remontadas	0
+2755	propiciado	propiciados	propiciada	propiciadas	0
+2756	finlandés	finlandéses	finlandesa	finlandesas	0
+2757	comandado	comandados	comandada	comandadas	0
+2758	aprendido	aprendidos	aprendida	aprendidas	0
+2759	rapidísimo				0
+2760	jugador	jugadores	jugadora		0
+2761	hidrológico	hidrológicos			0
+2762	deficitario	deficitarios	deficitaria	deficitarias	0
+2763	sensato	sensatos	sensata		0
+2764	céltico				0
+2765	aquejado	aquejados	aquejada	aquejadas	0
+2766	cacereño	cacereños	cacereña	cacereñas	0
+2767	conmemorativo	conmemorativos	conmemorativa	conmemorativas	0
+2768	meticuloso	meticulosos	meticulosa	meticulosas	0
+2769	revitalizado				0
+2770	amenazador	amenazadores			0
+2771	abrumado	abrumados	abrumada	abrumadas	0
+2772	agobiado				0
+2773	abarrotado				0
+2774	ataviado	ataviados	ataviada		0
+2775	depreciado	depreciados	depreciada	depreciadas	0
+2776	coloreado	coloreados	coloreada	coloreadas	0
+2777	mortuorio	mortuorios	mortuoria	mortuorias	0
+2778	discriminado	discriminados			0
+2779	rebautizado				0
+2780	cautivo				0
+2781	tutelado	tutelados	tutelada	tuteladas	0
+2782	anglo-holandeso	anglo-holandesos	anglo-holandesa	anglo-holandesas	0
+2783	gibraltareño	gibraltareños	gibraltareña	gibraltareñas	0
+2784	mayestático	mayestáticos	mayestática	mayestáticas	0
+2785	desazonador				0
+2786	unívoco	unívocos	unívoca	unívocas	0
+2787	frívolo	frívolos	frívola	frívolas	0
+2788	enfático	enfáticos	enfática	enfáticas	0
+2789	invasor	invasores	invasora	invasoras	0
+2790	militarizado	militarizados	militarizada	militarizadas	0
+2791	coreano	coreanos	coreana		0
+2792	surcoreano			surcoreanas	0
+2793	norcoreano	norcoreanos	norcoreana		0
+2794	mayúsculo	mayúsculos	mayúscula	mayúsculas	0
+2795	malintencionado			malintencionadas	0
+2796	oculto	ocultos	oculta	ocultas	1
+2797	anudado				0
+2798	pensador				0
+2799	desaprensivo				0
+2800	sancionador	sancionadores	sancionadora	sancionadoras	0
+2801	supervisor				0
+2802	tipificado				0
+2803	coercitivo	coercitivos	coercitiva		0
+2804	usuario	usuarios			0
+2805	aumentado				0
+2806	antideportivo	antideportivos	antideportiva	antideportivas	0
+2807	bajado	bajados	bajada	bajadas	0
+2808	reformado	reformados	reformada	reformadas	0
+2809	radicado	radicados	radicada		0
+2810	antidemocrático				0
+2811	exiliado	exiliados			0
+2812	sustentado				0
+2813	mezquino	mezquinos	mezquina		0
+2814	gemelo	gemelos	gemela	gemelas	1
+2815	corinthiano	corinthianos	corinthiana	corinthianas	0
+2816	otomano	otomanos			0
+2817	estructurado				0
+2818	vergonzoso	vergonzosos	vergonzosa	vergonzosas	0
+2819	clandestino	clandestinos	clandestina		0
+2820	meso-americano				0
+2821	encajonado				0
+2822	angosto			angostas	0
+2823	vetusto				0
+2824	veterinario	veterinarios	veterinaria		0
+2825	fitosanitario				0
+2826	infravalorado				0
+2827	ralentizado	ralentizados	ralentizada	ralentizadas	0
+2828	vandá¡lico	vandálicos			0
+2829	cuantioso	cuantiosos	cuantiosa	cuantiosas	0
+2830	agigantado	agigantados			0
+2831	demográfico	demográficos	demográfica	demográficas	0
+2832	horario	horarios	horaria		0
+2833	eclesiástico	eclesiásticos	eclesiástica	eclesiásticas	0
+2834	invertido	invertidos	invertida	invertidas	0
+2835	voluntario	voluntarios	voluntaria	voluntarias	1
+2836	embrionario			embrionarias	0
+2837	neurológico	neurológicos	neurológica	neurológicas	0
+2838	trasplantado			trasplantadas	0
+2839	nativo	nativos	nativa	nativas	1
+2840	probado	probados			0
+2841	estampado	estampados	estampada	estampadas	0
+2842	arqueológico	arqueológicos	arqueológica	arqueológicas	0
+2843	laminado	laminados	laminada	laminadas	0
+2844	difuminado			difuminadas	0
+2845	geométrico	geométricos	geométrica	geométricas	0
+2846	vidriado			vidriadas	0
+2847	contiguo	contiguos	contigua		0
+2848	adornado	adornados	adornada	adornadas	0
+2849	gastronómico	gastronómicos	gastronómica	gastronómicas	0
+2850	selecto	selectos	selecta		0
+2851	extradeportivo			extradeportivas	0
+2852	extensivo	extensivos	extensiva	extensivas	0
+2853	románico	románicos	románica		0
+2854	escultórico	escultóricos	escultórica		0
+2855	fabuloso	fabulosos	fabulosa	fabulosas	0
+2856	vago	vagos	vaga		0
+2857	patrocinado				0
+2858	populoso	populosos			0
+2859	aparcado	aparcados			0
+2860	anglófono			anglófonas	0
+2861	escabroso	escabrosos	escabrosa	escabrosas	0
+2862	clarificador				0
+2863	desapasionado	desapasionados	desapasionada	desapasionadas	0
+2864	escurridizo				0
+2865	romo	romos			0
+2866	narcótico			narcóticas	0
+2867	anciano	ancianos	anciana	ancianas	1
+2868	censado	censados			0
+2869	inmigrado	inmigrados	inmigrada	inmigradas	0
+2870	emigrado	emigrados			0
+2871	malpensado			malpensadas	0
+2872	dificultoso	dificultosos	dificultosa	dificultosas	0
+2873	infrahumano			infrahumanas	0
+2874	adscrito	adscritos			0
+2875	dolido				0
+2876	treceavo	treceavos	treceava	treceavas	0
+2877	descontrolado	descontrolados	descontrolada	descontroladas	0
+2878	depositado	depositados			0
+2879	ejercido	ejercidos	ejercida	ejercidas	0
+2880	histriónico	histriónicos	histriónica	histriónicas	0
+2881	idílico	idílicos	idílica	idílicas	0
+2882	bregado				0
+2883	demoledor				0
+2884	refrigerado				0
+2885	interrumpido	interrumpidos	interrumpida		0
+2886	monolítico	monolíticos	monolítica	monolíticas	0
+2887	adiestrado	adiestrados			0
+2888	kurdo	kurdos	kurda	kurdas	0
+2889	jacobino	jacobinos			0
+2890	enterado	enterados			0
+2891	postsoviético	postsoviéticos	postsoviética	postsoviéticas	0
+2892	sumido				0
+2893	empobrecido	empobrecidos	empobrecida	empobrecidas	0
+2894	semiparalizado	semiparalizados	semiparalizada	semiparalizadas	0
+2895	estaliniano	estalinianos	estaliniana	estalinianas	0
+2896	erróneo	erróneos	errónea	erróneas	0
+2897	castellano	castellanos	castellana	castellanas	1
+2898	advertido	advertidos	advertida	advertidas	0
+2899	sustitutorio	sustitutorios	sustitutoria	sustitutorias	0
+2900	indultado	indultados			0
+2901	rehabilitado	rehabilitados			0
+2902	extinguido			extinguidas	0
+2903	rebajado	rebajados	rebajada		0
+2904	acancionado	acancionados			0
+2905	sembrás			sembrás	0
+2906	carretero	carreteros	carretera	carreteras	0
+2907	operado				0
+2908	pautado				0
+2909	suntuoso	suntuosos	suntuosa	suntuosas	0
+2910	concretado	concretados	concretada	concretadas	0
+2911	difusor	difusores	difusora	difusoras	0
+2912	provocativo	provocativos	provocativa	provocativas	0
+2913	provocador			provocadoras	0
+2914	estilístico	estilísticos	estilística	estilísticas	0
+2915	recopilatorio	recopilatorios			0
+2916	borrado	borrados			0
+2917	gracioso	graciosos	graciosa	graciosas	1
+2918	dramatizado	dramatizados	dramatizada	dramatizadas	0
+2919	confeccionados	confeccionadoses	confeccionada	confeccionadas	0
+2920	avisado	avisados	avisada	avisadas	0
+2921	comunicativo	comunicativos	comunicativa	comunicativas	0
+2922	coronado	coronados			0
+2923	indio	indios	india	indias	1
+2924	desequilibrado	desequilibrados	desequilibrada	desequilibradas	0
+2925	aseado				0
+2926	sufridor	sufridores	sufridora	sufridoras	0
+2927	combativo	combativos	combativa	combativas	0
+2928	transformado				0
+2929	industrioso				0
+2930	retrospectivo	retrospectivos	retrospectiva	retrospectivas	0
+2931	monárquico	monárquicos	monárquica		0
+2932	manoseado			manoseadas	0
+2933	camaleónico	camaleónicos	camaleónica	camaleónicas	0
+2934	pomposo	pomposos			0
+2935	enlatado	enlatados	enlatada	enlatadas	0
+2936	apoteósico	apoteósicos	apoteósica	apoteósicas	0
+2937	golpeado	golpeados	golpeada	golpeadas	0
+2938	pateado	pateados	pateada	pateadas	0
+2939	violado	violados	violada	violadas	0
+2940	hambriento				0
+2941	autoconvencido				0
+2942	marginado	marginados	marginada	marginadas	0
+2943	sediento			sedientas	0
+2944	bonachón				0
+2945	resaltado	resaltados			0
+2946	estanco				0
+2947	guitarrístico			guitarrísticas	0
+2948	iniciático	iniciáticos			0
+2949	lustroso				0
+2950	insulso			insulsas	0
+2951	goleado	goleados	goleada		0
+2952	cíclico	cíclicos			0
+2953	hidratado				0
+2954	isotónico			isotónicas	0
+2955	pensativo	pensativos			0
+2956	desencajado				0
+2957	desvanecido	desvanecidos	desvanecida	desvanecidas	0
+2958	bohemio	bohemios	bohemia	bohemias	0
+2959	estrenado	estrenados	estrenada	estrenadas	1
+2960	enfadado	enfadados			0
+2961	indispuesto				0
+2962	taquillero	taquilleros	taquillera		0
+2963	vilipendiado	vilipendiados	vilipendiada	vilipendiadas	0
+2964	compenetrado	compenetrados	compenetrada	compenetradas	0
+2965	veraniego	veraniegos	veraniega		0
+2966	narrativo	narrativos	narrativa	narrativas	0
+2967	macabro	macabros	macabra	macabras	0
+2968	espectador	espectadores	espectadora	espectadoras	0
+2969	paradisiaco				0
+2970	rarito	raritos			0
+2971	despreocupado	despreocupados	despreocupada		0
+2972	exaltado	exaltados			0
+2973	arrocero	arroceros	arrocera	arroceras	0
+2974	soliviantado	soliviantados			0
+2975	bernhardiano	bernhardianos			0
+2976	azaroso			azarosas	0
+2977	filosófico	filosóficos	filosófica	filosóficas	0
+2978	zíngaro	zíngaros	zíngara	zíngaras	0
+2979	enloquecido	enloquecidos	enloquecida	enloquecidas	0
+2980	instructor				0
+2981	cultivado				0
+2982	conciliador	conciliadores	conciliadora	conciliadoras	0
+2983	convulso				0
+2984	escénico	escénicos	escénica	escénicas	0
+2985	apuesto				0
+2986	atareado				0
+2987	pirotécnico	pirotécnicos			0
+2988	frenético	frenéticos	frenética	frenéticas	0
+2989	interconectado	interconectados	interconectada	interconectadas	0
+2990	gratificado				0
+2991	sabedor				0
+2992	autocrático	autocráticos	autocrática		0
+2993	arcano	arcanos			0
+2994	azotado				0
+2995	trino	trinos	trina	trinas	0
+2996	denostado	denostados	denostada	denostadas	0
+2997	desafecto	desafectos			0
+2998	pobrecito	pobrecitos	pobrecita	pobrecitas	0
+2999	resabiado				0
+3000	anómalo				0
+3001	satírico	satíricos	satírica	satíricas	0
+3002	islandés	islandéses	islandesa	islandesas	0
+3003	movilizador				0
+3004	putativo				0
+3005	independizado				0
+3006	consagrado	consagrados	consagrada		1
+3007	prieto			prietas	0
+3008	sinfónico	sinfónicos	sinfónica	sinfónicas	0
+3009	arenoso	arenosos	arenosa	arenosas	0
+3010	prolijo				0
+3011	obsoleto	obsoleta	obsoleta	obsoletas	0
+3012	kaputt				0
+3013	acusador			acusadoras	0
+3014	asistido	asistidos	asistida	asistidas	0
+3015	insospechado			insospechadas	0
+3016	desesperanzado	desesperanzados			0
+3017	argelino	argelinos	argelina	argelinas	0
+3018	pornográfico	pornográficos	pornográfica	pornográficas	0
+3019	identificativo	identificativos	identificativa	identificativas	0
+3020	milagroso	milagrosos	milagrosa		0
+3021	intercomunicado				0
+3022	falseado			falseadas	0
+3023	anecdótico	anecdóticos	anecdótica	anecdóticas	0
+3024	fructífero	fructíferos	fructífera	fructíferas	0
+3025	predispuesto				0
+3026	rojazo	rojazos			0
+3027	sumiso	sumisos	sumisa	sumisas	0
+3028	condenatorio	condenatorios	condenatoria	condenatorias	0
+3029	episódico	episódicos	episódica	episódicas	0
+3030	defenestrado	defenestrados			0
+3031	incorrecto	incorrectos	incorrecta		0
+3032	bochornoso				0
+3033	mísero				0
+3034	respetado	respetados	respetada	respetadas	0
+3035	ventajoso			ventajosas	0
+3036	tinto	tintos	tinta		1
+3037	desconfiado			desconfiadas	0
+3038	despectivo			despectivas	0
+3039	apesadumbrado				0
+3040	decretado				0
+3041	feriado				0
+3042	cambiario				0
+3043	liberado	liberados	liberada		1
+3044	canoso				0
+3045	distanciado	distanciados			0
+3046	politizado				0
+3047	anglicano	anglicanos	anglicana	anglicanas	0
+3048	dialogado			dialogadas	0
+3049	tratado	tratados	tratada	tratadas	1
+3050	transformador	transformadores	transformadora	transformadoras	0
+3051	reglado	reglados	reglada	regladas	0
+3052	prefijado	prefijados			0
+3053	heterogéneo	heterogéneos	heterogénea	heterogéneas	0
+3054	comparativo				0
+3055	equitativo	equitativos	equitativa	equitativas	0
+3056	igualitario	igualitarios	igualitaria	igualitarias	0
+3057	formativo	formativos	formativa	formativas	0
+3058	sintomático			sintomáticas	0
+3059	virtuoso	virtuosos	virtuosa	virtuosas	0
+3060	treintañero			treintañeras	0
+3061	desinhibir			desinhibidas	0
+3062	ibérico	ibéricos	ibérica	ibéricas	0
+3063	reflexivo	reflexivos			0
+3064	escéptico				0
+3065	ayudado				0
+3066	coproducido	coproducidos	coproducida	coproducidas	0
+3067	azucarado				0
+3068	pícaro	pícaros			0
+3069	predestinado				0
+3070	refunfuñado	refunfuñados			0
+3071	antropofísico			antropofísicas	0
+3072	salutífero	salutíferos	salutífera	salutíferas	0
+3073	discontinuo	discontinuos	discontinua	discontinuas	0
+3074	invocado				0
+3075	deliberado	deliberados	deliberada	deliberadas	0
+3076	internado	internados			0
+3077	girado	girados	girada	giradas	0
+3078	psiquiátrico	psiquiátricos	psiquiátrica		0
+3079	drástico			drásticas	0
+3080	absolutorio	absolutorios	absolutoria	absolutorias	0
+3081	especial		especial	especiales	0
+3082	paniaguado			paniaguadas	0
+3083	alavés	alaveses			0
+3084	ocultado	ocultados	ocultada	ocultadas	0
+3085	incrustado	incrustados			0
+3086	miedoso				0
+3087	saludado	saludados			0
+3088	despedido	despedidos			0
+3089	saboreado	saboreados	saboreada	saboreadas	0
+3090	iranio	iranios	irania	iranias	0
+3091	miliciano				0
+3092	replegado				0
+3093	antropomorfo	antropomorfos			0
+3094	místico	místicos	mística	místicas	0
+3095	colectivizador				0
+3096	idiomático				0
+3097	explotado	explotados			0
+3098	asalariado	asalariados			0
+3099	obsesionado				0
+3100	atrincherado				0
+3101	trenzado			trenzadas	0
+3102	conquistado				0
+3103	inacabado	inacabados	inacabada	inacabadas	0
+3104	aparecido	aparecidos	aparecida	aparecidas	0
+3105	anegado	anegados	anegada	anegadas	0
+3106	deshabitado	deshabitados	deshabitada	deshabitadas	0
+3107	inutilizado				0
+3108	dilatorio	dilatorios	dilatoria	dilatorias	0
+3109	antiaéreo	antiaéreos	antiaérea	antiaéreas	0
+3110	heredero				0
+3111	medianero			medianeras	0
+3112	entrevistado	entrevistados			0
+3113	categórico	categóricos			0
+3114	equipado	equipados			0
+3115	jurídico-político				0
+3116	hispano-luso	hispano-lusos	hispano-lusa	hispano-lusas	0
+3117	escrupuloso				0
+3118	acorazados	acorazados			0
+3119	desaforado				0
+3120	perfilado			perfiladas	0
+3121	imitado	imitados			0
+3122	cartelístico			cartelísticas	0
+3123	mironiano	mironianos	mironiana	mironianas	0
+3124	euromediterráneo	euromediterráneos	euromediterránea	euromediterráneas	0
+3125	gravísimo			gravísimas	0
+3126	escindido	escindidos			0
+3127	ameno	amenos	amena	amenas	0
+3128	astuto				0
+3129	obsceno	obscenos	obscena	obscenas	0
+3130	agolpado	agolpados			0
+3131	decisorio	decisorios	decisoria		0
+3132	fiero	fieros			0
+3133	mediador				0
+3134	superfluo	superfluos	superflua	superfluas	0
+3135	ampliado	ampliados	ampliada	ampliadas	1
+3136	retocado	retocados	retocada	retocadas	0
+3137	poético	poéticos	poética	poéticas	0
+3138	tipográfico	tipográficos	tipográfica	tipográficas	0
+3139	robusto	robustos	robusta	robustas	0
+3140	póstumo	póstumos	póstuma	póstumas	0
+3141	buenísimo	buenísimos	buenísima	buenísimas	0
+3142	farmacológico	farmacológicos	farmacológica	farmacológicas	0
+3143	intracavernoso	intracavernosos	intracavernosa	intracavernosas	0
+3144	serbobosnio				0
+3145	trabado			trabadas	0
+3146	modulado				0
+3147	vertebrador				0
+3148	cohesionado				0
+3149	sobreseído	sobreseídos	sobreseída	sobreseídas	0
+3150	venido	venidos			0
+3151	rompedor	rompedores			0
+3152	peticionario	peticionarios			0
+3153	admonitorio				0
+3154	deshuesado	deshuesados	deshuesada	deshuesadas	0
+3155	bovino	bovinos	bovina	bovinas	0
+3156	adoptivo	adoptivos	adoptiva	adoptivas	0
+3157	encorsetado	encorsetados			0
+3158	aforado	aforados			0
+3159	coronario	coronarios	coronaria	coronarias	0
+3160	crecido				0
+3161	enrocado	enrocados	enrocada	enrocadas	0
+3162	integrador				0
+3163	pregrabado			pregrabadas	0
+3164	stoniano				0
+3165	colgado	colgados			0
+3166	crispado	crispados			0
+3167	habitado	habitados	habitada	habitadas	0
+3168	apresado				0
+3169	propinado				0
+3170	descolgado				0
+3171	laborioso	laboriosos			0
+3172	trabajado	trabajados	trabajada	trabajadas	0
+3173	cauto				0
+3174	enrollado			enrolladas	0
+3175	antihipertensivo	antihipertensivos			0
+3176	psicotrópico	psicotrópicos			0
+3177	contraindicado	contraindicados	contraindicada	contraindicadas	0
+3178	saneado			saneadas	0
+3179	estandarizado	estandarizados			0
+3180	traducido	traducidos			0
+3181	analizado	analizados			0
+3182	mucho			muchas	0
+3183	pertrechado	pertrechados			0
+3184	lacrimógeno	lacrimógenos			0
+3185	levadizo				0
+3186	aeroportuario	aeroportuarios	aeroportuaria	aeroportuarias	0
+3187	metropolitano	metropolitanos	metropolitana	metropolitanas	1
+3188	correoso	correosos			0
+3189	rústico	rústicos	rústica	rústicas	0
+3190	honroso				0
+3191	prostático				0
+3192	tronado	tronados	tronada	tronadas	0
+3193	irredento				0
+3194	simpatiquísimo	simpatiquísimos			0
+3195	entretenido	entretenidos	entretenida	entretenidas	0
+3196	aguerrido	aguerridos			0
+3197	patriotero				0
+3198	perseguido	perseguidos			0
+3199	desclasificado				0
+3200	comercial		comercial		0
+3201	desactivado				0
+3202	reconstituido				0
+3203	evangélico	evangélicos	evangélica		0
+3204	luterano	luteranos	luterana	luteranas	0
+3205	vaticano	vaticanos	vaticana	vaticanas	0
+3206	ecuménico				0
+3207	alcantarillado	alcantarillados	alcantarillada	alcantarilladas	0
+3208	preciado	preciados	preciada	preciadas	0
+3209	esquemático	esquemáticos	esquemática		0
+3210	extrañado			extrañadas	0
+3211	granadino	granadinos	granadina		0
+3212	bananero	bananeros	bananera	bananeras	0
+3213	autoproclamado				0
+3214	sobresaltado	sobresaltados			0
+3215	arrasado	arrasados	arrasada	arrasadas	0
+3216	asqueado	asqueados			0
+3217	despojar	despojares	despojada	despojadas	0
+3218	fariseo				0
+3219	trufado				0
+3220	suculento	suculentos	suculenta	suculentas	0
+3221	vedado	vedados	vedada	vedadas	0
+3222	ávido	ávidos			0
+3223	librado	librados	librada		0
+3224	cancelado	cancelados			0
+3225	acusatorio	acusatorios			0
+3226	esgrimido	esgrimidos			0
+3227	intruso				0
+3228	habituada		habituada		0
+3229	boscoso	boscosos	boscosa		0
+3230	pedáneo				0
+3231	carbonizado			carbonizadas	0
+3232	opaco	opacos	opaca	opacas	0
+3233	cifrado			cifradas	0
+3234	sexagenario				0
+3235	hispanoargentino	hispanoargentinos	hispanoargentina	hispanoargentinas	0
+3236	licuado	licuados			0
+3237	desfavorecido	desfavorecidos	desfavorecida	desfavorecidas	0
+3238	butano				0
+3239	adeudado	adeudados			0
+3240	consultivo				0
+3241	lavado				0
+3242	vascofrancés	vascofrancéses	vascofrancesa	vascofrancesas	0
+3243	reacio				0
+3244	enano				0
+3245	subversivo				0
+3246	lúcido	lúcidos			0
+3247	lector				0
+3248	abusivo				0
+3249	epiléptico	epilépticos	epiléptica	epilépticas	0
+3250	retraído				0
+3251	angustiado	angustiados	angustiada	angustiadas	0
+3252	espantado	espantados	espantada		0
+3253	reunificado	reunificados	reunificada	reunificadas	0
+3254	enajenado				0
+3255	salvo	salvos	salva		1
+3256	investigado				0
+3257	expoliado				0
+3258	afincado	afincados	afincada	afincadas	0
+3259	malherido				0
+3260	tunecino				0
+3261	lusitano	lusitanos	lusitana	lusitanas	0
+3262	intercambiador				0
+3263	orográfico	orográficos			0
+3264	inclinado	inclinados			0
+3265	orientativo	orientativos			0
+3266	buscado	buscados	buscada	buscadas	0
+3267	leonado				0
+3268	funesto			funestas	0
+3269	anacrónico	anacrónicos	anacrónica	anacrónicas	0
+3270	endogámico				0
+3271	atomizado	atomizados	atomizada	atomizadas	0
+3272	diagnóstico	diagnósticos	diagnóstica	diagnósticas	0
+3273	guineano	guineanos			0
+3274	okupado	okupados	okupada	okupadas	0
+3275	amniótico				0
+3276	gijonés				0
+3277	séptico				0
+3278	intravenoso	intravenosos	intravenosa	intravenosas	0
+3279	toxicómano	toxicómanos	toxicómana	toxicómanas	0
+3280	apestado	apestados	apestada	apestadas	0
+3281	adúltero			adúlteras	0
+3282	asegurador	aseguradores	aseguradora	aseguradoras	0
+3283	técnico-financieros	técnico-financieros			0
+3284	taiwanés	taiwaneses	taiwanesa		0
+3285	anoréxico			anoréxicas	0
+3286	elevadísimo	elevadísimos			0
+3287	bienvenido	bienvenidos	bienvenida		0
+3288	desandado				0
+3289	degenerativo	degenerativos	degenerativa	degenerativas	0
+3290	despenalizado	despenalizados	despenalizada	despenalizadas	0
+3291	desvinculado				0
+3292	reproductivo	reproductivos	reproductiva	reproductivas	0
+3293	andorrano				0
+3294	documentado	documentados	documentada		0
+3295	interurbano				0
+3296	congelado			congeladas	0
+3297	completado				0
+3298	asfaltado	asfaltados	asfaltada	asfaltadas	0
+3299	renovado	renovados	renovada		1
+3300	incendiado				0
+3301	siniestrado				0
+3302	cancerígeno	cancerígenos	cancerígena	cancerígenas	0
+3303	multado			multadas	0
+3304	emprendedor				0
+3305	visionario			visionarias	0
+3306	imperfecto	imperfectos	imperfecta	imperfectas	0
+3307	pronóstico	pronósticos			0
+3308	marinero	marineros	marinera	marineras	0
+3309	murciano	murcianos	murciana	murcianas	0
+3310	escarpado				0
+3311	sustraído	sustraídos			0
+3312	golfo				0
+3313	recaudatorio				0
+3314	sugestivo				0
+3315	maltratado			maltratadas	0
+3316	cojo	cojos	coja	cojas	0
+3317	enloquecedor				0
+3318	descarado	descarados	descarada	descaradas	0
+3319	anticatalán				0
+3320	fortísimo			fortísimas	0
+3321	yermo				0
+3322	beato				0
+3323	devoto	devotos	devota	devotas	0
+3324	telegráfico	telegráficos	telegráfica	telegráficas	0
+3325	engañoso	engañosos	engañosa	engañosas	0
+3326	descalzo				0
+3327	aparejado	aparejados	aparejada	aparejadas	0
+3328	promotor	promotores	promotora	promotoras	0
+3329	inundado			inundadas	0
+3330	triángulo				0
+3331	drogadicto				0
+3332	motorizado	motorizados	motorizada	motorizadas	0
+3333	raudo	raudos			0
+3334	manifestar	manifestares	manifiesta	manifiestas	1
+3335	cornalón				0
+3336	taurobólico				0
+3337	abúlico				0
+3338	desencantado				0
+3339	corajudo	corajudos	corajuda	corajudas	0
+3340	taurino	taurinos	taurina	taurinas	0
+3341	cursado			cursadas	0
+3342	corleoneso	corleonesos	corleonesa	corleonesas	0
+3343	peleón				0
+3344	amedrentado				0
+3345	intoxicado	intoxicados			0
+3346	conjuntado	conjuntados			0
+3347	bordado	bordados	bordada	bordadas	0
+3348	ribeteado	ribeteados	ribeteada	ribeteadas	0
+3349	recopilado	recopilados			0
+3350	erótico	eróticos	erótica	eróticas	0
+3351	recabado			recabadas	0
+3352	descalificado				0
+3353	intimidatorio			intimidatorias	0
+3354	helvético-sueco	helvético-suecos	helvético-sueca	helvético-suecas	0
+3355	franco-británico	franco-británicos	franco-británica	franco-británicas	0
+3356	luctuoso				0
+3357	desmenuzado	desmenuzados	desmenuzada	desmenuzadas	0
+3358	traicionado	traicionados			0
+3359	negado				0
+3360	florentino				0
+3361	reivindicativo			reivindicativas	0
+3362	vandálico	vandálicos			0
+3363	desmesurado			desmesuradas	0
+3364	petitorio	petitorios	petitoria	petitorias	0
+3365	huérfano	huérfanos			0
+3366	magno				0
+3367	dichoso	dichosos			0
+3368	mesetario			mesetarias	0
+3369	salvador				0
+3370	salado	salados	salada	saladas	0
+3371	títere	títeres			0
+3372	varios	varios			0
+3373	disecto			disectas	0
+3374	laticífero	laticíferos			0
+3375	zigomorfo			zigomorfas	0
+3376	italianas			italianas	0
+3377	techo	techos			0
+3378	barbicano	barbicanos	barbicana	barbicanas	0
+3379	prusiano				0
+3380	colorido	coloridos			0
+3381	acogedor	acogedores	acogedora	acogedoras	0
+3382	prehistórico	prehistóricos	prehistórica	prehistóricas	0
+3383	monotípico				0
+3384	trófico	tróficos	trófica	tróficas	0
+3385	diabólico	diabólicos			0
+3386	chiíto			chiítas	0
+3387	sunnito			sunnitas	0
+3388	colmado	colmados	colmada	colmadas	0
+3389	nomotético			nomotéticas	0
+3390	indígena		indígena	indígenas	0
+3391	cuzqueño	cuzqueños			0
+3392	policromado	policromados	policromada		0
+3393	hueco	huecos	hueca	huecas	0
+3394	iquiqueño				0
+3395	nobiliario				0
+3396	bizantino	bizantinos	bizantina	bizantinas	0
+3397	lecheguano	lecheguanos	lecheguana	lecheguanas	0
+3398	folklórico	folklóricos	folklórica	folklóricas	0
+3399	enciclopédico				0
+3400	norirlandés				0
+3401	estrófico	estróficos	estrófica	estróficas	0
+3402	sánscrito				0
+3403	jornalero				0
+3404	políticas			políticas	0
+3405	traumático	traumáticos	traumática	traumáticas	0
+3406	porteño	porteños	porteña	porteñas	0
+3407	tormentoso	tormentosos	tormentosa		0
+3408	viajero	viajeros	viajera	viajeras	0
+3409	bíblico	bíblicos	bíblica	bíblicas	0
+3410	aumentado	aumentados	aumentada	aumentadas	0
+3411	módico				0
+3412	mío	míos	mía	mías	0
+3413	paradisíaco	paradisíacos			0
+3414	mesoamericano			mesoamericanas	0
+3415	apocalíptico				0
+3416	musical	musicales			0
+3417	pagano				0
+3418	deslavazado	deslavazados			0
+3419	genocido	genocidos	genocida	genocidas	0
+3420	santandereano	santandereanos	santandereana	santandereanas	0
+3421	santanderiano	santanderianos	santanderiana	santanderianas	0
+3422	trastornado	trastornados	trastornada	trastornadas	0
+3423	sistémico			sistémicas	0
+3424	antimicrobiano	antimicrobianos			0
+3425	desértico	desérticos	desértica	desérticas	0
+3426	denominativo				0
+3427	híbrido	híbridos	híbrida	híbridas	0
+3428	ancestral				0
+3429	macaronésico				0
+3430	elíptico			elípticas	0
+3431	ajardinado	ajardinados	ajardinada	ajardinadas	0
+3432	naranjo	naranjos	naranja	naranjas	0
+3433	cognoscitivo			cognoscitivas	0
+3434	vocálico				0
+3435	postónico				0
+3436	radiativo	radiativos			0
+3437	invernadero				0
+3438	impostado			impostadas	0
+3439	anfitriona				0
+3440	segoviano	segovianos	segoviana	segovianas	0
+3441	cilíndrico	cilíndricos	cilíndrica	cilíndricas	0
+3442	keynesiano	keynesianos	keynesiana	keynesianas	0
+3443	neoclásico	neoclásicos	neoclásica	neoclásicas	0
+3444	ovíparo	ovíparos	ovípara		0
+3445	magnificar	magnificares	magnifica	magnificas	0
+3446	volcánico	volcánicos	volcánica	volcánicas	0
+3447	anaranjado				0
+3448	siglo			siglas	0
+3449	multidisciplinario	multidisciplinarios	multidisciplinaria	multidisciplinarias	0
+3450	pacato	pacatos			0
+3451	cordado	cordados	cordada	cordadas	0
+3452	vacio				0
+3453	fracasado				0
+3454	sofocar	sofocares	sofocada	sofocadas	0
+3455	dioico	dioicos	dioica	dioicas	0
+3456	semiesférico	semiesféricos	semiesférica	semiesféricas	0
+3457	violeto	violetos	violeta	violetas	0
+3458	planeado				0
+3459	recargado				0
+3460	acantonado				0
+3461	económicos	económicos			0
+3462	áureo				0
+3463	antiruido				0
+3464	bibloque				0
+3465	total				0
+3466	central				0
+3467	común				0
+3468	neuroquímico			neuroquímicas	0
+3469	catedralicio				0
+3470	dinástico	dinásticos	dinástica	dinásticas	0
+3471	negruzco			negruzcas	0
+3472	aceleradísimo				0
+3473	chulo				0
+3474	afganar	afganares	afgana	afganas	0
+3475	quiniento			quinientas	0
+3476	guantanamero				0
+3477	moscovito			moscovitas	0
+3478	promiscuo				0
+3479	todo	todos	toda	todas	1
+3480	miembro	miembros			0
+3481	léxico	léxicos	léxica	léxicas	0
+3482	particular		particular		0
+3483	atolondrado				0
+3484	tlaxcalteco			tlaxcaltecas	0
+3485	renombrado	renombrados			0
+3486	especulador	especuladores			0
+3487	mandono	mandonos	mandona	mandonas	0
+3488	esterilizado				0
+3489	oval	ovales			0
+3490	caducas	caducas			0
+3491	dentado	dentados	dentada	dentadas	0
+3492	azorado				0
+3493	esbelto	esbeltos	esbelta	esbeltas	0
+3494	diamantino				0
+3495	sublime				0
+3496	pastune	pastunes			0
+3497	zafio	zafios	zafia	zafias	0
+3498	egoísto	egoístos	egoísta	egoístas	0
+3499	grosero	groseros	grosera	groseras	0
+3500	controversial				0
+3501	magnánimo			magnánimas	0
+3502	promedio	promedios	promedia	promedias	0
+3503	cuántico	cuánticos	cuántica		0
+3504	hamiltoniano				0
+3505	butílico				0
+3506	clorhídrico				0
+3507	alucinógeno	alucinógenos	alucinógena	alucinógenas	0
+3508	lavando	lavandos	lavanda	lavandas	0
+3509	congénito	congénitos	congénita	congénitas	0
+3510	civilizatorio				0
+3511	desarrollador	desarrolladores	desarrolladora	desarrolladoras	0
+3512	esplendido	esplendidos	esplendida	esplendidas	0
+3513	hidropónico	hidropónicos			0
+3514	porno				0
+3515	majo	majos	maja		0
+3516	fenicio	fenicios	fenicia	fenicias	0
+3517	lítico	líticos	lítica	líticas	0
+3518	eneolítico				0
+3519	calórico				0
+3520	multiusos	multiusos			0
+3521	epico	epicos	epica	epicas	0
+3522	botánico	botánicos	botánica		0
+3523	cordobés				0
+3524	revelador			reveladoras	0
+3525	primigenio	primigenios	primigenia	primigenias	0
+3526	redondeado	redondeados	redondeada	redondeadas	0
+3527	mercenario	mercenarios	mercenaria	mercenarias	0
+3528	tarentino	tarentinos	tarentina	tarentinas	0
+3529	delicioso	deliciosos	deliciosa	deliciosas	1
+3530	célebre		célebre	célebres	0
+3531	sindicado				0
+3532	triple	triples			0
+3533	distinguido	distinguidos			0
+3534	psicologico			psicologicas	0
+3535	enedemico				0
+3536	pernicioso				0
+3537	aventurero				0
+3538	orgiástico			orgiásticas	0
+3539	mecano				0
+3540	autotitulado				0
+3541	riqusimo	riqusimos	riqusima	riqusimas	0
+3542	lésbico	lésbicos	lésbica	lésbicas	0
+3543	otoniano	otonianos			0
+3544	suyo	suyos	suya		1
+3545	bípedo	bípedos	bípeda	bípedas	0
+3546	cuadrúpedo	cuadrúpedos	cuadrúpeda	cuadrúpedas	0
+3547	economico	economicos	economica	economicas	0
+3548	fundador	fundadores			0
+3549	capado				0
+3550	autodidacta		autodidacta		0
+3551	drapeado				0
+3552	proclamado				0
+3553	maño				0
+3554	gaitero				0
+3555	istmeño	istmeños			0
+3556	regenerativo				0
+3557	manés	manéses	manesa	manesas	0
+3558	puntiagudo			puntiagudas	0
+3559	corribereño				0
+3560	ictícolo			ictícolas	0
+3561	hidrocarburífero			hidrocarburíferas	0
+3562	amerindio	amerindios	amerindia		0
+3563	subsahariano	subsaharianos	subsahariana	subsaharianas	0
+3564	calado			caladas	0
+3565	epigráfico	epigráficos			0
+3566	monocromático				0
+3567	inicial				0
+3568	elástico	elásticos	elástica		0
+3569	triste	tristes			0
+3570	genuino	genuinos			0
+3571	black				0
+3572	suavizado			suavizadas	0
+3573	granítico	graníticos			0
+3574	semicilíndrico			semicilíndricas	0
+3575	descubierto				0
+3576	genovés	genoveses			0
+3577	prensado	prensados	prensada	prensadas	0
+3578	muerto				0
+3579	galés	galéses	galesa	galesas	0
+3580	ferroso	ferrosos	ferrosa		0
+3581	acondicionado			acondicionadas	0
+3582	dentario				0
+3583	aledaño			aledañas	0
+3584	diocesano				0
+3585	tectónico	tectónicos	tectónica	tectónicas	0
+3586	rencoroso				0
+3587	bondadoso	bondadosos	bondadosa	bondadosas	0
+3588	menorquino	menorquinos	menorquina	menorquinas	0
+3589	riesgoso	riesgosos	riesgosa	riesgosas	0
+3590	alargado	alargados	alargada		0
+3591	denticulado	denticulados	denticulada	denticuladas	0
+3592	afamado	afamados			0
+3593	politico	politicos	politica	politicas	0
+3594	despavorido	despavoridos	despavorida	despavoridas	0
+3595	gran				0
+3596	bueno				0
+3597	calibrado				0
+3598	perenne		perenne		0
+3599	legado	legados	legada	legadas	0
+3600	gorguero				0
+3601	colitejo				0
+3602	marchenero				0
+3603	publico	publicos	publica	publicas	0
+3604	cocido	cocidos	cocida	cocidas	0
+3605	escalonado	escalonados	escalonada	escalonadas	0
+3606	magnifico	magnificos	magnifica	magnificas	0
+3607	morenito				0
+3608	ofendido	ofendidos			0
+3609	inverso	inversos	inversa	inversas	0
+3610	léridano	léridanos			0
+3611	anglosajono	anglosajonos	anglosajona	anglosajonas	0
+3612	astrométrico	astrométricos			0
+3613	visigodo	visigodos	visigoda	visigodas	0
+3614	zombificado				0
+3615	centrico	centricos	centrica	centricas	0
+3616	cumplido				0
+3617	planetario	planetarios	planetaria		0
+3618	horroroso	horrorosos	horrorosa	horrorosas	0
+3619	décimotercero				0
+3620	personal				0
+3621	ajenar	ajenares	ajena	ajenas	0
+3622	padrisimo				0
+3623	decimosegundo				0
+3624	toeso			toesas	0
+3625	clave		clave	claves	0
+3626	inco	incos	inca	incas	0
+3627	desfasado				0
+3628	monástico				0
+3629	alemano			alemanas	0
+3630	alienado	alienados			0
+3631	marinado				0
+3632	merofórmico	merofórmicos	merofórmica	merofórmicas	0
+3633	aficoinado				0
+3634	heurístico				0
+3635	ribereño			ribereñas	0
+3636	pecuario			pecuarias	0
+3637	hemisférico	hemisféricos	hemisférica	hemisféricas	0
+3638	simbiótico	simbióticos	simbiótica	simbióticas	0
+3639	daunio	daunios			0
+3640	privativo			privativas	0
+3641	trasladado	trasladados			0
+3642	pronosticado	pronosticados			0
+3643	homeostático			homeostáticas	0
+3644	sobrehumano	sobrehumanos	sobrehumana		0
+3645	ergonómico				0
+3646	excéntrico	excéntricos	excéntrica		0
+3647	radioeléctrico				0
+3648	munificiente				0
+3649	cuarterano				0
+3650	cuartano				0
+3651	fisiográfico	fisiográficos	fisiográfica	fisiográficas	0
+3652	proporcionado			proporcionadas	0
+3653	desregulado			desreguladas	0
+3654	ultimo	ultimos	ultima	ultimas	0
+3655	señero	señeros			0
+3656	concisar	concisares	concisa	concisas	0
+3657	multinacional		multinacional		0
+3658	zamorano	zamoranos	zamorana	zamoranas	0
+3659	aqueménido	aqueménidos	aqueménida	aqueménidas	0
+3660	exelente				0
+3661	irlandeso			irlandesas	0
+3662	tímbrico	tímbricos	tímbrica	tímbricas	0
+3663	punto			puntas	0
+3664	autentico	autenticos	autentica		0
+3665	ansioso	ansiosos	ansiosa		0
+3666	informatico				0
+3667	rionegrino	rionegrinos			0
+3668	rizado				0
+3669	adjudicatario			adjudicatarias	0
+3670	charro				0
+3671	contestatario				0
+3672	pseudomembranoso	pseudomembranosos	pseudomembranosa	pseudomembranosas	0
+3673	distintivo	distintivos	distintiva	distintivas	0
+3674	revisoro	revisoros	revisora	revisoras	0
+3675	semielevado	semielevados	semielevada	semielevadas	0
+3676	aprehendir	aprehendidos			0
+3677	zoosanitario	zoosanitarios	zoosanitaria	zoosanitarias	0
+3678	nuboso	nubosos	nubosa	nubosas	0
+3679	clorososo	clorososos	clorososa	clorososas	0
+3680	génico	génicos	génica	génicas	0
+3681	cordobeso	cordobesos	cordobesa	cordobesas	0
+3682	juliano				0
+3683	defendido				0
+3684	igual				0
+3685	nómado	nómados	nómada	nómadas	0
+3686	malísimo			malísimas	0
+3687	allegro				0
+3688	nuestro	nuestro		nuestra	0
+3689	polinesio			polinesias	0
+3690	asimétrico	asimétricos			0
+3691	emancipadoro	emancipadoros	emancipadora	emancipadoras	0
+3692	amenos	amenos			0
+3693	explicado	explicados			0
+3694	chacro			chacras	0
+3695	diversificado	diversificados	diversificada	diversificadas	0
+3696	desahuciado	desahuciados	desahuciada	desahuciadas	0
+3697	criollo	criollos	criolla	criollas	0
+3698	tripartito	tripartitos	tripartita	tripartitas	0
+3699	anualizado	anualizados			0
+3700	financero	financeros			0
+3701	hojado	hojados	hojada	hojadas	0
+3702	histricomorfo				0
+3703	carboxílico				0
+3704	impuro	impuros			0
+3705	lanuginoso	lanuginosos	lanuginosa	lanuginosas	0
+3706	agonico				0
+3707	mujeriego				0
+3708	galante				0
+3709	homeopatico	homeopaticos			0
+3710	mutado				0
+3711	relatado	relatados			0
+3712	simpatico	simpaticos	simpatica		0
+3713	supuesto				0
+3714	prescrito	prescritos			0
+3715	cometario	cometarios	cometaria	cometarias	0
+3716	leproso				0
+3717	apilastrado				0
+3718	antituberculoso	antituberculosos			0
+3719	marfileño			marfileñas	0
+3720	sulfuro	sulfuros			0
+3721	protohistórico	protohistóricos	protohistórica	protohistóricas	0
+3722	hermano	hermanos			0
+3723	indoeuropeo	indoeuropeos	indoeuropea	indoeuropeas	0
+3724	provisorio				0
+3725	mormono	mormonos	mormona	mormonas	0
+3726	mago	magos			0
+3727	própio	própios			0
+3728	policéntrico	policéntricos	policéntrica	policéntricas	0
+3729	gallardo				0
+3730	grand				0
+3731	carenciado	carenciados			0
+3732	nuevas			nuevas	0
+3733	escalonar	escalonares	escalonada	escalonadas	0
+3734	tardo				0
+3735	bucólico	bucólicos	bucólica	bucólicas	0
+3736	helénico				0
+3737	aterciopelado	aterciopelados	aterciopelada	aterciopeladas	0
+3738	humorado			humoradas	0
+3739	apocado				0
+3740	fresquito	fresquitos	fresquita	fresquitas	0
+3741	torero				0
+3742	semiautomático	semiautomáticos	semiautomática		0
+3743	misilístico				0
+3744	extragaláctico	extragalácticos	extragaláctica	extragalácticas	0
+3745	sanador	sanadores	sanadora	sanadoras	0
+3746	riquísimo	riquísimos	riquísima	riquísimas	0
+3747	liviano	livianos	liviana	livianas	0
+3748	fanerógamo	fanerógamos	fanerógama	fanerógamas	0
+3749	plegado			plegadas	0
+3750	lanceolado			lanceoladas	0
+3751	rosarino	rosarinos	rosarina	rosarinas	0
+3752	sabalero	sabaleros			0
+3753	gracitano	gracitanos	gracitana	gracitanas	0
+3754	inalámbrico	inalámbricos			0
+3755	festivalero	festivaleros	festivalera	festivaleras	0
+3756	trasuranico	trasuranicos			0
+3757	nutritivo	nutritivos	nutritiva	nutritivas	0
+3758	jesuíticas			jesuíticas	0
+3759	palentino	palentinos	palentina	palentinas	0
+3760	paralítico	paralíticos	paralítica	paralíticas	0
+3761	reductor	reductores			0
+3762	desalentador	desalentadores			0
+3763	devenido				0
+3764	simultaneo	simultaneos	simultanea	simultaneas	0
+3765	mesurado	mesurados	mesurada	mesuradas	0
+3766	alumno	alumnos	alumna	alumnas	0
+3767	finlandeso	finlandesos	finlandesa	finlandesas	0
+3768	euroasiático	euroasiáticos	euroasiática	euroasiáticas	0
+3769	inculto	incultos			0
+3770	gratis	gratis			0
+3771	antibélico				0
+3772	hip				0
+3773	deciduo	deciduos			0
+3774	ronco				0
+3775	paliativo				0
+3776	antagonico	antagonicos			0
+3777	increado	increados			0
+3778	alóctono			alóctonas	0
+3779	mineralógico				0
+3780	areostático	areostáticos			0
+3781	psicodélico	psicodélicos			0
+3782	microeconómico	microeconómicos			0
+3783	salario				0
+3784	34o	34os	34a	34as	0
+3785	transilvano	transilvanos	transilvana	transilvanas	0
+3786	fetiche		fetiche		0
+3787	galvánico	galvánicos	galvánica	galvánicas	0
+3788	tahitiano	tahitianos	tahitiana	tahitianas	0
+3789	cautivado				0
+3790	salar	salares	salada	saladas	0
+3791	fundamentado	fundamentados	fundamentada	fundamentadas	0
+3792	espacioso	espaciosos	espaciosa	espaciosas	0
+3793	mongol	mongoles			0
+3794	descafeinado				0
+3795	escamado				0
+3796	palmesano	palmesanos	palmesana	palmesanas	0
+3797	homeopático	homeopáticos			0
+3798	sedimentario	sedimentarios	sedimentaria		0
+3799	valdio	valdios			0
+3800	sincronizado	sincronizados	sincronizada		0
+3801	topográfico	topográficos			0
+3802	monzónico			monzónicas	0
+3803	desprotegido	desprotegidos	desprotegida	desprotegidas	0
+3804	dorsal				0
+3805	etimológico	etimológicos	etimológica	etimológicas	0
+3806	calizar	calizares	caliza	calizas	0
+3807	hispanofilipino				0
+3808	hispanoamericano				0
+3809	rocambolesco				0
+3810	ondulado	ondulados	ondulada	onduladas	0
+3811	encomendar	encomendados			0
+3812	actualizado	actualizados	actualizada	actualizadas	0
+3813	confabulatorio			confabulatorias	0
+3814	skin		skin		0
+3815	inductivo	inductivos			0
+3816	erguido				0
+3817	ensambladoro	ensambladoros	ensambladora	ensambladoras	0
+3818	singularísimo				0
+3819	maximo				0
+3820	melódico	melódicos	melódica	melódicas	0
+3821	esotérico	esotéricos	esotérica	esotéricas	0
+3822	magnetoeléctrico				0
+3823	poseedor			poseedoras	0
+3824	probrasileño				0
+3825	guerrero	guerreros	guerrera	guerreras	0
+3826	morisco	moriscos			0
+3827	peligrosar	peligrosares	peligrosa	peligrosas	0
+3828	novo	novos	nova	novas	0
+3829	austrohúngaro	austrohúngaros	austrohúngara	austrohúngaras	0
+3830	teodoriciano			teodoricianas	0
+3831	ganadoro	ganadoros	ganadora	ganadoras	0
+3832	semidesértico	semidesérticos	semidesértica	semidesérticas	0
+3833	herreriano	herrerianos	herreriana	herrerianas	0
+3834	simétrico			simétricas	0
+3835	joyoso	joyosos	joyosa	joyosas	0
+3836	provocadoro	provocadoros	provocadora	provocadoras	0
+3837	circunscrito				0
+3838	volado	volados	volada	voladas	0
+3839	espontaneo	espontaneos	espontanea	espontaneas	0
+3840	oratorio	oratorios	oratoria	oratorias	0
+3841	hipnótico	hipnóticos	hipnótica	hipnóticas	0
+3842	cosmatesco	cosmatescos			0
+3843	carnoso	carnosos	carnosa	carnosas	0
+3844	techado	techados	techada	techadas	0
+3845	chiricano	chiricanos	chiricana	chiricanas	0
+3846	misisipiano	misisipianos			0
+3847	amoricano	amoricanos			0
+3848	yucateco	yucatecos	yucateca	yucatecas	0
+3849	binario	binarios			0
+3850	malinche			malinche	0
+3851	original		original		0
+3852	autenticas			autenticas	0
+3853	componente	componentes			0
+3854	fortificado	fortificados	fortificada	fortificadas	0
+3855	reputado	reputados			0
+3856	suprimido	suprimidos	suprimida	suprimidas	0
+3857	iconoclasto	iconoclastos	iconoclasta	iconoclastas	0
+3858	medroso	medrosos	medrosa	medrosas	0
+3859	afinado	afinados	afinada	afinadas	0
+3860	parasitario	parasitarios			0
+3861	premiso			premisas	0
+3862	inoportuno			inoportunas	0
+3863	historico	historicos	historica	historicas	0
+3864	embebido	embebidos			0
+3865	ilicitano				0
+3866	terciario				0
+3867	tecnificado	tecnificados	tecnificada	tecnificadas	0
+3868	montés				0
+3869	misionero	misioneros	misionera		0
+3870	pendiente		pendiente		0
+3871	radiante		radiante		0
+3872	electromecánico				0
+3873	beiso	beisos	beisa	beisas	0
+3874	intuitivo	intuitivos			0
+3875	perlero	perleros	perlera	perleras	0
+3876	discografico				0
+3877	geomántico			geománticas	0
+3878	contrito			contritas	0
+3879	cerebral	cerebrales			0
+3880	localizador				0
+3881	sabatino	sabatinos	sabatina	sabatinas	0
+3882	protectoro	protectoros	protectora	protectoras	0
+3883	etnológico				0
+3884	adéfago	adéfagos			0
+3885	fuerte				0
+3886	desmayado	desmayados	desmayada	desmayadas	0
+3887	inscribir	inscritos			0
+3888	urinario	urinarios	urinaria		0
+3889	defintivo	defintivos	defintiva	defintivas	0
+3890	proteico				0
+3891	tropo			tropas	0
+3892	traidor				0
+3893	notorio	notorios	notoria		0
+3894	comizo				0
+3895	cabecicorto				0
+3896	prometedoro	prometedoros	prometedora	prometedoras	0
+3897	iterativo				0
+3898	viscoso	viscosos	viscosa	viscosas	0
+3899	brusco			bruscas	0
+3900	capacitivo	capacitivos	capacitiva	capacitivas	0
+3901	granadero	granaderos	granadera	granaderas	0
+3902	malogrado				0
+3903	punk				0
+3904	periodico	periodicos			0
+3905	armenio				0
+3906	convicto				0
+3907	astorgano				0
+3908	rayano				0
+3909	videojugadoro	videojugadoros	videojugadora	videojugadoras	0
+3910	ajado	ajados	ajada	ajadas	0
+3911	barinés				0
+3912	pinnado			pinnadas	0
+3913	antisemito	antisemitos	antisemita	antisemitas	0
+3914	gasterópodo				0
+3915	silano			silanas	0
+3916	churrigueresco				0
+3917	emprendedoro	emprendedoros	emprendedora	emprendedoras	0
+3918	araucano			araucanas	0
+3919	sustitución			sustituciones	0
+3920	ornado	ornados	ornada	ornadas	0
+3921	indiscutido				0
+3922	arbóreo	arbóreos	arbórea	arbóreas	0
+3923	arbustivo			arbustivas	0
+3924	veneciano	venecianos	veneciana	venecianas	0
+3925	ancarés				0
+3926	facturo	facturos	factura	facturas	0
+3927	destacar	destacados			0
+3928	sanabreso	sanabresos	sanabresa	sanabresas	0
+3929	subordinado			subordinadas	0
+3930	condensado	condensados	condensada	condensadas	0
+3931	groenlandés				0
+3932	salomónico			salomónicas	0
+3933	enfatizado			enfatizadas	0
+3934	deductivo				0
+3935	pedunculado			pedunculadas	0
+3936	falcado			falcadas	0
+3937	concoloroso			concolorosas	0
+3938	verde				0
+3939	azulosas				0
+3940	posible	posibles			0
+3941	sumerio	sumerios			0
+3942	psicoactivo	psicoactivos			0
+3943	solemnizado	solemnizados	solemnizada	solemnizadas	0
+3944	caucásico	caucásicos			0
+3945	amoenus				0
+3946	implantado	implantados	implantada	implantadas	0
+3947	interpretativo	interpretativos	interpretativa		0
+3948	operadoro	operadoros	operadora	operadoras	0
+3949	ingenioso	ingeniosos			0
+3950	coplanario	coplanarios			0
+3951	holotipo				0
+3952	napolitano			napolitanas	0
+3953	maulino				0
+3954	terrorificar	terrorificares	terrorifica	terrorificas	0
+3955	tabulado	tabulados			0
+3956	rugoso	rugosos			0
+3957	cónico	cónicos			0
+3958	esférico	esféricos	esférica		0
+3959	osco				0
+3960	leso	lesos	lesa	lesas	0
+3961	soterrado			soterradas	0
+3962	pictórico	pictóricos	pictórica	pictóricas	0
+3963	ovalado	ovalados	ovalada	ovaladas	0
+3964	herbáceo	herbáceos	herbácea	herbáceas	0
+3965	leves				0
+3966	monoplano				0
+3967	horrorizado	horrorizados	horrorizada	horrorizadas	0
+3968	calorífico				0
+3969	cuánto	cuántos	cuánta	cuántas	0
+3970	diseminado	diseminados			0
+3971	cuadriculado			cuadriculadas	0
+3972	anatómico			anatómicas	0
+3973	entallado			entalladas	0
+3974	bacteriano			bacterianas	0
+3975	fúngico			fúngicas	0
+3976	chico	chicos	chica	chicas	1
+3977	eduardiano	eduardianos	eduardiana	eduardianas	0
+3978	venenoso	venenosos	venenosa	venenosas	0
+3979	humanos	humanos			0
+3980	ondulatorio	ondulatorios	ondulatoria	ondulatorias	0
+3981	pùblico				0
+3982	propulsor			propulsoras	0
+3983	encaramado	encaramados			0
+3984	cromatico	cromaticos	cromatica	cromaticas	0
+3985	rapado	rapados	rapada	rapadas	0
+3986	encantadoro	encantadoros	encantadora	encantadoras	0
+3987	potencial				0
+3988	fantastico	fantasticos	fantastica	fantasticas	0
+3989	bilingüe		bilingüe		0
+3990	tamaulipeco				0
+3991	peludo				0
+3992	nepalés	nepaléses	nepalesa	nepalesas	0
+3993	rockanrolero			rockanroleras	0
+3994	abreviado	abreviados	abreviada	abreviadas	0
+3995	empalagoso				0
+3996	terreno			terrenas	0
+3997	onesto				0
+3998	cortés				0
+3999	afectuoso				0
+4000	fisiológico	fisiológicos			0
+4001	juzgador	juzgadores	juzgadora	juzgadoras	0
+4002	iraní				0
+4003	salmonado	salmonados	salmonada	salmonadas	0
+4004	tinerfeño	tinerfeños			0
+4005	fiel				0
+4006	indemnizado	indemnizados	indemnizada	indemnizadas	0
+4007	rúnico	rúnicos	rúnica	rúnicas	0
+4008	subhúmedo	subhúmedos	subhúmeda	subhúmedas	0
+4009	solemne				0
+4010	veleidoso				0
+4011	ingleso			inglesas	0
+4012	verdoso				0
+4013	homologado			homologadas	0
+4014	sonado	sonados	sonada	sonadas	0
+4015	artesano	artesanos	artesana	artesanas	0
+4016	egocéntrico				0
+4017	homérico	homéricos	homérica		0
+4018	espermático	espermáticos	espermática	espermáticas	0
+4019	listado	listados	listada	listadas	0
+4020	vigésimosexto	vigésimosextos	vigésimosexta	vigésimosextas	0
+4021	españolo	españolos	española	españolas	0
+4022	macroesquemático	macroesquemáticos	macroesquemática	macroesquemáticas	0
+4023	imaginativo				0
+4024	impresionado				0
+4025	cortísimo				0
+4026	ecónomico				0
+4027	posición		posición		0
+4028	estrepsirrino				0
+4029	peciolado			pecioladas	0
+4030	jujeño				0
+4031	principal				0
+4032	plasmático	plasmáticos	plasmática	plasmáticas	0
+4033	ambientado				0
+4034	practico	practicos			0
+4035	brucio	brucios	brucia	brucias	0
+4036	olfatorio				0
+4037	pélvico	pélvicos			0
+4038	rusino				0
+4039	cespitoso	cespitosos	cespitosa	cespitosas	0
+4040	númido	númidos	númida	númidas	0
+4041	oligárquico				0
+4042	deportivos	deportivos			0
+4043	enmoquetado	enmoquetados			0
+4044	grato	gratos			0
+4045	otro	otros	otra	otras	1
+4046	electromagnético	electromagnéticos	electromagnética	electromagnéticas	0
+4047	gaseoso	gaseosos	gaseosa	gaseosas	0
+4048	centrífugo	centrífugos	centrífuga	centrífugas	0
+4049	banalizado	banalizados	banalizada	banalizadas	0
+4050	icónico			icónicas	0
+4051	palabro	palabros	palabra	palabras	0
+4052	vastos	vastos			0
+4053	facultativo	facultativos	facultativa	facultativas	0
+4054	napoleónico			napoleónicas	0
+4055	erosionado	erosionados			0
+4056	café				0
+4057	endógeno			endógenas	0
+4058	suabio				0
+4059	chulesco				0
+4060	barriobajero				0
+4061	acuoso	acuosos	acuosa		0
+4062	obeso	obesos			0
+4063	angoro	angoros	angora	angoras	0
+4064	hidroeléctrico	hidroeléctricos	hidroeléctrica	hidroeléctricas	0
+4065	apreciado	apreciados	apreciada	apreciadas	0
+4066	ucranio	ucranios	ucrania	ucranias	0
+4067	hard				0
+4068	don				0
+4069	termoeléctrico	termoeléctricos	termoeléctrica	termoeléctricas	0
+4070	espaciado			espaciadas	0
+4071	estupendo				0
+4072	cancelativo	cancelativos	cancelativa	cancelativas	0
+4073	colaborativo				0
+4074	biológicas			biológicas	0
+4075	licito				0
+4076	remasterizado	remasterizados	remasterizada	remasterizadas	0
+4077	arseniuro				0
+4078	oficial				0
+4079	supino				0
+4080	viudo				0
+4081	procariótico	procarióticos	procariótica	procarióticas	0
+4082	eucariótico	eucarióticos	eucariótica	eucarióticas	0
+4083	discapacitado	discapacitados			0
+4084	semanal	semanales			0
+4085	frígido			frígidas	0
+4086	resinoso			resinosas	0
+4087	tratador	tratadores	tratadora	tratadoras	0
+4088	gobernadoro	gobernadoros	gobernadora	gobernadoras	0
+4089	deudoro	deudoros	deudora	deudoras	0
+4090	hipotecario	hipotecarios	hipotecaria	hipotecarias	0
+4091	púrpuro	púrpuros	púrpura	púrpuras	0
+4092	infantil	infantiles			0
+4093	parásito	parásitos			0
+4094	mozambiqueño	mozambiqueños	mozambiqueña	mozambiqueñas	0
+4095	ondeado				0
+4096	turqués	turquéses	turquesa	turquesas	0
+4097	oblicuo	oblicuos	oblicua	oblicuas	0
+4098	gibelino	gibelinos			0
+4099	salvaje	salvajes			0
+4100	lótico	lóticos			0
+4101	léntico	lénticos			0
+4102	homosexual				0
+4103	merideño			merideñas	0
+4104	marisquero			marisqueras	0
+4105	fray				0
+4106	tragicómico				0
+4107	antitaurino			antitaurinas	0
+4108	huevo	huevos			0
+4109	mangosto	mangostos	mangosta	mangostas	0
+4110	acompañado				0
+4111	caducifolio			caducifolias	0
+4112	amatorio				0
+4113	ugandés				0
+4114	quejumbroso				0
+4115	lujurioso				0
+4116	tipico	tipicos			0
+4117	ordenadísimo				0
+4118	limpísimo				0
+4119	barroco	barrocos	barroca		0
+4120	nimbado	nimbados	nimbada	nimbadas	0
+4121	indicado				0
+4122	alegre	alegres			0
+4123	panamericano	panamericanos			0
+4124	pampo	pampos	pampa	pampas	0
+4125	lluvioso	lluviosos	lluviosa	lluviosas	0
+4126	cálcico	cálcicos	cálcica	cálcicas	0
+4127	reactivo	reactivos	reactiva	reactivas	0
+4128	enrojecido	enrojecidos	enrojecida	enrojecidas	0
+4129	analógico	analógicos	analógica	analógicas	0
+4130	roto			rotas	0
+4131	acorde	acordes			0
+4132	instalado				0
+4133	mitológico	mitológicos	mitológica	mitológicas	0
+4134	aventajado				0
+4135	nieto				0
+4136	flambeado	flambeados	flambeada	flambeadas	0
+4137	antiséptico				0
+4138	directoro	directoros	directora	directoras	0
+4139	biplazo			biplazas	0
+4140	donatelliano				0
+4141	esmaltado				0
+4142	malónico				0
+4143	autointeresado			autointeresadas	0
+4144	quechuo	quechuos	quechua	quechuas	0
+4145	ayoreo	ayoreos			0
+4146	plumario				0
+4147	fibroso				0
+4148	procesador			procesadoras	0
+4149	olímpicos	olímpicos			0
+4150	exuberante		exuberante		0
+4151	pnakótico	pnakóticos			0
+4152	logico			logicas	0
+4153	cremoso	cremosos	cremosa	cremosas	0
+4154	malvado	malvados			0
+4155	tibetano			tibetanas	0
+4156	horizontal				0
+4157	kárstico			kársticas	0
+4158	pesquerar	pesquerares	pesquera	pesqueras	0
+4159	franciscano				0
+4160	hermafrodito			hermafroditas	0
+4161	esquimo				0
+4162	georgiano	georgianos	georgiana	georgianas	0
+4163	ratonero			ratoneras	0
+4164	topológico	topológicos			0
+4165	abeliano	abelianos			0
+4166	mejorado	mejorados	mejorada		1
+4167	purépecha				0
+4168	coralino			coralinas	0
+4169	inquisitivo				0
+4170	cognitivo	cognitivos	cognitiva	cognitivas	0
+4171	arubano				0
+4172	quimiotáctico			quimiotácticas	0
+4173	precursoro	precursoros	precursora	precursoras	0
+4174	bicromatado	bicromatados	bicromatada	bicromatadas	0
+4175	péndulo	péndulos			0
+4176	templario				0
+4177	alienígeno	alienígenos	alienígena	alienígenas	0
+4178	consorte				0
+4179	prehispánico	prehispánicos			0
+4180	talaverano				0
+4181	mboso				0
+4182	rapido			rapidas	0
+4183	cáfalico	cáfalicos	cáfalica	cáfalicas	0
+4184	accidentado				0
+4185	ropero				0
+4186	chiquito	chiquitos	chiquita	chiquitas	0
+4187	xerófilo	xerófilos	xerófila	xerófilas	0
+4188	quichuo	quichuos	quichua	quichuas	0
+4189	comico	comicos	comica	comicas	0
+4190	eslavo	eslavos	eslava	eslavas	0
+4191	polidentado	polidentados			0
+4192	pluviométrico				0
+4193	granuloso			granulosas	0
+4194	preuniversitario	preuniversitarios	preuniversitaria	preuniversitarias	0
+4195	frio	frios	fria	frias	0
+4196	uniseriado	uniseriados			0
+4197	esponjoso	esponjosos	esponjosa	esponjosas	0
+4198	ovovivíparo				0
+4199	ovoideo	ovoideos			0
+4200	viloso	vilosos			0
+4201	huicholo	huicholos	huichola	huicholas	0
+4202	llanero				0
+4203	impositivo	impositivos			0
+4204	trifásico				0
+4205	twittero	twitteros	twittera	twitteras	0
+4206	descendiente		descendiente		0
+4207	célibe	célibes			0
+4208	hurón	hurones			0
+4209	atascado				0
+4210	esquelético				0
+4211	silíceo	silíceos	silícea	silíceas	0
+4212	admirado	admirados	admirada	admiradas	0
+4213	talentoso	talentosos			0
+4214	manuscrito			manuscritas	0
+4215	húngar	húngares	húngara	húngaras	0
+4216	repulsivo				0
+4217	codo	codos			0
+4218	detrítico	detríticos	detrítica	detríticas	0
+4219	alseo			alseas	0
+4220	kusano			kusanas	0
+4221	multiplicado	multiplicados	multiplicada	multiplicadas	0
+4222	disponer			dispuestas	0
+4223	fantasmo			fantasmas	0
+4224	cabecero	cabeceros	cabecera	cabeceras	0
+4225	lucrativo	lucrativos	lucrativa		0
+4226	brasilero				0
+4227	calamitoso	calamitosos	calamitosa	calamitosas	0
+4228	carijós	carijós			0
+4229	macedónico	macedónicos	macedónica	macedónicas	0
+4230	caliente		caliente		0
+4231	archivístico	archivísticos	archivística	archivísticas	0
+4232	aguacateco				0
+4233	ontológico	ontológicos			0
+4234	nacionalizado	nacionalizados	nacionalizada	nacionalizadas	0
+4235	ideográfico	ideográficos			0
+4236	gaélico	gaélicos	gaélica	gaélicas	0
+4237	supletorio			supletorias	0
+4238	errático	erráticos	errática	erráticas	0
+4239	bético	béticos	bética	béticas	0
+4240	asado				0
+4241	suave		suave		0
+4242	especificar	especificares	especifica	especificas	0
+4243	anemócoro	anemócoros	anemócora	anemócoras	0
+4244	membranoso			membranosas	0
+4245	occitano				0
+4246	tachonado				0
+4247	oficinesco	oficinescos	oficinesca	oficinescas	0
+4248	incomodisimo			incomodisimas	0
+4249	eruptivo	eruptivos			0
+4250	bentónico	bentónicos	bentónica	bentónicas	0
+4251	cienmilésimo	cienmilésimos	cienmilésima	cienmilésimas	0
+4252	domestico				0
+4253	borrominesco				0
+4254	curvilíneo	curvilíneos			0
+4255	apisonado	apisonados	apisonada	apisonadas	0
+4256	prerromano	prerromanos			0
+4257	oretano	oretanos			0
+4258	tosco		tosco		0
+4259	gaucho				0
+4260	inmunitario				0
+4261	arquetípico				0
+4262	jovencísimo				0
+4263	álgido	álgidos			0
+4264	cricotiorideo				0
+4265	mucoso			mucosas	0
+4266	playero			playeras	0
+4267	aptar	apta	apta		0
+4268	plasmado	plasmados	plasmada	plasmadas	0
+4269	salteño	salteños	salteña	salteñas	0
+4270	pentagonal			pentagonales	0
+4271	cirílico				0
+4272	fechado	fechados	fechada	fechadas	0
+4273	editorial			editoriales	0
+4274	libio	libios	libia		0
+4275	anglo	anglos			0
+4276	estratificado				0
+4277	culebrero	culebreros	culebrera	culebreras	0
+4278	toscano	toscanos	toscana	toscanas	0
+4279	partido				0
+4280	marciano	marcianos	marciana	marcianas	0
+4281	crucificado				0
+4282	sobrio	sobrios	sobria	sobrias	0
+4283	mesoniquio	mesoniquios			0
+4284	expositivo				0
+4285	tuerto				0
+4286	paleolítico				0
+4287	rubicundo	rubicundos	rubicunda	rubicundas	0
+4288	terapeutico				0
+4289	frigorificar	frigorificares	frigorifica	frigorificas	0
+4290	multicolor	multicolores			0
+4291	desocupado			desocupadas	0
+4292	bellísimo	bellísimos	bellísima	bellísimas	0
+4293	algebraico	algebraicos	algebraica	algebraicas	0
+4294	paiso	paisos	paisa	paisas	0
+4295	diestro				0
+4296	uno			unas	0
+4297	petersburgués	petersburguéses	petersburguesa	petersburguesas	0
+4298	limitado				0
+4299	oceánico			oceánicas	0
+4300	portugueso			portuguesas	0
+4301	policíaco	policíacos	policíaca	policíacas	0
+4302	lectivo	lectivos	lectiva	lectivas	0
+4303	ibicenco				0
+4304	encubierto				0
+4305	atraído				0
+4306	intimo				0
+4307	talado	talados	talada	taladas	0
+4308	laberíntico				0
+4309	persa		persa	persas	0
+4310	hidalir	hidalires	hidalga	hidalgas	0
+4311	atinado				0
+4312	transitado	transitados	transitada	transitadas	0
+4313	estatutario			estatutarias	0
+4314	ultracatólico				0
+4315	cordobe	cordobes			0
+4316	cefálico	cefálicos	cefálica	cefálicas	0
+4317	pediátrico			pediátricas	0
+4318	neuroendoscópico			neuroendoscópicas	0
+4319	exoscópico			exoscópicas	0
+4320	fólico				0
+4321	coriáceo			coriáceas	0
+4322	veracruzano				0
+4323	indicador	indicadores	indicadora	indicadoras	0
+4324	previsto				0
+4325	azteco	aztecas			0
+4326	rodillo	rodillos	rodilla	rodillas	0
+4327	investigativo			investigativas	0
+4328	rotatorio	rotatorios	rotatoria	rotatorias	0
+4329	narniano	narnianos			0
+4330	piducano				0
+4331	inmaculado				0
+4332	antártico	antárticos	antártica	antárticas	0
+4333	electrolítico			electrolíticas	0
+4334	presentador	presentadores	presentadora	presentadoras	0
+4335	normalillo	normalillos	normalilla	normalillas	0
+4336	empapado				0
+4337	pausado				0
+4338	occidental	occidentales			0
+4339	pavimentado	pavimentados			0
+4340	estacionario				0
+4341	soportado			soportadas	0
+4342	maniqueísto			maniqueístas	0
+4343	afanoso				0
+4344	transitivo	transitivos	transitiva	transitivas	0
+4345	modestísimo				0
+4346	grecorromano	grecorromanos	grecorromana	grecorromanas	0
+4347	balanceado				0
+4348	mentiro	mentiros	mentira	mentiras	0
+4349	sedicioso			sediciosas	0
+4350	desvaído	desvaídos			0
+4351	inflamatorio	inflamatorios	inflamatoria	inflamatorias	0
+4352	pruriginoso				0
+4353	sobreelevado				0
+4354	antiético	antiéticos	antiética	antiéticas	0
+4355	craneoencefálico				0
+4356	monocotiledóneo				0
+4357	iberoamerico	iberoamericos	iberoamerica	iberoamericas	0
+4358	infructuoso	infructuosos			0
+4359	iracundo				0
+4360	neuroanatómico			neuroanatómicas	0
+4361	neurofisiológico			neurofisiológicas	0
+4362	empresario				0
+4363	monopólico			monopólicas	0
+4364	almizclero				0
+4365	carnívoro	carnívoros	carnívora	carnívoras	0
+4366	precordillerano			precordilleranas	0
+4367	comanche		comanche		0
+4368	asiatico	asiaticos	asiatica	asiaticas	0
+4369	subcilíndrico	subcilíndricos			0
+4370	catalítico	catalíticos			0
+4371	acarreador	acarreadores	acarreadora	acarreadoras	0
+4372	reticulado				0
+4373	interesante		interesante		0
+4374	mastrar	mastrares	maestra	maestras	0
+4375	retrógrado	retrógrados	retrógrada	retrógradas	0
+4376	fundadoro	fundadoros	fundadora	fundadoras	0
+4377	transportador			transportadoras	0
+4378	malabar	malabares			0
+4379	estupefacto				0
+4380	endocrino				0
+4381	erroneo	erroneos	erronea	erroneas	0
+4382	perpiaño	perpiaños			0
+4383	mesopotámico	mesopotámicos	mesopotámica	mesopotámicas	0
+4384	lacio				0
+4385	bermellón				0
+4386	serrano	serranos	serrana	serranas	0
+4387	exotérmico			exotérmicas	0
+4388	endotérmico			endotérmicas	0
+4389	goleador				0
+4390	desertico	deserticos			0
+4391	educativos	educativos			0
+4392	aymaro			aymaras	0
+4393	centríco				0
+4394	agujereado	agujereados	agujereada	agujereadas	0
+4395	apresado				0
+4396	perenn	perennes			0
+4397	basuro	basuros	basura	basuras	0
+4398	uterino				0
+4399	cubrir	cubrires	cubierta	cubiertas	1
+4400	vegetariano	vegetarianos	vegetariana	vegetarianas	0
+4401	hindúe	hindúes			0
+4402	británicas			británicas	0
+4403	borneensis				0
+4404	fabricar	fabricares	fabrica	fabricas	1
+4405	romanas			romanas	0
+4406	triguero	trigueros	triguera		0
+4407	octosilábico				0
+4408	confeso				0
+4409	recordar	recordados			0
+4410	ecléctico				0
+4411	alojado	alojados			0
+4412	biogeográfico	biogeográficos	biogeográfica	biogeográficas	0
+4413	sacado	sacados			0
+4414	metalico				0
+4415	breve				0
+4416	vivir	vivires	viva	vivas	1
+4417	antidiarreico			antidiarreicas	0
+4418	reproductoro	reproductoros	reproductora	reproductoras	0
+4419	crisomeloideo	crisomeloideos			0
+4420	mixteco				0
+4421	concéntrico	concéntricos			0
+4422	borrador	borradores	borradora	borradoras	0
+4423	sésil	sésiles			0
+4424	bulboso	bulbosos	bulbosa	bulbosas	0
+4425	extracomunitario				0
+4426	cefaloraquídeo				0
+4427	trígono	trígonos	trígona	trígonas	0
+4428	trialado	trialados	trialada	trialadas	0
+4429	resultón				0
+4430	antisoviético				0
+4431	libertario	libertarios	libertaria	libertarias	0
+4432	conífero			coníferas	0
+4433	declinado	declinados			0
+4434	zambullido				0
+4435	nucleico				0
+4436	omnívoro	omnívoros			0
+4437	grito				0
+4438	pantanoso			pantanosas	0
+4439	ansiado				0
+4440	cromwelliano			cromwellianas	0
+4441	autarquico	autarquicos	autarquica	autarquicas	0
+4442	electrico			electricas	0
+4443	catártico				0
+4444	relevante			relevante	0
+4445	mariano	marianos	mariana	marianas	0
+4446	insonorizado			insonorizadas	0
+4447	acodado				0
+4448	corimboso	corimbosos	corimbosa	corimbosas	0
+4449	ternario	ternarios			0
+4450	cordillerano	cordilleranos			0
+4451	subantártico			subantárticas	0
+4452	aparte		aparte		0
+4453	elegíaco				0
+4454	siciliano	sicilianos	siciliana	sicilianas	0
+4455	myanmo			myanmas	0
+4456	4to				0
+4457	bárdico	bárdicos			0
+4458	esposo	esposos			0
+4459	mulato	mulatos	mulata	mulatas	0
+4460	panorámico	panorámicos	panorámica	panorámicas	0
+4461	congénetir	congénetires	congénita	congénitas	0
+4462	dominico	dominicos			0
+4463	contemplativo	contemplativos			0
+4464	épico	épicos	épica	épicas	0
+4465	6to	6tos	6ta	6tas	0
+4466	pegadizo	pegadizos			0
+4467	divisivo	divisivos			0
+4468	geófito	geófitos			0
+4469	pingüe	pingües			0
+4470	apócrifo			apócrifas	0
+4471	lenca				0
+4472	wagneriano			wagnerianas	0
+4473	productoro	productoros	productora	productoras	0
+4474	logroñés				0
+4475	bioclimático			bioclimáticas	0
+4476	protoplanetario				0
+4477	barrado	barrados	barrada	barradas	0
+4478	prepúbico				0
+4479	finito	finitos	finita	finitas	0
+4480	alfabético				0
+4481	interior				0
+4482	chinesco			chinescas	0
+4483	aquilatado	aquilatados	aquilatada	aquilatadas	0
+4484	oncológico				0
+4485	retórico			retóricas	0
+4486	hematoencefálico	hematoencefálicos	hematoencefálica	hematoencefálicas	0
+4487	epistémologico			epistémologicas	0
+4488	salino				0
+4489	borbónico				0
+4490	ídolo	ídolos			0
+4491	ecuestre				0
+4492	respetar			respetadas	0
+4493	malhablado				0
+4494	ecoturístico				0
+4495	fonético			fonéticas	0
+4496	rossonero				0
+4497	caraqueño				0
+4498	filogenético	filogenéticos			0
+4499	bendecido			bendecidas	0
+4500	ancashino				0
+4501	delimitado	delimitados			0
+4502	agustino	agustinos			0
+4503	peque��o			pequeñas	0
+4504	pancreático			pancreáticas	0
+4505	accidental	accidentales			0
+4506	organoléptico	organolépticos	organoléptica	organolépticas	0
+4507	escamoso	escamosos			0
+4508	trámite				0
+4509	apostólico	apostólicos	apostólica	apostólicas	0
+4510	dorsirrojo				0
+4511	precisar	precisares	precisa	precisas	1
+4512	acogido	acogidos			0
+4513	ionosférico				0
+4514	profético	proféticos	profética	proféticas	0
+4515	aterrazado	aterrazados	aterrazada	aterrazadas	0
+4516	roso	rosos	rosa	rosas	0
+4517	morado				0
+4518	erecto	erectos	erecta	erectas	0
+4519	funk				0
+4520	didáctico	didácticos	didáctica	didácticas	0
+4521	rallado				0
+4522	antimonárquico	antimonárquicos	antimonárquica	antimonárquicas	0
+4523	profrancés	profrancéses	profrancesa	profrancesas	0
+4524	enraizadoro	enraizadoros	enraizadora	enraizadoras	0
+4525	precursor			precursoras	0
+4526	toquillo	toquillos	toquilla	toquillas	0
+4527	calormeno	calormenos	calormena	calormenas	0
+4528	aimar	aimares	aimara	aimaras	0
+4529	micénico	micénicos			0
+4530	verdirrufo				0
+4531	cario			carias	0
+4532	chiclanero	chiclaneros	chiclanera	chiclaneras	0
+4533	bubónico	bubónicos	bubónica	bubónicas	0
+4534	semisólido				0
+4535	malacitano				0
+4536	invendible				0
+4537	arruinado				0
+4538	alfarero			alfareras	0
+4539	psicoanalítico				0
+4540	telepático	telepáticos	telepática	telepáticas	0
+4541	malicioso	maliciosos	maliciosa	maliciosas	0
+4542	suicido			suicidas	0
+4543	anfipático	anfipáticos	anfipática	anfipáticas	0
+4544	anotador				0
+4545	contrarrevolucionario	contrarrevolucionarios	contrarrevolucionaria	contrarrevolucionarias	0
+4546	hiperboreo	hiperboreos	hiperborea	hiperboreas	0
+4547	etnico				0
+4548	recreativo			recreativas	0
+4549	alimentador			alimentadoras	0
+4550	sucesorio	sucesorios			0
+4551	atador	atadores	atadora	atadoras	0
+4552	agavillador	agavilladores	agavilladora	agavilladoras	0
+4553	ahumado				0
+4554	pliniano	plinianos	pliniana	plinianas	0
+4555	equino				0
+4556	buenisimo	buenisimos	buenisima	buenisimas	0
+4557	frequitar	frequitares	frequita	frequitas	0
+4558	variados	variados	variada	variadas	1
+4559	mesiánico	mesiánicos	mesiánica	mesiánicas	0
+4560	velero	veleros			0
+4561	coreinador	coreinadores			0
+4562	aurífero			auríferas	0
+4563	asunceno				0
+4564	jesuítico			jesuíticas	0
+4565	moldavo	moldavos	moldava	moldavas	0
+4566	agrandado	agrandados	agrandada	agrandadas	0
+4567	presbiteriano				0
+4568	áustrico	áustricos	áustrica	áustricas	0
+4569	latinizado	latinizados	latinizada	latinizadas	0
+4570	sensibilizado				0
+4571	cartaginés	cartagineses			0
+4572	recortado				0
+4573	estereotipado	estereotipados	estereotipada	estereotipadas	0
+4574	mordedor	mordedores	mordedora	mordedoras	0
+4575	apestoso	apestosos	apestosa	apestosas	0
+4576	asirio	asirios			0
+4577	aviador	aviadores			0
+4578	inscripto			inscriptas	0
+4579	coetáneo	coetáneos	coetánea	coetáneas	0
+4580	indómitir	indómitires	indómita	indómitas	0
+4581	enchufado	enchufados	enchufada	enchufadas	0
+4582	dicográfico				0
+4583	pacificador				0
+4584	mieloproliferativo	mieloproliferativos			0
+4585	metastásico	metastásicos			0
+4586	numerosísimo			numerosísimas	0
+4587	quiteño				0
+4588	cusqueño				0
+4589	fotovoltaico	fotovoltaicos	fotovoltaica	fotovoltaicas	0
+4590	semidirecto				0
+4591	incaico				0
+4592	automotor				0
+4593	lanoso				0
+4594	remarcado				0
+4595	ursólico				0
+4596	celómico	celómicos	celómica	celómicas	0
+4597	conseguido				0
+4598	escotado				0
+4599	negruzaco	negruzacos	negruzaca	negruzacas	0
+4600	considerar	considerares	considerada	consideradas	1
+4601	criptográfico	criptográficos	criptográfica	criptográficas	0
+4602	métrico	métricos	métrica	métricas	0
+4603	silicowolframico				0
+4604	inseguro	inseguros			0
+4605	específcio				0
+4606	blaugrano	blaugranos	blaugrana	blaugranas	0
+4607	eleccionario				0
+4608	cultural				0
+4609	pensionado				0
+4610	causal				0
+4611	aséptico	asépticos	aséptica	asépticas	0
+4612	transgresoro	transgresoros	transgresora	transgresoras	0
+4613	comodo	comodos	comoda	comodas	0
+4614	cerano				0
+4615	estafado				0
+4616	molido			molidas	0
+4617	tratar	tratares	tratada	tratadas	1
+4618	semiprecioso			semipreciosas	0
+4619	pesimo				0
+4620	desahogado	desahogados			0
+4621	hipotecado			hipotecadas	0
+4622	abnegado	abnegados	abnegada	abnegadas	0
+4623	enésimo			enésimas	0
+4624	litófito	litófitos	litófita	litófitas	0
+4625	perrero	perreros			0
+4626	monteros				0
+4627	amplisimo				0
+4628	dulce	dulces			0
+4629	opresivo				0
+4630	berciano	bercianos	berciana	bercianas	0
+4631	miocárdico	miocárdicos	miocárdica	miocárdicas	0
+4632	saharauis	saharauis			0
+4633	inescrupuloso	inescrupulosos			0
+4634	gitano				0
+4635	elevado				0
+4636	evangelizador	evangelizadores	evangelizadora	evangelizadoras	0
+4637	moderadado			moderadadas	0
+4638	raquitico	raquiticos			0
+4639	delictuoso			delictuosas	0
+4640	enaltecedoro	enaltecedoros	enaltecedora	enaltecedoras	0
+4641	restaurador				0
+4642	arábigo			arábigas	0
+4643	caballeresco	caballerescos	caballeresca	caballerescas	0
+4644	keniano	kenianos			0
+4645	oliváceo	oliváceos	olivácea	oliváceas	0
+4646	llamadao	llamadaos	llamadaa	llamadaas	0
+4647	superpequeño				0
+4648	remezclado	remezclados	remezclada	remezcladas	0
+4649	literato				0
+4650	araneomorfas			araneomorfas	0
+4651	repotado				0
+4652	antihelmíntico				0
+4653	insumo	insumos			0
+4654	megadentado			megadentadas	0
+4655	geopaleontológico	geopaleontológicos			0
+4656	francmasón				0
+4657	volador	voladores			0
+4658	antihigiénico				0
+4659	embalsado				0
+4660	colorado				0
+4661	leer	leeres	leída	leídas	0
+4662	contemporaneo				0
+4663	biplano				0
+4664	reaprovechado	reaprovechados			0
+4665	cruel	crueles			0
+4666	estremecedor				0
+4667	anfibio	anfibios	anfibia	anfibias	0
+4668	perteneciente				0
+4669	gálactico	gálacticos	gálactica	gálacticas	0
+4670	santificado	santificados	santificada	santificadas	0
+4671	infinitivo	infinitivos	infinitiva	infinitivas	0
+4672	aspirado	aspirados	aspirada	aspiradas	0
+4673	ovado			ovadas	0
+4674	brilloso			brillosas	0
+4675	unversitario	unversitarios	unversitaria	unversitarias	0
+4676	vegetal				0
+4677	holoparásito			holoparásitas	0
+4678	fotosintético	fotosintéticos	fotosintética	fotosintéticas	0
+4679	superchulo	superchulos	superchula	superchulas	0
+4680	erosivo			erosivas	0
+4681	utópico				0
+4682	cóncavo				0
+4683	demostrar	demostrares	demostrada	demostradas	0
+4684	gravoso	gravosos			0
+4685	pucelano				0
+4686	torrefacto				0
+4687	1ro			1ras	0
+4688	sedoso				0
+4689	helenístico				0
+4690	misnmo				0
+4691	avaricioso	avariciosos			0
+4692	alforzado	alforzados			0
+4693	regio	regios	regia	regias	0
+4694	óntico	ónticos	óntica	ónticas	0
+4695	bioceánico				0
+4696	andaluzo			andaluzas	0
+4697	cerámico			cerámicas	0
+4698	observatorio				0
+4699	compaginado	compaginados	compaginada	compaginadas	0
+4700	deposición			deposiciones	0
+4701	vulcanológico	vulcanológicos			0
+4702	funcionario				0
+4703	enquistado				0
+4704	boquiabierto			boquiabiertas	0
+4705	pervertido				0
+4706	camerístico			camerísticas	0
+4707	gul	gules			0
+4708	indígena				0
+4709	funicular	funiculares			0
+4710	sombrío	sombríos			0
+4711	santiagueño				0
+4712	supresoro	supresoros	supresora	supresoras	0
+4713	terópodo				0
+4714	ornitomimosauriano				0
+4715	ornitisquio				0
+4716	ornitópodo				0
+4717	incoloro	incoloros			0
+4718	expedicionario				0
+4719	hebreo				0
+4720	debut				0
+4721	neerlandeso	neerlandesos	neerlandesa	neerlandesas	0
+4722	bimotor				0
+4723	hospedado				0
+4724	rasurado	rasurados	rasurada	rasuradas	0
+4725	comodisimo			comodisimas	0
+4726	eminente				0
+4727	saetero			saeteras	0
+4728	san				0
+4729	ad				0
+4730	sulfuroso				0
+4731	carnico	carnicos			0
+4732	medico			medicas	0
+4733	recitativo				0
+4734	deseoso			deseosas	0
+4735	inconcluso			inconclusas	0
+4736	paleártico	paleárticos	paleártica	paleárticas	0
+4737	fiscalizado	fiscalizados			0
+4738	acreditativo				0
+4739	internet	internet			0
+4740	autoexigido				0
+4741	filológico	filológicos	filológica	filológicas	0
+4742	primarios	primarios			0
+4743	subcargado	subcargados			0
+4744	desaparecido				0
+4745	potente	potentes	potente	potentes	0
+4746	habilitado				0
+4747	santafesino			santafesinas	0
+4748	mamario			mamarias	0
+4749	desconchado			desconchadas	0
+4750	calido			calidas	0
+4751	laureado				0
+4752	meristemo	meristemas			0
+4753	contagioso				0
+4754	adinerado	adinerados			0
+4755	derruido	derruidos			0
+4756	conservado				0
+4757	confluido			confluidas	0
+4758	empleado				0
+4759	canijo				0
+4760	teológico	teológicos			0
+4761	agarrado				0
+4762	caudaloso	caudalosos			0
+4763	antihorario				0
+4764	violatorio				0
+4765	cherry				0
+4766	carnático	carnáticos	carnática	carnáticas	0
+4767	mormón	mormones			0
+4768	reptílico				0
+4769	cimarrón				0
+4770	pampeano				0
+4771	confontado	confontados			0
+4772	chulisimo				0
+4773	octogésimo	octogésimos	octogésima	octogésimas	0
+4774	poderosisisimo				0
+4775	buco				0
+4776	faríngeo	faríngeos	faríngea	faríngeas	0
+4777	hitito	hititos	hitita	hititas	0
+4778	bronceado			bronceadas	0
+4779	latín				0
+4780	anisótropo	anisótropos	anisótropa	anisótropas	0
+4781	colimorado	colimorados	colimorada	colimoradas	0
+4782	judio				0
+4783	saladisimo				0
+4784	anuro	anuros			0
+4785	enamoradísimo				0
+4786	denomino	denominos	denomina	denominas	0
+4787	desenvainado	desenvainados	desenvainada	desenvainadas	0
+4788	navalizado	navalizados	navalizada	navalizadas	0
+4789	flotador	flotadores			0
+4790	monocasco				0
+4791	duplicado				0
+4792	letón				0
+4793	ferrocarril				0
+4794	señalizado			señalizadas	0
+4795	limítrofe			limítrofes	0
+4796	precolombino	precolombinos			0
+4797	aristolóquico				0
+4798	nefrotóxico				0
+4799	carcinogénico				0
+4800	elector				0
+4801	completísimo	completísimos	completísima	completísimas	0
+4802	alado				0
+4803	auxiliador	auxiliadores	auxiliadora	auxiliadoras	0
+4804	moroso	morosos			0
+4805	viticultoro	viticultoros	viticultora	viticultoras	0
+4806	remedio				0
+4807	crecido				0
+4808	destruir	destruires	destruida	destruidas	1
+4809	formal				0
+4810	vaquero				0
+4811	exogámico			exogámicas	0
+4812	adriático	adriáticos	adriática	adriáticas	0
+4813	regiomontano	regiomontanos	regiomontana	regiomontanas	0
+4814	senegalés				0
+4815	descalificador	descalificadores	descalificadora	descalificadoras	0
+4816	bivalvo				0
+4817	bipartido				0
+4818	mitótico				0
+4819	comunero				0
+4820	segmentado				0
+4821	alerto	alertos	alerta	alertas	0
+4822	acético				0
+4823	pluripartidario	pluripartidarios	pluripartidaria	pluripartidarias	0
+4824	glandular	glandulares			0
+4825	repenno	repennos	repentina	repentinas	0
+4826	ásperar	ásperares	áspera	ásperas	0
+4827	crema				0
+4828	blancuzco	blancuzcos	blancuzca	blancuzcas	0
+4829	finísimo				0
+4830	cerrado				0
+4831	nebuloso				0
+4832	árido	áridos			0
+4833	diabético	diabéticos	diabética	diabéticas	0
+4834	premontano				0
+4835	epífito	epífitos	epífita	epífitas	0
+4836	graso	grasos	grasa	grasas	0
+4837	embalado	embalados	embalada	embaladas	0
+4838	responsable			responsable	0
+4839	comercializado	comercializados	comercializada	comercializadas	0
+4840	gestáltico	gestálticos	gestáltica	gestálticas	0
+4841	final		final		0
+4842	botero				0
+4843	bárbar	bárbares	bárbara	bárbaras	0
+4844	epónimo				0
+4845	carintio				0
+4846	anfitriono	anfitrionos	anfitriona	anfitrionas	0
+4847	bearnés	bearnéses	bearnesa	bearnesas	0
+4848	espumoso	espumosos			0
+4849	hendido			hendidas	0
+4850	posesorio	posesorios			0
