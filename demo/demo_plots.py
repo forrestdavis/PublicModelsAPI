@@ -138,57 +138,8 @@ def plot():
 
 
     return f, axes
-    '''
-    # Plot global errors
-    globalErrors = sns.catplot(
-                data = es_data, 
-                x = 'lang', 
-                y = 'error', 
-                errorbar=None,
-                col = 'model', 
-                kind = 'bar')
-    # Set parameters of global errors plot
-    globalErrors.set_axis_labels("Language", "Proporition of Errors (All Stimuli)")
-    #g.set_xticklabels(["Men", "Women", "Children"])
-    #g.set_titles("{col_name} {col_var}")
-    globalErrors.set(ylim=(0, 1))
 
-    # Plot errors by subject number
-    numErrors = sns.catplot(
-                data = es_data, 
-                x = 'lang', 
-                y = 'error', 
-                hue = 'num1',
-                errorbar=None,
-                col = 'model', 
-                kind = 'bar')
-    # Set parameters of global errors plot
-    numErrors.set_axis_labels("Language", "Proporition of Errors by Subject Number")
-    #g.set_xticklabels(["Men", "Women", "Children"])
-    #g.set_titles("{col_name} {col_var}")
-    numErrors.set(ylim=(0, 1))
-
-    # Plot errors by referents
-    ref_data = data[data['num1'] == 'sg']
-    refErrors = sns.catplot(
-                data = ref_data, 
-                x = 'lang', 
-                y = 'error', 
-                hue = 'type',
-                errorbar=None,
-                col = 'model', 
-                kind = 'bar')
-    # Set parameters of global errors plot
-    refErrors.set_axis_labels("Language", "Proporition of Errors by # of Referents")
-    #g.set_xticklabels(["Men", "Women", "Children"])
-    #g.set_titles("{col_name} {col_var}")
-    #rgefErrors.set(ylim=(0, 1))
-
-    plt.show()
-
-    '''
-
-def summarize(en_fname='../results/Full_English_gpt2_prob.tsv', es_fname='../results/Full_Spanish_DeepESP_gpt2-spanish_prob.tsv'):
+def summarize(en_fname='results/Full_English_gpt2_prob.tsv', es_fname='results/Full_Spanish_DeepESP_gpt2-spanish_prob.tsv'):
 
     """
         Takes results files for the experiments and creates a summary table in
