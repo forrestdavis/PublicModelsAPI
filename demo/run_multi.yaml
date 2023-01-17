@@ -1,0 +1,14 @@
+exp: Cumulative
+
+models: 
+      gpt2:
+        - sberbank-ai/mGPT
+
+stimuli:
+    - stimuli/Full_Multilingual.tsv
+
+log: False
+
+include_punct: False
+
+lower: False
