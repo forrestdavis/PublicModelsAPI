@@ -111,8 +111,8 @@ def plot():
             bar.set_hatch(hatch)
 
     # Plot humans
-    humSubset = summary[(summary['model'] == 'Human') & 
-                        (summary['group'] != 'All Stimuli')]
+    humSubset = summary[(summary['model'] == 'Human')]# & 
+                        #(summary['group'] != 'All Stimuli')]
 
     humAcc = sns.barplot(
              data = humSubset, 
@@ -126,10 +126,10 @@ def plot():
     humAcc.legend(title="", loc='lower left')
 
     humAcc.set(xlabel="Contrasts", ylabel="Agreement Accuracy",
-                  xticklabels=['Singular', 'Plural', 'One', 'Multiple'], 
+                  xticklabels=['Aggregate', 'Singular', 'Plural', 'One', 'Multiple'], 
                title= "Human Accuracy by Subject Number and Possible Referents")
 
-    hatches = ["//", "||", "*", ".", "//", "||", "*", "."]
+    hatches = ["", "//", "||", "*", ".", "", "//", "||", "*", "."]
     for bars in humAcc.containers:
         humAcc.bar_label(bars)
         for bar in bars:

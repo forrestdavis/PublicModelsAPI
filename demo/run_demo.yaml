@@ -6,8 +6,8 @@ models:
         - gpt2
 
 stimuli:
-    - stimuli/Full_Spanish.tsv
-    - stimuli/Full_English.tsv
+    - demo/Full_Spanish.tsv
+    - demo/Full_English.tsv
 
 return_type: prob
 
