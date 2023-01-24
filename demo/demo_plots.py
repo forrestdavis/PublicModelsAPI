@@ -2,6 +2,123 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 
+def slidePlots():
+    """
+        Plots results from demo experiments using summary table
+
+        Returns: 
+            A plot with 3 subplots: 
+                1. Errors across all stimuli broken by language
+                2. Errors across stimuli grouped by number and language
+                3. Errors across stimuli grouped by referents (only sg head
+                nouns)
+    """
+
+    summary = summarize()
+
+    # Set seaborn scheme 
+    sns.set(style="whitegrid", color_codes=True)
+
+    #Round for clarity in figures and add accuracy
+    summary['accuracy'] = 1 - summary['error']
+    summary = summary.round(2)
+
+    # Parent plot
+    f, axes = plt.subplots(figsize=(10, 8), ncols=2, nrows=2)
+    sns.despine(left=True)
+    f.tight_layout(pad=5.0)
+
+    # Plot of global errors
+    globalSubset = summary[(summary['model'] == 'Human') &
+                            (summary['group'] == 'All Stimuli')]
+    globalAcc = sns.barplot(
+                data = globalSubset, 
+                x = 'group',
+                y = 'accuracy', 
+                hue = 'lang',
+                errorbar = None, 
+                ax=axes[0, 0], 
+                palette=['mediumpurple', 'goldenrod'])
+
+    # Add label
+    for bars in globalAcc.containers:
+        globalAcc.bar_label(bars)
+
+    # Set the legend
+    globalAcc.legend(title='', loc='lower left')
+
+    globalAcc.set(xlabel="All Stimuli", ylabel="Agreement Accuracy",
+                  xticklabels=[], title= "Human Accuracy")
+
+    globalAcc.set(ylim=(0, 1.1))
+
+    # Plot by Number
+    numSubset = summary[(summary['model'] == 'Human') &
+                            (summary['group'] == 'Subject Number')]
+
+    numAcc = sns.barplot(
+            data = numSubset, 
+            x = 'num', 
+            y = 'accuracy',
+            hue = 'lang', 
+            errorbar = None, 
+            ax = axes[0, 1], 
+            palette=['mediumpurple', 'goldenrod'])
+
+    numAcc.legend(title='', loc='lower left')
+
+    numAcc.set(xlabel="Subject Number", ylabel="Agreement Accuracy",
+                  xticklabels=['Singular', 'Plural'], 
+               title= "Human Accuracy by Subject Number")
+
+    numAcc.set(ylim=(0, 1.1))
+
+    # Set hatch format
+    hatches = ["//", "||", "//", "||"]
+    # Loop over the bars
+    for bars in numAcc.containers:
+        # Add label
+        numAcc.bar_label(bars)
+        # Set a different hatch for each group of bars
+        for bar in bars:
+            hatch = hatches.pop(0)
+            bar.set_hatch(hatch)
+
+    # Plot by Referents
+    refSubset = summary[(summary['model'] == 'Human') &
+                            (summary['group'] == 'Possible Referents')]
+    
+    refAcc = sns.barplot(
+            data = refSubset, 
+            x = 'num',
+            y = 'accuracy', 
+            hue = 'lang', 
+            errorbar = None, 
+            ax = axes[1, 0], 
+            palette=['mediumpurple', 'goldenrod'])
+
+    refAcc.legend(title='', loc='lower left')
+
+    refAcc.set(xlabel="Possible Referents", ylabel="Agreement Accuracy",
+                  xticklabels=['One', 'Multiple'], 
+               title= "Human Accuracy by Possible Referents")
+
+    # Set hatch format
+    hatches = ["*", ".", "*", "."]
+    # Loop over the bars
+    for bars in refAcc.containers:
+        # Add label
+        refAcc.bar_label(bars)
+        # Set a different hatch for each bar
+        for bar in bars:
+            hatch = hatches.pop(0)
+            bar.set_hatch(hatch)
+
+    refAcc.set(ylim=(0, 1.1))
+
+    return f, axes
+
+
 def plot():
     """
         Plots results from demo experiments using summary table
@@ -126,7 +243,7 @@ def plot():
     humAcc.legend(title="", loc='lower left')
 
     humAcc.set(xlabel="Contrasts", ylabel="Agreement Accuracy",
-                  xticklabels=['Aggregate', 'Singular', 'Plural', 'One', 'Multiple'], 
+                  xticklabels=['Aggregate', '  Singular', 'Plural', 'One', 'Multiple'], 
                title= "Human Accuracy by Subject Number and Possible Referents")
 
     hatches = ["", "//", "||", "*", ".", "", "//", "||", "*", "."]
@@ -136,6 +253,8 @@ def plot():
             hatch = hatches.pop(0)
             bar.set_hatch(hatch)
 
+    humAcc.axvline(0.5, color='black', linestyle='--', linewidth=3)
+    humAcc.axvline(2.5, color='black', linestyle='--', linewidth=1.5)
 
     return f, axes
 
@@ -279,7 +398,7 @@ def summarize(en_fname='results/Full_English_gpt2_prob.tsv', es_fname='results/F
                'num': ['both', 'both', 'both', 'both'],
                'model': ['Spanish', 'English', 'Human', 'Human'],
                'lang': ['Spanish', 'English', 'Spanish', 'English'], 
-               'error': [es_all, en_all, 0.0781, 0.156]}
+               'error': [es_all, en_all, 0.0781, 0.09]}
 
     # Break down by number
     es_sg = data[(data['lang'] == 'Spanish') & (data['num1'] ==
@@ -327,13 +446,13 @@ def summarize(en_fname='results/Full_English_gpt2_prob.tsv', es_fname='results/F
     summary['num'].extend(['one', 'one', 'one', 'one'])
     summary['model'].extend(['Spanish', 'English', 'Human', 'Human'])
     summary['lang'].extend(['Spanish', 'English', 'Spanish', 'English'])
-    summary['error'].extend([es_sing, en_sing, 0.0742, 0.038])
+    summary['error'].extend([es_sing, en_sing, 0.0742, 0.1525])
 
     summary['group'].extend(['Possible Referents']*4)
     summary['num'].extend(['multi', 'multi', 'multi', 'multi'])
     summary['model'].extend(['Spanish', 'English', 'Human', 'Human'])
     summary['lang'].extend(['Spanish', 'English', 'Spanish', 'English'])
-    summary['error'].extend([es_multi, en_multi, 0.1563, 0.0402])
+    summary['error'].extend([es_multi, en_multi, 0.1562, 0.1588])
 
 
     # To dataframe
