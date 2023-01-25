@@ -30,12 +30,6 @@ Running the above will create a environment named mapi which should work for
 this code. If you run into errors on Mac with M1 see this
 [blog](https://jamescalam.medium.com/hugging-face-and-sentence-transformers-on-m1-macs-4b12e40c21ce). 
 
-## Evaluation data
-
-Gulordava's data for English can be found [here](https://github.com/facebookresearch/colorlessgreenRNNs/tree/main/data). What you'll want to do 
-is create minimal pairs with context as the sentence and target as the differing part. Then it should be straightforward 
-to evaluate some transformers.
-
 ## Quick run
 
 To run the code, simply enter: 
@@ -82,12 +76,13 @@ I describe each parameter below.
 
 ### exp
 
-There are three options: TSE, Incremental, Cumulative, and Interactive. TSE does targeted
+There are four options: TSE, Incremental, Cumulative, and Interactive. TSE does targeted
 syntactic evaluations, so you will have some context and a target and this will
 look at that target conditioned on the context. Incremental calculates the by
 word measures. Cumulative returns the log probability of a whole string
 (optionally conditioned on a context). Interactive allows you to test out sentences on the command line
 and see the incremental surprisal and probability values for each word. 
+
 ### models
 
 Models require a model type (bert|roberta|gpt2|lstm|tfxl|gptneo|gptj) which
