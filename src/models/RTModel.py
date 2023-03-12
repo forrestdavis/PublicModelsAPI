@@ -225,7 +225,7 @@ class RTModel(object):
     def get_output(self, text):
         """Returns input token ids, last nonmasked idx, 
             and logits for inputted text.
-            last nonmasked idx is as simply as the length of tokenized text if
+            last nonmasked idx is as simple as the length of tokenized text if
             there is no padding needed for the batch.
         Args: 
             text (List[str] | str ): A batch of strings or a string. Batches with 
@@ -544,6 +544,91 @@ class RTModel(object):
         return (inputs, last_non_masked_idx, self.convert_to_surprisal(logits))
 
     @torch.no_grad()
+    def get_by_sentence_perplexity(self, text):
+        """Returns perplexity of each sentence for inputted text.
+           Note that this requires that you've implemented
+           a tokenizer and get_output
+           for the model instance.
+
+           PPL for autoregressive models is defined as: 
+            .. math::
+                2^{-\\frac{1}{N} \\sum_{i}^{N} log p_{\\theta}(x_i|x_{<i})
+
+            PPL for bidirectional models requires by word 
+            surprisal values, which are obtained using 
+            psuedo-likelihoods (Salazar et al., 2020 
+                https://aclanthology.org/2020.acl-main.240/)
+
+        Args: 
+            text (List[str] | str ): A batch of strings or a string.
+
+        Returns:
+            lists (sent, ppl): List of the perplexity of each string in the
+            batch. Padding is ignored in the calculation. 
+        """
+        inputs, last_non_masked_idx, surprisals = self.get_surprisals(text)
+
+        # Now gather the target words (i.e. what words we should be checking)
+        if not self.bidirectional:
+            #we are predicting the next word, so the target 
+            #for each word, target is in fact the next word
+            target_ids = inputs[:, 1:]
+            #We don't look at the predictions of the final word, as we 
+            #don't have any need to see generation
+            target_surprisals = surprisals[:,:-1, :]
+
+            #We use gather to get the logprob for each target item in the batch
+            target_surprisals = target_surprisals.gather(-1, target_ids.unsqueeze(2)).squeeze(1)
+            # Prepend a zero vector for the first token which is assigned 
+            # no logprob by autoregressive model (e.g., <bos>)
+            target_surprisals = torch.cat((torch.zeros((target_surprisals.shape[0], 1,
+                         target_surprisals.shape[-1])), target_surprisals), 
+                          dim = 1)
+
+        #This is non-autoregressive, so predictions are not offset
+        else:
+            target_ids = inputs.clone()
+            target_surprisals = surprisals
+
+            #We use gather to get the logprob for each target item in the batch
+            target_surprisals = target_surprisals.gather(-1, target_ids.unsqueeze(2)).squeeze(1)
+
+        # Adapted from the discussion here: 
+        # https://stackoverflow.com/questions/57548180/
+        #       filling-torch-tensor-with-zeros-after-certain-index
+        # Set padded words in sequence to zero
+        mask = torch.zeros(target_surprisals.shape[0], target_surprisals.shape[1]+1)
+        mask[(torch.arange(target_surprisals.shape[0]), last_non_masked_idx+1)] = 1
+        mask = mask.cumsum(dim=1)[:,:-1]
+        mask = 1. - mask
+        mask = mask[...,None]
+        target_surprisals = target_surprisals*mask
+
+        # Actual length is 1 + last position
+        # However with unidirectional model the first 
+        # position will be meaningless, so we will ignore it
+        # For example, 
+        # [the, cat, eats] -> [0, X, Y] 
+        # last position will say 2, which is the actual length 
+        # of the values 
+        if self.bidirectional: 
+            last_non_masked_idx += 1
+
+        # Remove redundant final dimension (which originally tracked 
+        #           vocab size)
+        target_surprisals = target_surprisals.squeeze(-1)
+        # Now get rowwise sum (i.e. the log prob of each batch) and
+        # average
+        log_avgs = torch.sum(target_surprisals, dim=1)/last_non_masked_idx
+
+        ppl = torch.exp2(log_avgs)
+
+        return list(zip(text, ppl.tolist()))
+
+    @torch.no_grad()
+    # TODO: Bug with adding to list another CLS token with prob 0 
+    # Ignored because not part of model input and is stripped in 
+    # Alignment function
     def get_by_token_surprisals(self, text):
         """Returns surprisal of each token for inputted text.
            Note that this requires that you've implemented
