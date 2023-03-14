@@ -18,7 +18,34 @@ class BLiMP(Experiment):
         self.name = "BLiMP"
         self.dataframe = None
 
-    def load_experiment(self):
+    #TODO: Expand for CLiMP
+    #TODO: Generalize to a specific data format
+    def load_experiment(self, expType, path=''):
+        """Loads either BLiMP data or SLING data. 
+        """
+        import glob
+        import json
+
+        if expType == 'BLiMP':
+            load_blimp()
+
+        elif expType == 'SLING':
+
+            files = glob.glob("path/**/*.jsonl", recursive = True)
+
+            data = {}
+            for fname in files:
+                with open(fname, 'r') as file:
+                    for line in file:
+                        line = line.strip()
+                        d = json.loads(line)
+                        for key in d:
+                            if key not in data:
+                                data[key] = []
+                            data[key].append(d[key])
+            self.dataframe = pd.DataFrame.from_dict(data)
+
+    def load_blimp(self):
         """Loads all BLiMP data taken from HuggingFaces dataset API 
         https://huggingface.co/docs/datasets/v2.6.0/en/index. We extract 
         useful information and put it into a dataframe. 

@@ -597,7 +597,8 @@ class RTModel(object):
         # https://stackoverflow.com/questions/57548180/
         #       filling-torch-tensor-with-zeros-after-certain-index
         # Set padded words in sequence to zero
-        mask = torch.zeros(target_surprisals.shape[0], target_surprisals.shape[1]+1)
+        mask = torch.zeros(target_surprisals.shape[0],
+                           target_surprisals.shape[1]+1, device=self.device)
         mask[(torch.arange(target_surprisals.shape[0]), last_non_masked_idx+1)] = 1
         mask = mask.cumsum(dim=1)[:,:-1]
         mask = 1. - mask
