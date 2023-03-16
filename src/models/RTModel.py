@@ -121,7 +121,8 @@ class RTModel(object):
 
     @torch.no_grad()
     def get_aligned_words_surprisals(self, texts, 
-            include_punctuation=False):
+            include_punctuation=False, 
+            language='en'):
         """Returns surprisal of each word for inputted text.
            Note that this requires that you've implemented
            a tokenizer, get_output, token_is_unk, token_is_punct, 
@@ -173,7 +174,17 @@ class RTModel(object):
         for text_idx, text in enumerate(texts):
             #add a holder for this text
             return_data.append([])
-            for word_pos, word in enumerate(text.split(' ')):
+            if language in {'en', 'es', 'it'}:
+                chunks = text.split(' ')
+            elif language == 'zh':
+                chunks = text
+            else:
+                import sys
+                sys.stderr.write(f"The language code {lang} is not specified " \
+                                 "for chunking")
+                sys.exit(1)
+
+            for word_pos, word in enumerate(chunks):
                 surp = 0
                 isUnk = 0
                 isSplit = 0
@@ -185,7 +196,7 @@ class RTModel(object):
                     isFirstWord=True
 
                 isLastWord = False
-                if word_pos == len(text.split(' '))-1:
+                if word_pos == len(chunks)-1:
                     isLastWord = True
 
                 #Tokenize the word
