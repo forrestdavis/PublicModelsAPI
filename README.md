@@ -1,6 +1,13 @@
 # ModelsAPI
 
-Shared containers for experiments that I developed for my dissertation. The aim is 
+      DISCLAIMER: 
+
+      This is actively being developed, and I anticipate major restructing
+      in the next year. Experiments and methods are being added within the 
+      context of my courses. If you have suggestions please either 
+      post an Issue or write to me at forrestd@mit.edu
+
+Shared containers for experiments that I use in my work. The aim is 
 to have a unified API for running models on typical experiments in neural model
 interpretability. This is done for LSTMs/RNNs by using a version of
 [neural-complexity](https://github.com/vansky/neural-complexity), 
