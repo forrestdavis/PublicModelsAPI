@@ -15,7 +15,8 @@ developed by my advisor Marten van Schijndel. Transformers are accessed via
 HuggingFace's API. Note that this code is for inference, and thus, we will
 assume pretrained models. An additional library which is nice for doing this is
 [minicons](https://github.com/kanishkamisra/minicons) developed by Kanishka
-Misra. That package is more fully developed, so that's always an option. 
+Misra. That package is more fully developed, so that's likely a better option 
+if you want more assurances at this time.
 
 ## Dependencies
 
