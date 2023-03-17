@@ -44,7 +44,7 @@ class Acceptability(Experiment):
         base_columns = list(filter(lambda x: x not in self.measureNames, AllColumns))
 
         self.dataframe = pd.melt(self.dataframe, base_columns, var_name='measure', 
-                                value_name='value')
+                                value_name='rating')
 
         models = []
         measures = []
@@ -180,4 +180,46 @@ class Acceptability(Experiment):
             self.measureNames.add(str(model)+'_'+row)
             self.modelNames.add(str(model))
 
+    def plot(self, X, Y,
+             hue=None, measure=None, outname=None):
+
+        import seaborn as sns
+        import matplotlib.pyplot as plt
+
+        if self.dataframe is None:
+            self.load_dataframe()
+
+        plot_data = self.dataframe.copy()
+
+        # Filter out other measures
+        plot_data = plot_data[plot_data['measure'] == measure]
+
+        # Add a dummy variable (useful for plotting simple contrasts)
+        if X is None:
+            X = 'exp'
+            if 'exp' not in plot_data.columns.tolist():
+                plot_data['exp'] = 'na'
+
+        if hue is not None:
+            g = sns.catplot(
+                data=plot_data,
+                x=X,
+                y=Y,
+                col='model',
+                hue=hue,
+                kind='box')
+        else:
+            g = sns.catplot(
+                data=plot_data,
+                x=X,
+                y=Y,
+                col='model',
+                kind='box')
+
+        if outname is None:
+            plt.show()
+        else:
+            plt.savefig(outname)
+
+        return
 
