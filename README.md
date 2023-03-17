@@ -1,6 +1,13 @@
 # ModelsAPI
 
-Shared containers for experiments that I developed for my dissertation. The aim is 
+      DISCLAIMER: 
+
+      This is actively being developed, and I anticipate major restructing
+      in the next year. Experiments and methods are being added within the 
+      context of my courses. If you have suggestions please either 
+      post an Issue or write to me at forrestd@mit.edu
+
+Shared containers for experiments that I use in my work. The aim is 
 to have a unified API for running models on typical experiments in neural model
 interpretability. This is done for LSTMs/RNNs by using a version of
 [neural-complexity](https://github.com/vansky/neural-complexity), 
@@ -8,7 +15,8 @@ developed by my advisor Marten van Schijndel. Transformers are accessed via
 HuggingFace's API. Note that this code is for inference, and thus, we will
 assume pretrained models. An additional library which is nice for doing this is
 [minicons](https://github.com/kanishkamisra/minicons) developed by Kanishka
-Misra. That package is more fully developed, so that's always an option. 
+Misra. That package is more fully developed, so that's likely a better option 
+if you want more assurances at this time.
 
 ## Dependencies
 
