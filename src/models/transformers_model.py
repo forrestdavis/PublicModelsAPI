@@ -164,6 +164,7 @@ class TransformersModel(RTModel):
         return return_input_dicts
 
     @torch.no_grad()
+    #TODO: This is very slow and should be speedup 
     def get_diagonaled_masked_output(self, input_dicts):
         """Returns the output logit values along the diagonal 
         of the inputted data. The use case is for 
