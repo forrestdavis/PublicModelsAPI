@@ -129,6 +129,10 @@ class Acceptability(Experiment):
 
                     #TODO: THIS NEEDS TO BE TESTED THOROUGHLY
                     #TODO: Externalize this
+                    assert len(model.word_to_idx(surp.word)) > 0,\
+                        f"{surp.word}"\
+                        "{model.word_to_idx(surp.word)}"
+
                     if idx == len(surps)-1:
                         wordID = model.word_to_idx(surp.word, False, True)[0]
                     else:
@@ -181,7 +185,8 @@ class Acceptability(Experiment):
             self.modelNames.add(str(model))
 
     def plot(self, X, Y,
-             hue=None, measure=None, outname=None):
+             hue=None, measure=None, 
+             plotType = 'box', outname=None):
 
         import seaborn as sns
         import matplotlib.pyplot as plt
@@ -194,28 +199,39 @@ class Acceptability(Experiment):
         # Filter out other measures
         plot_data = plot_data[plot_data['measure'] == measure]
 
-        # Add a dummy variable (useful for plotting simple contrasts)
-        if X is None:
-            X = 'exp'
-            if 'exp' not in plot_data.columns.tolist():
-                plot_data['exp'] = 'na'
+        if plotType == 'box':
+            # Add a dummy variable (useful for plotting simple contrasts)
+            if X is None:
+                X = 'exp'
+                if 'exp' not in plot_data.columns.tolist():
+                    plot_data['exp'] = 'na'
 
-        if hue is not None:
-            g = sns.catplot(
-                data=plot_data,
-                x=X,
-                y=Y,
-                col='model',
-                hue=hue,
-                kind='box')
-        else:
-            g = sns.catplot(
-                data=plot_data,
-                x=X,
-                y=Y,
-                col='model',
-                kind='box')
+            if hue is not None:
+                g = sns.catplot(
+                    data=plot_data,
+                    x=X,
+                    y=Y,
+                    col='model',
+                    hue=hue,
+                    kind='box')
+            else:
+                g = sns.catplot(
+                    data=plot_data,
+                    x=X,
+                    y=Y,
+                    col='model',
+                    kind='box')
 
+        elif plotType == 'corr':
+
+            if hue is not None:
+                g = sns.lmplot(data=plot_data, 
+                               x=X, y=Y, 
+                               col='model')
+            else:
+                g = sns.lmplot(data=plot_data, 
+                               x=X, y=Y, hue=hue, 
+                               col='model')
         if outname is None:
             plt.show()
         else:
