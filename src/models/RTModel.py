@@ -616,6 +616,10 @@ class RTModel(object):
         mask = mask[...,None]
         target_surprisals = target_surprisals*mask
 
+        # Remove redundant final dimension (which originally tracked 
+        #           vocab size)
+        target_surprisals = target_surprisals.squeeze(-1)
+
         # Actual length is 1 + last position
         # However with unidirectional model the first 
         # position will be meaningless, so we will ignore it
@@ -623,12 +627,17 @@ class RTModel(object):
         # [the, cat, eats] -> [0, X, Y] 
         # last position will say 2, which is the actual length 
         # of the values 
-        if self.bidirectional: 
-            last_non_masked_idx += 1
 
-        # Remove redundant final dimension (which originally tracked 
-        #           vocab size)
-        target_surprisals = target_surprisals.squeeze(-1)
+        # For bidirectional models we set the SEP and CLS 
+        # tokens to 0 and set the length to the 
+        # length of the string without these tokens 
+        if self.bidirectional: 
+            target_surprisals[(torch.arange(target_surprisals.shape[0]), 
+                               last_non_masked_idx)] = 0
+            target_surprisals[:,0] = 0
+
+            last_non_masked_idx -= 1
+
         # Now get rowwise sum (i.e. the log prob of each batch) and
         # average
         log_avgs = torch.sum(target_surprisals, dim=1)/last_non_masked_idx
