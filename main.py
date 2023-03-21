@@ -2,7 +2,7 @@
 from src.models import models
 from src.experiments.TSE import TSE
 from src.experiments.Cumulative import Cumulative
-from src.experiments.BLiMP import BLiMP
+from src.experiments.MinimalPair import MinimalPair
 from src.experiments.Interact import Interact
 from src.experiments.Incremental import Incremental
 import os
@@ -173,17 +173,40 @@ if __name__ == "__main__":
         exp = Interact(run_config)
         exp.run_interact()
 
-    elif run_config['exp'] == 'BLiMP':
-        exp = BLiMP()
-        LMs = models.load_models(run_config)
+    elif run_config['exp'] == 'MinimalPair':
 
-        for model in LMs:
-            print(f"Running {model} on BLiMP...")
-            exp.get_likelihood_results(model)
+        exp = MinimalPair()
 
-            outname = 'results/BLiMP_'+str(model).replace('/', '_').split('.')[0]+'.tsv'
+        assert 'paradigm' in run_config, "You need to specify paradigm"
+        paradigm = run_config['paradigm'] 
+
+        if paradigm == 'SLING':
+            assert 'path' in run_config, "You need to specify path to SLING"
+            exp.load_experiment(paradigm,
+                                run_config['path'])
+        elif paradigm == 'precompiled':
+            assert 'path' in run_config, "You need to specify path to load"
+            exp.load_dataframe(run_config['path'])
+        else:
+            exp.load_experiment(paradigm)
+
+        if paradigm != 'precompiled':
+            LMs = models.load_models(run_config)
+
+            for model in LMs:
+                print(f"Running {model} on {paradigm}...")
+                exp.get_results(model, run_config['measure'])
+
+            outname = f'results/{paradigm}.tsv'
+
             print(f"Saving the output to {outname}...")
+            exp.flatten()
             exp.save(outname)
+
+        else:
+            exp.flatten()
+            print(exp.dataframe.groupby(['phenomenon'])['score'].mean())
+
     else:
         sys.stderr.write(f"The exp {run_config['exp']} has not been implemented\n")
         sys.exit(1)

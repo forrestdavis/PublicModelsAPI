@@ -121,7 +121,8 @@ class RTModel(object):
 
     @torch.no_grad()
     def get_aligned_words_surprisals(self, texts, 
-            include_punctuation=False):
+            include_punctuation=False, 
+            language='en'):
         """Returns surprisal of each word for inputted text.
            Note that this requires that you've implemented
            a tokenizer, get_output, token_is_unk, token_is_punct, 
@@ -173,7 +174,17 @@ class RTModel(object):
         for text_idx, text in enumerate(texts):
             #add a holder for this text
             return_data.append([])
-            for word_pos, word in enumerate(text.split(' ')):
+            if language in {'en', 'es', 'it'}:
+                chunks = text.split(' ')
+            elif language == 'zh':
+                chunks = text
+            else:
+                import sys
+                sys.stderr.write(f"The language code {lang} is not specified " \
+                                 "for chunking")
+                sys.exit(1)
+
+            for word_pos, word in enumerate(chunks):
                 surp = 0
                 isUnk = 0
                 isSplit = 0
@@ -185,7 +196,7 @@ class RTModel(object):
                     isFirstWord=True
 
                 isLastWord = False
-                if word_pos == len(text.split(' '))-1:
+                if word_pos == len(chunks)-1:
                     isLastWord = True
 
                 #Tokenize the word
@@ -597,12 +608,17 @@ class RTModel(object):
         # https://stackoverflow.com/questions/57548180/
         #       filling-torch-tensor-with-zeros-after-certain-index
         # Set padded words in sequence to zero
-        mask = torch.zeros(target_surprisals.shape[0], target_surprisals.shape[1]+1)
+        mask = torch.zeros(target_surprisals.shape[0],
+                           target_surprisals.shape[1]+1, device=self.device)
         mask[(torch.arange(target_surprisals.shape[0]), last_non_masked_idx+1)] = 1
         mask = mask.cumsum(dim=1)[:,:-1]
         mask = 1. - mask
         mask = mask[...,None]
         target_surprisals = target_surprisals*mask
+
+        # Remove redundant final dimension (which originally tracked 
+        #           vocab size)
+        target_surprisals = target_surprisals.squeeze(-1)
 
         # Actual length is 1 + last position
         # However with unidirectional model the first 
@@ -611,12 +627,17 @@ class RTModel(object):
         # [the, cat, eats] -> [0, X, Y] 
         # last position will say 2, which is the actual length 
         # of the values 
-        if self.bidirectional: 
-            last_non_masked_idx += 1
 
-        # Remove redundant final dimension (which originally tracked 
-        #           vocab size)
-        target_surprisals = target_surprisals.squeeze(-1)
+        # For bidirectional models we set the SEP and CLS 
+        # tokens to 0 and set the length to the 
+        # length of the string without these tokens 
+        if self.bidirectional: 
+            target_surprisals[(torch.arange(target_surprisals.shape[0]), 
+                               last_non_masked_idx)] = 0
+            target_surprisals[:,0] = 0
+
+            last_non_masked_idx -= 1
+
         # Now get rowwise sum (i.e. the log prob of each batch) and
         # average
         log_avgs = torch.sum(target_surprisals, dim=1)/last_non_masked_idx
