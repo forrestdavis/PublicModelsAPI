@@ -145,8 +145,10 @@ class MinimalPair(Experiment):
             sys.stderr.write('Did not load MinimalPair experiment\n')
             sys.exit(1)
 
-        good_sents = self.dataframe['sentence_good']
-        bad_sents = self.dataframe['sentence_bad']
+        good_sents = self.dataframe['sentence_good'].tolist()
+        bad_sents = self.dataframe['sentence_bad'].tolist()
+
+        print(f"{len(good_sents)*2} sentences to process")
 
         assert len(good_sents) == len(bad_sents)
 
