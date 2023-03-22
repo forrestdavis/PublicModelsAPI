@@ -16,7 +16,8 @@ class MinimalPair(Experiment):
 
     #TODO: Expand for CLiMP
     #TODO: Generalize to a specific data format
-    def load_experiment(self, expType, path=''):
+    def load_experiment(self, expType, path='', 
+                       phenomenon=None):
         """Loads either BLiMP data or SLING data. 
         """
         import glob
@@ -27,6 +28,9 @@ class MinimalPair(Experiment):
 
         elif expType == 'SLING':
             self.load_sling(path)
+            if phenomenon:
+                self.dataframe = self.dataframe[self.dataframe['phenomenon'] ==
+                                                phenomenon]
 
     def load_dataframe(self, fname):
         if '.csv' == fname[-4:]:
