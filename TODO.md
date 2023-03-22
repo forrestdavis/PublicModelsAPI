@@ -1,4 +1,6 @@
-## TODO
+# TODO
+
+## Pressing
 
 [ ] I have a gpt3 script which I need to add to this pipeline more clearly. We can
 discuss this. 
@@ -7,7 +9,7 @@ discuss this.
 [ ] add M1 compatibility (there seems to be radically different outputs)
 [ ] Models with mismatching tokenizer and model   
 
-Refactoring 
+## Refactoring 
 
 [ ] Clarify the experimental class and reduce repeated code
 [ ] Consider encapsulating model versions 
@@ -16,3 +18,7 @@ Refactoring
 [ ] More fully integrate the language flag
 [ ] Custom alignment protocols (could refactor this)
 [ ] Reconsider how to integrate code with Marty's lab
+
+## Known Bugs
+
+[ ] GPT2Tokenizer throws a bug with <unk> and padding, AutoTokenizer avoids this
