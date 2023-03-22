@@ -152,8 +152,6 @@ class MinimalPair(Experiment):
         good_sents = self.dataframe['sentence_good'].tolist()
         bad_sents = self.dataframe['sentence_bad'].tolist()
 
-        print(f"{len(good_sents)*2} sentences to process")
-
         assert len(good_sents) == len(bad_sents)
 
         good = []
