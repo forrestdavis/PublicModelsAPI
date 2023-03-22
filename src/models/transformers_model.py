@@ -81,7 +81,7 @@ class TransformersModel(RTModel):
             if isFirstWord:
                 indices = self.tokenizer.encode(text)
             else:
-                indices = self.tokenizer.encode(text, add_prefix_space=True, add_special_tokens=False)
+                indices = self.tokenizer.encode(' '+text, add_special_tokens=False)
         else:
             indices = self.tokenizer.encode(text)
 
@@ -96,7 +96,7 @@ class TransformersModel(RTModel):
             if isFirstWord:
                 indices = self.tokenizer.encode(text)
             else:
-                indices = self.tokenizer.encode(text, add_prefix_space=True, add_special_tokens=False)
+                indices = self.tokenizer.encode(' '+text, add_special_tokens=False)
         else:
             indices = self.tokenizer.encode(text)
 

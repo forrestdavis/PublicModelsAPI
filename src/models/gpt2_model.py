@@ -7,7 +7,7 @@ class GPT2Model(TransformersModel):
     def __init__(self, version):
         super().__init__(
             version,
-            tokenizer_cls=transformers.GPT2Tokenizer,
+            tokenizer_cls=transformers.AutoTokenizer,
             model_cls=transformers.GPT2LMHeadModel,
             use_prefix_space=True,
             add_padding_token=True
@@ -34,7 +34,8 @@ class GPT2Model(TransformersModel):
         #don't need prefix space in the full sentence case, only when 
         #later aligning (or checking for individual things)
         inputs_dict = self.tokenizer.batch_encode_plus(texts, padding=True, 
-                add_prefix_space=False, return_tensors="pt").to(self.device)
+                #add_prefix_space=False, 
+                               return_tensors="pt").to(self.device)
 
         inputs = inputs_dict["input_ids"]
         attn_mask = inputs_dict["attention_mask"]
