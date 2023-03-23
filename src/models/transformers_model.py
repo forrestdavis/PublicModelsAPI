@@ -23,7 +23,7 @@ class TransformersModel(RTModel):
             add_padding_token=False, 
             bidirectional=False, 
             halfPrecision=False, 
-            useMPS=False):
+            useMPS=True):
         super().__init__(model_name=version, use_prefix_space=use_prefix_space, bidirectional=bidirectional)
 
         if torch.cuda.is_available():

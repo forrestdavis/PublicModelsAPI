@@ -4,7 +4,6 @@ import sys
 import json
 from .Experiment import Experiment
 
-
 class MinimalPair(Experiment):
 
     def __init__(self):

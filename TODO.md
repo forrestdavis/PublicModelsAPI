@@ -6,8 +6,9 @@
 discuss this. 
 - [ ] Plotting
 - [ ] Compiling results
-- [ ] add M1 compatibility (there seems to be radically different outputs)
+- [x] add M1 compatibility (there seems to be radically different outputs)
 - [ ] Models with mismatching tokenizer and model   
+- [ ] Add checks
 
 ## Refactoring 
 

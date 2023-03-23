@@ -21,17 +21,10 @@ if you want more assurances at this time.
 ## Dependencies
 
 I will assume you have conda and can subsequently use that to create a virtual
-environment. I've included a yml file to facilitate this. If you are on linux or
-mac without M1 run the following
+environment. I've included a yml file to facilitate this. 
 
 ```
 conda env create -n mapi --file ModelsAPI.yml
-```
-
-If you are on a MAC with M1, run the following 
-
-```
-source setupMAC.sh
 ```
 
 Running the above will create a environment named mapi which should work for

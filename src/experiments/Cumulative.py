@@ -6,12 +6,6 @@ import sys
 from ..models.models import load_models
 from .Experiment import Experiment
 
-try:
-    import datasets
-except:
-    sys.stderr.write('Install datasets to run BLiMP: pip install datasets\n')
-    sys.exit(1)
-
 class Cumulative(Experiment):
 
     def __init__(self, fname):
