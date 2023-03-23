@@ -182,8 +182,16 @@ if __name__ == "__main__":
 
         if paradigm == 'SLING':
             assert 'path' in run_config, "You need to specify path to SLING"
-            exp.load_experiment(paradigm,
-                                run_config['path'])
+            if 'phenomenon' in run_config:
+                phenomenon = run_config['phenomenon']
+                print(f'Loading only {phenomenon} on SLING')
+                exp.load_experiment(paradigm,
+                                    run_config['path'], 
+                                   phenomenon)
+            else:
+                exp.load_experiment(paradigm,
+                                    run_config['path'])
+
         elif paradigm == 'precompiled':
             assert 'path' in run_config, "You need to specify path to load"
             exp.load_dataframe(run_config['path'])
