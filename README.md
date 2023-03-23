@@ -1,4 +1,4 @@
-# ModelsAPI
+# PublicModelsAPI
 
       DISCLAIMER: 
 
