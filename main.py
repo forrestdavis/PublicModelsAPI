@@ -21,11 +21,11 @@ except ModuleNotFoundError:
 if __name__ == "__main__":
 
     path_config = configparser.ConfigParser()
-    path_config.read('path_config.cfg')
+    path_config.read('configs/path_config.cfg')
 
     if len(sys.argv) != 2:
-        print('Did not pass in run_config file, using default: run_config.yaml')
-        run_config_fname = 'run_config.yaml'
+        print('Did not pass in run_config file, using default: configs/run_config.yaml')
+        run_config_fname = 'configs/run_config.yaml'
     else:
         run_config_fname = sys.argv[1]
 

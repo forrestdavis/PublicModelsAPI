@@ -163,6 +163,6 @@ looking at the output.
 
 This code can be straightforwardly run on colab where you can access (free)
 GPUs. I've included a small document in the colab folder which outlines how to
-link github and google drive. Once that's in place, the included colab.ipynb
+link github and google drive. Once that's in place, the included scripts/colab.ipynb
 script can be run. 
 

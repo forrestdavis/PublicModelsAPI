@@ -1,13 +1,17 @@
-name: LIANN
+name: mapi
+channels:
+  - conda-forge
 dependencies:
-  - pip=21.0.1
+  - pip=22.2.2=pyhd8ed1ab_0
   - python=3.9.13
-  - pip: 
-    - transformers==4.22.2
+  - pip:
+    - transformers==4.27.3
     - numpy==1.23.3
-    - torch==1.12.0
+    - torch==2.0.0
     - pytest==7.1.2
     - pandas==1.5.0
     - dill==0.3.5.1
     - progress==1.6
     - sentence-transformers==2.2.2
+    - sentencepiece==0.1.97
+    - accelerate==0.13.2
