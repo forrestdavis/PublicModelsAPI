@@ -14,6 +14,7 @@ discuss this.
 ## Additions
 
 - [ ] Slidding window
+- [ ] Probing
 
 ## Refactoring 
 
