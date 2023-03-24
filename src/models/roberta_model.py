@@ -22,7 +22,7 @@ class ROBERTAModel(TransformersModel):
         raise NotImplementedError
 
     @torch.no_grad()
-    def get_output(self, texts, return_attn_mask=False):
+    def slow_get_output(self, texts, return_attn_mask=False):
         """See RTModel class for details.
         """
         #batchify whatever is coming in
@@ -96,3 +96,53 @@ class ROBERTAModel(TransformersModel):
         mask_logits = logits.gather(1, mask_indices).squeeze(1)
 
         return mask_logits
+
+    @torch.no_grad()
+    def get_output(self, texts, return_attn_mask=False):
+        """See RTModel class for details.
+        This is done by looping over sequence length. 
+        """
+        # batchify whatever is coming in
+        if type(texts) == str:
+            texts = [texts]
+
+        MAX_LENGTH = self.tokenizer.model_max_length
+
+        # don't need prefix space in the full sentence case, only when 
+        # later aligning (or checking for individual things)
+        inputs_dict = self.tokenizer.batch_encode_plus(texts, padding=True, 
+                return_tensors="pt").to(self.device)
+
+        inputs = inputs_dict["input_ids"]
+        attn_mask = inputs_dict["attention_mask"]
+
+        # if the input is longer than the maximum allowed use sliding_window
+        if inputs.shape[1] > MAX_LENGTH:
+            self.get_slidding_window_output(texts)
+
+        logits = None
+        # Loop through batch and replace each element of the 
+        # input with MASK token
+        # add model output to logits
+        for idx in range(inputs.shape[1]):
+            masked_input = inputs.clone()
+            masked_input[:,idx] = self.tokenizer.mask_token_id
+            masked_dict = {'input_ids': masked_input, 
+                           'attention_mask': attn_mask}
+
+            out = self.model(**masked_dict).logits
+            out = out[:,idx:idx+1,:]
+            if logits is None:
+                logits = out
+            else:
+                logits = torch.cat((logits, out), 1)
+
+        if return_attn_mask:
+            return (inputs, attn_mask, logits)
+
+        # Mark last position without padding
+        # this works because transformers tokenizer flags 
+        # padding with an attention mask value of 0
+        last_non_masked_idx = torch.sum(attn_mask, dim=1) - 1
+
+        return (inputs, last_non_masked_idx, logits) 
