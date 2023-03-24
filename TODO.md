@@ -7,8 +7,13 @@ discuss this.
 - [ ] Plotting
 - [ ] Compiling results
 - [x] add M1 compatibility (there seems to be radically different outputs)
-- [ ] Models with mismatching tokenizer and model   
+- [x] Models with mismatching tokenizer and model   
 - [ ] Add checks
+- [ ] Chinese punctuation
+
+## Additions
+
+- [ ] Slidding window
 
 ## Refactoring 
 
@@ -20,6 +25,12 @@ discuss this.
 - [ ] Custom alignment protocols (could refactor this)
 - [ ] Reconsider how to integrate code with Marty's lab
 
+## Models
+
+- [ ] MT5/T5
+
 ## Known Bugs
 
-- [ ] GPT2Tokenizer throws a bug with <unk> and padding, AutoTokenizer avoids this
+- [x] GPT2Tokenizer throws a bug with <unk> and padding, AutoTokenizer avoids this
+- [ ] auto-masked is doing something weird with https://huggingface.co/Langboat/mengzi-bert-base
+

@@ -52,6 +52,15 @@ class TransformersModel(RTModel):
             tokenizer_cls = AutoTokenizer
             self._tokenizer = tokenizer_cls.from_pretrained(version)
 
+        # If self.usePrefixSpace is set to the special value "check"
+        # then this will be triggered and usePrefixSpace will be set 
+        # dynamically 
+        if self.usePrefixSpace == 'check':
+            if self._tokenizer.encode('the') == self._tokenizer.encode(' the'):
+                self.usePrefixSpace = False
+            else:
+                self.usePrefixSpace = True
+
         if add_padding_token:
             if not self._tokenizer.pad_token:
                 if self._tokenizer.eos_token_id is not None:
