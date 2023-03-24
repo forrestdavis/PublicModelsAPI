@@ -592,8 +592,10 @@ class RTModel(object):
             target_surprisals = target_surprisals.gather(-1, target_ids.unsqueeze(2)).squeeze(1)
             # Prepend a zero vector for the first token which is assigned 
             # no logprob by autoregressive model (e.g., <bos>)
-            target_surprisals = torch.cat((torch.zeros((target_surprisals.shape[0], 1,
-                         target_surprisals.shape[-1])), target_surprisals), 
+            target_surprisals = torch.cat((
+                torch.zeros((target_surprisals.shape[0], 1,
+                         target_surprisals.shape[-1])).to(self.device), 
+                target_surprisals), 
                           dim = 1)
 
         #This is non-autoregressive, so predictions are not offset

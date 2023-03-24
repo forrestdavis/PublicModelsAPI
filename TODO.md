@@ -32,5 +32,6 @@ discuss this.
 ## Known Bugs
 
 - [x] GPT2Tokenizer throws a bug with <unk> and padding, AutoTokenizer avoids this
-- [ ] auto-masked is doing something weird with https://huggingface.co/Langboat/mengzi-bert-base
+- [x] auto-masked is doing something weird with https://huggingface.co/Langboat/mengzi-bert-base
+- [ ] with interact or alignment CPM is a problem
 
