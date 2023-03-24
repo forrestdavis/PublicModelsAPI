@@ -647,9 +647,6 @@ class RTModel(object):
         return list(zip(text, ppl.tolist()))
 
     @torch.no_grad()
-    # TODO: Bug with adding to list another CLS token with prob 0 
-    # Ignored because not part of model input and is stripped in 
-    # Alignment function
     def get_by_token_surprisals(self, text):
         """Returns surprisal of each token for inputted text.
            Note that this requires that you've implemented
@@ -686,9 +683,15 @@ class RTModel(object):
 
         return_data = []
         for i in range(target_surprisals.shape[0]):
+            #if unidirectional, first token is not 
+            #included in target_surprisals
             #seed with the first input id per element in batch
             #it will have probability of zero
-            return_data.append([(int(input_ids[i, 0].data), 0)])
+            if not self.bidirectional:
+                return_data.append([(int(input_ids[i, 0].data), 0)])
+            #else seed blank list
+            else:
+                return_data.append([])
             #couple steps here, 1) we zip together the token ids and their
             #surprisals 2) we map this to ints and floats (out of tensors)
             #3) dump it into a list
