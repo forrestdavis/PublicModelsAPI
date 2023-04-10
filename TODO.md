@@ -19,7 +19,9 @@ discuss this.
 ## Refactoring 
 
 - [ ] Clarify the experimental class and reduce repeated code
-- [ ] Consider encapsulating model versions 
+- [ ] Consider encapsulating model versions (may be better to have a separate
+  code base for that)
+- [ ] Factor in finetuning experiments
 - [ ] For experimental classes, clarify the format of the data and accessing it.
         this will have reflexes on plotting that might make it easier 
 - [ ] More fully integrate the language flag
@@ -35,4 +37,6 @@ discuss this.
 - [x] GPT2Tokenizer throws a bug with <unk> and padding, AutoTokenizer avoids this
 - [x] auto-masked is doing something weird with https://huggingface.co/Langboat/mengzi-bert-base
 - [ ] with interact or alignment CPM is a problem
+- [ ] subworded targeted syntactic evaluation (at high level, and also hacking
+        causes OOV for non-initial roberta)
 
