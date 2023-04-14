@@ -1,4 +1,5 @@
 import torch
+import sys
 import tiktoken
 #from .RTModel import RTModel
 from RTModel import RTModel
@@ -128,6 +129,24 @@ class GPT3Tokenizer:
     def __len__(self):
         return self.vocab_size
 
+    def __call__(self, text, return_tensors=None):
+
+        encodings = self.encode(text)
+        encodings = self.batchify(encodings)
+
+        if return_tensors=='pt':
+            return {'input_ids': 
+                         torch.tensor(encodings['input_ids'], 
+                                      dtype=torch.int64), 
+                         'attention_mask':
+                         torch.tensor(encodings['attention_mask'], 
+                                      dtype=torch.int64)}
+        elif return_tensors is None:
+            return encodings
+        else:
+            sys.stderr.write('I have not implemented a return_tensors type: '+str(return_tensors)+'\n')
+            sys.exit(1)
+
     def encode(self, text, lower=False,
             remove_trailing_spaces=True):
         """ Returns a list of encoded text"""
@@ -188,37 +207,6 @@ class GPT3Tokenizer:
         return self.encode(tokens)
 
         
-    '''
-    def __call__(self, line, return_tensors=None):
-
-        encoded = self.encode(line)
-        if return_tensors=='pt':
-            return {'input_ids': torch.tensor(encoded, dtype=torch.int64).unsqueeze(0), 
-                    'attention_mask': torch.tensor([1]*len(encoded)).unsqueeze(0)}
-        elif return_tensors is None:
-            return {'input_ids': encoded, 
-                    'attention_mask': [1]*len(encoded)}
-        else:
-            sys.stderr.write('I have not implemented a return_tensors type: '+str(return_tensors)+'\n')
-            sys.exit(1)
-
-    def convert_tokens_to_ids(self, 
-            tokens: Union[str, List[str]]) -> Union[int, List[int]]:
-        if tokens is None:
-            return None
-        if isinstance(tokens, str):
-            return self._convert_token_to_id(tokens)
-        ids = []
-        for token in tokens:
-            ids.append(self._convert_token_to_id(token))
-        return ids
-
-    def _convert_token_to_id(self, token):
-        if token in self.dictionary.word2idx:
-            return self.dictionary.word2idx[token]
-        return self.unk_token_id
-    '''
-
 if __name__ == '__main__':
     tokenizer = GPT3Tokenizer('gpt-3.5-turbo')
 
@@ -227,7 +215,9 @@ if __name__ == '__main__':
     print(encodings)
     print(tokenizer.decode(encodings))
     print(tokenizer.convert_ids_to_tokens(1000))
-    print(tokenizer.convert_tokens_to_ids(b'indow'))
+    print(tokenizer.convert_tokens_to_ids(['indow']))
+    print()
+    print(tokenizer(['hello world', 'goodbye today sleepy'], return_tensors=None))
     '''
     inputs = {'input_ids': [[1, 2, -100, -100], [1, 2, 3, 4]], 
               'attention_mask': torch.tensor([[1, 1, 0, 0], [1, 1, 1, 1]])
