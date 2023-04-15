@@ -4,12 +4,13 @@
 
 - [ ] I have a gpt3 script which I need to add to this pipeline more clearly. We can
 discuss this. 
-- [ ] Plotting
 - [ ] Compiling results
-- [x] add M1 compatibility (there seems to be radically different outputs)
-- [x] Models with mismatching tokenizer and model   
 - [ ] Add checks
 - [ ] Chinese punctuation
+- [x] Plotting
+- [x] add M1 compatibility (there seems to be radically different outputs)
+- [x] Models with mismatching tokenizer and model   
+- [x] Add acceptability experiment
 
 ## Additions
 
@@ -34,9 +35,9 @@ discuss this.
 
 ## Known Bugs
 
-- [x] GPT2Tokenizer throws a bug with <unk> and padding, AutoTokenizer avoids this
-- [x] auto-masked is doing something weird with https://huggingface.co/Langboat/mengzi-bert-base
 - [ ] with interact or alignment CPM is a problem
 - [ ] subworded targeted syntactic evaluation (at high level, and also hacking
         causes OOV for non-initial roberta)
+- [x] GPT2Tokenizer throws a bug with <unk> and padding, AutoTokenizer avoids this
+- [x] auto-masked is doing something weird with https://huggingface.co/Langboat/mengzi-bert-base
 

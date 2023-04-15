@@ -5,6 +5,7 @@ from src.experiments.Cumulative import Cumulative
 from src.experiments.MinimalPair import MinimalPair
 from src.experiments.Interact import Interact
 from src.experiments.Incremental import Incremental
+from src.experiments.Acceptability import Acceptability
 import os
 import sys
 
@@ -215,6 +216,24 @@ if __name__ == "__main__":
             exp.flatten()
             print(exp.dataframe.groupby(['phenomenon'])['score'].mean())
 
+    elif run_config['exp'] == 'Acceptability':
+
+        LMs = models.load_models(run_config)
+        fname = run_config['stimuli'][0]
+
+        # Load unigram model
+        with open('src/models/PileUnigramModel.json', 'r') as f:
+            UnigramModel = json.load(f)
+
+        exp = Acceptability(fname)
+
+        for model in LMs:
+            exp.get_acceptability_measures(model, UnigramModel)
+
+        outname = 'results/'+fname.split('/')[-1].split('.')[0]+'.tsv'
+        print(f"Saving the output to {outname}...")
+        exp.flatten()
+        exp.save(outname)
     else:
         sys.stderr.write(f"The exp {run_config['exp']} has not been implemented\n")
         sys.exit(1)
