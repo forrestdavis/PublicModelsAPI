@@ -16,6 +16,7 @@ discuss this.
 
 - [ ] Slidding window
 - [ ] Probing
+- [ ] GPT3 for MinimalPair
 
 ## Refactoring 
 
