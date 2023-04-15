@@ -1,8 +1,15 @@
 import torch
 import sys
+import os
+import time
+import string
+
 import tiktoken
-#from .RTModel import RTModel
-from RTModel import RTModel
+import openai
+
+from .RTModel import RTModel
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 class GPT3Model(RTModel):
     def __init__(self, version, useMPS=True):
@@ -17,10 +24,108 @@ class GPT3Model(RTModel):
         else:
             self.device = torch.device("cpu")
 
+        self._tokenizer = GPT3Tokenizer(version)
+        self._version = version
+
+    @property
+    def tokenizer(self):
+        return self._tokenizer
+
     def token_is_sep(self, token):
-        return (token == self.tokenizer.eos_token_id or 
-                token == self.tokenizer.bos_token_id or 
-                token == self.tokenizer.pad_token_id)
+        return token == self.tokenizer.pad_token_id
+
+    def token_is_unk(self, token):
+        return token == self.tokenizer.unk_token_id
+
+    def token_is_punct(self, token):
+        word = self.tokenizer.convert_ids_to_tokens(token)[0][0]
+        if type(word) != str:
+            word = word.decode('utf-8')
+        return word in string.punctuation
+
+    def word_to_idx(self, text, isFirstWord=False, isLastWord=False):
+        if self.usePrefixSpace:
+            if isFirstWord:
+                indices = self.tokenizer.encode(text)
+            else:
+                indices = self.tokenizer.encode(' '+text)
+        else:
+            indices = self.tokenizer.encode(' '+text)
+
+        if type(indices[0]) == list:
+            return indices[0]
+        return indices
+
+    def word_in_vocab(self, text, isFirstWord=False, isLastWord=False):
+
+        indices = self.word_to_idx(text, isFirstWord, isLastWord)
+        if len(indices) > 1 or self.token_is_unk(indices[0]):
+            return False
+        return True
+
+    def get_response(self, prompts):
+
+        response = openai.Completion.create(
+            model=self._version, 
+            prompt = prompts, 
+            max_tokens = 0, 
+            echo=True, 
+            logprobs=1, 
+            temperature=0)
+
+        return response.to_dict_recursive()
+
+    @torch.no_grad()
+    def get_by_token_surprisals(self, text): 
+        """Returns surprisal of each token for inputted text.
+           Note that this requires that you've implemented
+           a tokenizer and get_output
+           for the model instance.
+
+        Args: 
+            text (List[str] | str ): A batch of strings or a string.
+
+        Returns:
+            lists (token, surp): Lists of (token id, surprisal) that are 
+            batch_size X len(tokenized text). 
+            Meaning that the padding from get_surprisals is removed.
+        """
+        batchSize=40
+        sleepInterval = 10
+
+        if type(text) == str:
+            text = [text]
+
+        results = []
+        for idx in range(0, len(text), batchSize):
+            if idx > 0:
+                # pause inbetween batches
+                time.sleep(10)
+            batch = text[idx:idx+batchSize]
+            responses = self.get_response(batch)
+            #Extract tokens and surps
+            for output in responses['choices']:
+                logprobs = output['logprobs']['token_logprobs']
+                tokens = output['logprobs']['tokens']
+
+                assert len(logprobs) == len(tokens)
+
+                #First word is Null
+                logprobs[0] = 0.0
+
+                ids = self.tokenizer.convert_tokens_to_ids(tokens)
+                #flatten
+                ids = [i for l in ids for i in l]
+
+                assert len(ids) == len(tokens)
+
+                surps = -(torch.tensor(logprobs)/torch.log(torch.tensor(2.0)))
+                surps[0] = 0
+                surps = surps.tolist()
+
+                by_token = list(zip(ids, surps))
+                results.append(by_token)
+        return results
 
     def get_slidding_window_output(self, texts):
         raise NotImplementedError
@@ -29,33 +134,7 @@ class GPT3Model(RTModel):
     def get_output(self, texts, return_attn_mask=False):
         """See RTModel class for details.
         """
-        #batchify whatever is coming in
-        if type(texts) == str:
-            texts = [texts]
-
-        MAX_LENGTH = self.tokenizer.model_max_length
-
-        #don't need prefix space in the full sentence case, only when 
-        #later aligning (or checking for individual things)
-        inputs_dict = self.tokenizer.batch_encode_plus(texts, padding=True, 
-                #add_prefix_space=False, 
-                               return_tensors="pt").to(self.device)
-
-        inputs = inputs_dict["input_ids"]
-        attn_mask = inputs_dict["attention_mask"]
-
-        #if the input is longer than the maximum allowed use sliding_window
-        if inputs.shape[1] > MAX_LENGTH:
-            self.get_slidding_window_output(texts)
-
-        if return_attn_mask:
-            return (inputs, attn_mask, self.model(**inputs_dict).logits)
-
-        #Mark last position without padding
-        #this works because transformers tokenizer flags 
-        #padding with an attention mask value of 0
-        last_non_masked_idx = torch.sum(attn_mask, dim=1) - 1
-        return (inputs, last_non_masked_idx, self.model(**inputs_dict).logits)
+        raise NotImplementedError
 
     @torch.no_grad()
     def get_hidden_layers(self, texts):
@@ -63,20 +142,13 @@ class GPT3Model(RTModel):
         """
         raise NotImplementedError
 
+    #TODO:
     @torch.no_grad()
     def get_targeted_output(self, texts):
         """See RTModel class for details.
             Returns logits from last non-padded index
         """
-        #get outputs
-        _, last_non_masked_idx, logits = self.get_output(texts)
-
-        #Correctly reshape indices for use in gather 
-        indices = last_non_masked_idx.unsqueeze(-1).repeat(1, logits.shape[-1]).unsqueeze(1)
-        #flatten out the inner dimension so its (batch size X vocab size)
-        final_logits = logits.gather(1, indices).squeeze(1)
-
-        return final_logits
+        raise NotImplementedError
 
 class GPT3Tokenizer:
 
@@ -126,6 +198,14 @@ class GPT3Tokenizer:
         else:
             return None
 
+    @property
+    def unk_token(self):
+        return None
+
+    @property
+    def unk_token_id(self):
+        return None
+
     def __len__(self):
         return self.vocab_size
 
@@ -148,7 +228,7 @@ class GPT3Tokenizer:
             sys.exit(1)
 
     def encode(self, text, lower=False,
-            remove_trailing_spaces=True):
+            remove_trailing_spaces=False):
         """ Returns a list of encoded text"""
 
         if type(text) == str:
@@ -179,7 +259,7 @@ class GPT3Tokenizer:
 
         return padded_batch_outputs
 
-    def decode(self, input_dict):
+    def decode(self, input_dict, convertByte=True):
         if type(input_dict) == dict:
             input_ids = input_dict['input_ids']
             attn_mask = input_dict['attention_mask']
@@ -194,8 +274,10 @@ class GPT3Tokenizer:
 
         decoded = []
         for encoding in input_ids:
-            decoded.append(self._enc.decode_tokens_bytes(encoding))
-
+            dec = self._enc.decode_tokens_bytes(encoding)
+            if convertByte:
+                dec = list(map(lambda x: x.decode('utf-8'), dec))
+            decoded.append(dec)
         return decoded
 
     def convert_ids_to_tokens(self, ids):
@@ -205,23 +287,3 @@ class GPT3Tokenizer:
 
     def convert_tokens_to_ids(self, tokens):
         return self.encode(tokens)
-
-        
-if __name__ == '__main__':
-    tokenizer = GPT3Tokenizer('gpt-3.5-turbo')
-
-    encodings = tokenizer.encode(["hello world <|pad|>", "hell is a place"])
-    encodings = tokenizer.batchify(encodings)
-    print(encodings)
-    print(tokenizer.decode(encodings))
-    print(tokenizer.convert_ids_to_tokens(1000))
-    print(tokenizer.convert_tokens_to_ids(['indow']))
-    print()
-    print(tokenizer(['hello world', 'goodbye today sleepy'], return_tensors=None))
-    '''
-    inputs = {'input_ids': [[1, 2, -100, -100], [1, 2, 3, 4]], 
-              'attention_mask': torch.tensor([[1, 1, 0, 0], [1, 1, 1, 1]])
-             }
-    tokenizer.unbatchify(inputs)
-
-    '''

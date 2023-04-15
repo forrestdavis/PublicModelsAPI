@@ -13,6 +13,7 @@ from .unigram_model import UnigramModel
 from .xglm_model import XGLMModel
 from .auto_masked_model import AutoMaskedModel
 from .auto_causal_model import AutoCausalModel
+from .gpt3_model import GPT3Model
 
 model_nickname_to_RTModel_class = {
         'lstm': LSTMModel,
@@ -27,6 +28,7 @@ model_nickname_to_RTModel_class = {
         'xglm': XGLMModel,
         'auto-masked': AutoMaskedModel,
         'auto-causal': AutoCausalModel,
+        'gpt3': GPT3Model,
         }
 
 def load_models(config):
