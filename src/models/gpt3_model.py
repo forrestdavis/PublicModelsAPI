@@ -100,7 +100,7 @@ class GPT3Model(RTModel):
         for idx in range(0, len(text), batchSize):
             if idx > 0:
                 # pause inbetween batches
-                time.sleep(10)
+                time.sleep(sleepInterval)
             batch = text[idx:idx+batchSize]
             responses = self.get_response(batch)
             #Extract tokens and surps
