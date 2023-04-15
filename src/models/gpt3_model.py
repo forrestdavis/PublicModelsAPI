@@ -127,28 +127,42 @@ class GPT3Model(RTModel):
                 results.append(by_token)
         return results
 
-    def get_slidding_window_output(self, texts):
-        raise NotImplementedError
+    def get_targeted_word_probabilities(self, context, target):
 
-    @torch.no_grad()
-    def get_output(self, texts, return_attn_mask=False):
-        """See RTModel class for details.
-        """
-        raise NotImplementedError
+        if type(context) == str:
+            context = [context]
+        if type(target) == str:
+            target = [target]
 
-    @torch.no_grad()
-    def get_hidden_layers(self, texts):
-        """See RTModel class for details.
-        """
-        raise NotImplementedError
+        assert len(context) == len(target)
 
-    #TODO:
-    @torch.no_grad()
-    def get_targeted_output(self, texts):
-        """See RTModel class for details.
-            Returns logits from last non-padded index
-        """
-        raise NotImplementedError
+        sents = list(zip(context, target))
+        sents = list(map(lambda x: ' '.join(x), sents))
+
+        surprisals = self.get_by_token_surprisals(sents)
+
+        output = []
+        for surps in surprisals:
+            output.append(2**-(surps[-1][-1]))
+        return output
+
+    def get_targeted_word_surprisals(self, context, target):
+        if type(context) == str:
+            context = [context]
+        if type(target) == str:
+            target = [target]
+
+        assert len(context) == len(target)
+
+        sents = list(zip(context, target))
+        sents = list(map(lambda x: ' '.join(x), sents))
+
+        surprisals = self.get_by_token_surprisals(sents)
+
+        output = []
+        for surps in surprisals:
+            output.append(surps[-1][-1])
+        return output
 
 class GPT3Tokenizer:
 
