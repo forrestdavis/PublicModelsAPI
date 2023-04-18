@@ -1,4 +1,7 @@
 **__pycache__/
 results/**.tsv
 results/**.csv
+stimuli/**.tsv
+stimuli/**.csv
+configs/**
 **.DS_Store
