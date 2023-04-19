@@ -16,7 +16,7 @@ discuss this.
 
 - [ ] Slidding window
 - [ ] Probing
-- [ ] GPT3 for MinimalPair
+- [x] GPT3 for MinimalPair
 
 ## Refactoring 
 
@@ -29,6 +29,7 @@ discuss this.
 - [ ] More fully integrate the language flag
 - [ ] Custom alignment protocols (could refactor this)
 - [ ] Reconsider how to integrate code with Marty's lab
+- [ ] Cumulative experiment needs cleaning
 
 ## Models
 

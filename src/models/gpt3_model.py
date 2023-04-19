@@ -164,6 +164,34 @@ class GPT3Model(RTModel):
             output.append(surps[-1][-1])
         return output
 
+    @torch.no_grad()
+    def get_by_sentence_perplexity(self, text):
+        """Returns perplexity of each sentence for inputted text.
+
+        Args: 
+            text (List[str] | str ): A batch of strings or a string.
+
+        Returns:
+            lists (sent, ppl): List of the perplexity of each string in the
+            batch. Padding is ignored in the calculation. 
+        """
+
+        surprisals = self.get_by_token_surprisals(text)
+        ppls = []
+        for surprisal in surprisals:
+            #Ignore first word 
+            surprisal.pop(0)
+
+            surps = list(map(lambda x: x[1], surprisal))
+            surps = torch.tensor(surps)
+            log_avg = torch.sum(surps, dim=0)/surps.shape[0]
+            ppl = float(torch.exp2(log_avg))
+            ppls.append(ppl)
+
+        assert len(ppls) == len(text)
+
+        return list(zip(text, ppls))
+
 class GPT3Tokenizer:
 
     def __init__(self, version):
