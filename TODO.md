@@ -2,8 +2,6 @@
 
 ## Pressing
 
-- [ ] I have a gpt3 script which I need to add to this pipeline more clearly. We can
-discuss this. 
 - [ ] Compiling results
 - [ ] Add checks
 - [ ] Chinese punctuation
@@ -11,6 +9,8 @@ discuss this.
 - [x] add M1 compatibility (there seems to be radically different outputs)
 - [x] Models with mismatching tokenizer and model   
 - [x] Add acceptability experiment
+- [x] I have a gpt3 script which I need to add to this pipeline more clearly. We can
+discuss this. 
 
 ## Additions
 
