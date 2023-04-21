@@ -196,6 +196,11 @@ if __name__ == "__main__":
         elif paradigm == 'precompiled':
             assert 'path' in run_config, "You need to specify path to load"
             exp.load_dataframe(run_config['path'])
+
+        elif paradigm == 'custom':
+            exp.load_experiment(paradigm,
+                                run_config['path'])
+
         else:
             exp.load_experiment(paradigm)
 
@@ -206,7 +211,12 @@ if __name__ == "__main__":
                 print(f"Running {model} on {paradigm}...")
                 exp.get_results(model, run_config['measure'])
 
-            outname = f'results/{paradigm}.tsv'
+            if paradigm == 'custom':
+                modelname = str(LMs[0])
+                stimfname = run_config['path'].split('/')[-1]
+                outname = f'results/{modelname}_{stimfname}'
+            else:
+                outname = f'results/{paradigm}.tsv'
 
             print(f"Saving the output to {outname}...")
             exp.flatten()
@@ -234,6 +244,7 @@ if __name__ == "__main__":
         print(f"Saving the output to {outname}...")
         exp.flatten()
         exp.save(outname)
+
     else:
         sys.stderr.write(f"The exp {run_config['exp']} has not been implemented\n")
         sys.exit(1)

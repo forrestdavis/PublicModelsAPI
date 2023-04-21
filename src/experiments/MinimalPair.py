@@ -30,6 +30,8 @@ class MinimalPair(Experiment):
             if phenomenon:
                 self.dataframe = self.dataframe[self.dataframe['phenomenon'] ==
                                                 phenomenon]
+        elif expType == 'custom':
+            self.load_dataframe(path)
 
     def load_dataframe(self, fname):
         if '.csv' == fname[-4:]:
