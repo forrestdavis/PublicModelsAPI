@@ -2,8 +2,6 @@
 
 ## Pressing
 
-- [ ] File saving (MinimalPair) keeps directory structure of filename which
-  throws an OSError (e.g., results/../models)
 - [ ] Compiling results
 - [ ] Add checks
 - [ ] Chinese punctuation
@@ -44,4 +42,6 @@ discuss this.
         causes OOV for non-initial roberta)
 - [x] GPT2Tokenizer throws a bug with <unk> and padding, AutoTokenizer avoids this
 - [x] auto-masked is doing something weird with https://huggingface.co/Langboat/mengzi-bert-base
+- [x] File saving (MinimalPair) keeps directory structure of filename which
+  throws an OSError (e.g., results/../models)
 
