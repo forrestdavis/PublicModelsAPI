@@ -212,7 +212,7 @@ if __name__ == "__main__":
                 exp.get_results(model, run_config['measure'])
 
             if paradigm == 'custom':
-                modelname = str(LMs[0])
+                modelname = str(LMs[0]).split('/')[-1]
                 stimfname = run_config['path'].split('/')[-1]
                 outname = f'results/{modelname}_{stimfname}'
             else:
