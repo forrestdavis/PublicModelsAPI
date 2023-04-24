@@ -2,6 +2,8 @@
 
 ## Pressing
 
+- [ ] File saving (MinimalPair) keeps directory structure of filename which
+  throws an OSError (e.g., results/../models)
 - [ ] Compiling results
 - [ ] Add checks
 - [ ] Chinese punctuation
