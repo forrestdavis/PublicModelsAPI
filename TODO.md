@@ -37,6 +37,7 @@ discuss this.
 
 ## Known Bugs
 
+- [ ] add tiktoken to packages
 - [ ] with interact or alignment CPM is a problem
 - [ ] subworded targeted syntactic evaluation (at high level, and also hacking
         causes OOV for non-initial roberta)
