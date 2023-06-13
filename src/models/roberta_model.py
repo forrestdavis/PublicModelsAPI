@@ -138,6 +138,10 @@ class ROBERTAModel(TransformersModel):
 
             # Following Kauf & Ivanova (2023) https://arxiv.org/abs/2305.10588
             if PLL_type == 'within_word_l2r':
+                # For each batch, we look at the words after the 
+                # target word, if it is part of the same word as 
+                # the target word (souvenir -> so ##uven ##ir)
+                # mask it as well
                 for j in range(inputs.shape[0]):
                     word_ids = inputs_dict.word_ids(j)
                     mask_word = word_ids[idx]
