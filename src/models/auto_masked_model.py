@@ -100,7 +100,8 @@ class AutoMaskedModel(TransformersModel):
         return mask_logits
 
     @torch.no_grad()
-    def get_output(self, texts, return_attn_mask=False):
+    def get_output(self, texts, return_attn_mask=False, 
+                  PLL_type = 'within_word_l2r'):
         """See RTModel class for details.
         This is done by looping over sequence length. 
         """
@@ -123,12 +124,30 @@ class AutoMaskedModel(TransformersModel):
             self.get_slidding_window_output(texts)
 
         logits = None
+        # For each batch, create version of input where each token 
+        # is MASK'd. This will generate conditional probabilities 
+        # and follows, in spirit, 
+        # Salazar et al. (2020) https://aclanthology.org/2020.acl-main.240.pdf
+        # Kanishka Misra's minicons: https://github.com/kanishkamisra/minicons
         # Loop through batch and replace each element of the 
         # input with MASK token
         # add model output to logits
         for idx in range(inputs.shape[1]):
             masked_input = inputs.clone()
             masked_input[:,idx] = self.tokenizer.mask_token_id
+
+            assert PLL_type in {'original', 'within_word_l2r'}, f"PLL metric {PLL_type} not supported"
+
+            # Following Kauf & Ivanova (2023) https://arxiv.org/abs/2305.10588
+            if PLL_type == 'within_word_l2r':
+                for j in range(inputs.shape[0]):
+                    word_ids = inputs_dict.word_ids(j)
+                    mask_word = word_ids[idx]
+                    for k in range(idx+1, inputs.shape[1]):
+                        if word_ids[k] != mask_word:
+                            break
+                        masked_input[j,k] = self.tokenizer.mask_token_id
+
             masked_dict = {'input_ids': masked_input, 
                            'attention_mask': attn_mask}
 
@@ -145,6 +164,10 @@ class AutoMaskedModel(TransformersModel):
         # Mark last position without padding
         # this works because transformers tokenizer flags 
         # padding with an attention mask value of 0
+
+        # Downcast for mps warning
+        attn_mask = attn_mask.to(torch.int)
+
         last_non_masked_idx = torch.sum(attn_mask, dim=1) - 1
 
         return (inputs, last_non_masked_idx, logits) 
