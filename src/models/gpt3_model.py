@@ -91,7 +91,7 @@ class GPT3Model(RTModel):
             Meaning that the padding from get_surprisals is removed.
         """
         batchSize=40
-        sleepInterval = 10
+        sleepInterval = 30
 
         if type(text) == str:
             text = [text]
@@ -117,7 +117,7 @@ class GPT3Model(RTModel):
                 #flatten
                 ids = [i for l in ids for i in l]
 
-                assert len(ids) == len(tokens)
+                assert len(ids) == len(tokens), tokens
 
                 surps = -(torch.tensor(logprobs)/torch.log(torch.tensor(2.0)))
                 surps[0] = 0

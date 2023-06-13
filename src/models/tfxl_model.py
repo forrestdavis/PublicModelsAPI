@@ -65,6 +65,8 @@ class TFXLModel(TransformersModel):
             return (inputs, attn_mask, self.model(**inputs_dict).logits)
 
         #Mark last position without padding
+        # Downcast for mps warning
+        attn_mask = attn_mask.to(torch.int)
         last_non_masked_idx = torch.sum(attn_mask, dim=1) - 1
         #return inputs and logits
         return (inputs, last_non_masked_idx, self.model(input_ids=inputs)[0])

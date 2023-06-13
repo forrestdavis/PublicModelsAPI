@@ -42,6 +42,7 @@ class GPT2Model(TransformersModel):
 
         #if the input is longer than the maximum allowed use sliding_window
         if inputs.shape[1] > MAX_LENGTH:
+            print(f"Input size: {inputs.shape[1]}")
             self.get_slidding_window_output(texts)
 
         if return_attn_mask:
@@ -50,6 +51,9 @@ class GPT2Model(TransformersModel):
         #Mark last position without padding
         #this works because transformers tokenizer flags 
         #padding with an attention mask value of 0
+
+        # Downcast for mps warning
+        attn_mask = attn_mask.to(torch.int)
         last_non_masked_idx = torch.sum(attn_mask, dim=1) - 1
         return (inputs, last_non_masked_idx, self.model(**inputs_dict).logits)
 
