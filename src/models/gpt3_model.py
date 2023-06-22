@@ -90,7 +90,7 @@ class GPT3Model(RTModel):
             batch_size X len(tokenized text). 
             Meaning that the padding from get_surprisals is removed.
         """
-        batchSize=40
+        batchSize=100
         sleepInterval = 30
 
         if type(text) == str:
