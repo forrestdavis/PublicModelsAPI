@@ -41,6 +41,7 @@ discuss this.
 - [ ] with interact or alignment CPM is a problem
 - [ ] subworded targeted syntactic evaluation (at high level, and also hacking
         causes OOV for non-initial roberta)
+- [ ] if sentence is too small, Acceptability throws errors.
 - [x] GPT2Tokenizer throws a bug with <unk> and padding, AutoTokenizer avoids this
 - [x] auto-masked is doing something weird with https://huggingface.co/Langboat/mengzi-bert-base
 - [x] File saving (MinimalPair) keeps directory structure of filename which

@@ -60,7 +60,8 @@ class Acceptability(Experiment):
 
     #TODO: Make this faster and clarify the docstring
     def get_acceptability_measures(self, model, unigram_model,
-                                   batch_size=40):
+                                   batch_size=40,
+                                  measureType='both'):
         """ Takes output from a model and maps it to the measures in 
         Lau, Clark, and Lappin (2017). Grammaticality, Acceptability, and 
             Probability: A Probabilistic View of Linguistic Knowledge. 
@@ -75,6 +76,10 @@ class Acceptability(Experiment):
                             will do add one smoothing incase of missing
                             words (THIS NEEDS TO BE RETHOUGHT)
             batch_size (int): batch size to use for measures
+            measureType (str): either sentence, word, or both
+                               sentence skips word level ones
+                               word skips sentence level ones
+                               both includes everything
 
         The specific measure definitions are given on pages 1222 and 1223
         of Lau et al. (2017). 
@@ -99,11 +104,19 @@ class Acceptability(Experiment):
 
         sents = self.dataframe['sent'].tolist()
         
-        measures = {'LogProb': [], 'MeanLP': [], 'NormLPDiv': [], 
-               'NormLPSub': [], 'SLOR': [], 
-               'WordLPMin-1': [], 'WordLPMin-2': [], 'WordLPMin-3': [], 
-               'WordLPMin-4': [], 'WordLPMin-5': [], 'WordLPMean': [], 
-               'WordLPMeanQ1': [], 'WordLPMeanQ2': []}
+        if measureType == 'both':
+            measures = {'LogProb': [], 'MeanLP': [], 'NormLPDiv': [], 
+                   'NormLPSub': [], 'SLOR': [], 
+                   'WordLPMin-1': [], 'WordLPMin-2': [], 'WordLPMin-3': [], 
+                   'WordLPMin-4': [], 'WordLPMin-5': [], 'WordLPMean': [], 
+                   'WordLPMeanQ1': [], 'WordLPMeanQ2': []}
+        elif measureType == 'sentence':
+            measures = {'LogProb': [], 'MeanLP': [], 'NormLPDiv': [], 
+                   'NormLPSub': [], 'SLOR': []}
+        elif measureType == 'word':
+            measures = {'WordLPMin-1': [], 'WordLPMin-2': [], 'WordLPMin-3': [], 
+                   'WordLPMin-4': [], 'WordLPMin-5': [], 'WordLPMean': [], 
+                   'WordLPMeanQ1': [], 'WordLPMeanQ2': []}
 
         TOTAL = sum(unigram_model.values()) + len(unigram_model)
 
@@ -158,25 +171,27 @@ class Acceptability(Experiment):
 
                     words.append((surp.word, -surp.surp, uni, surp.surp/uni))
 
-                measures['LogProb'].append(LP)
-                measures['MeanLP'].append(LP/length)
-                measures['NormLPDiv'].append(-(LP/LP_Unigram))
-                measures['NormLPSub'].append(LP - LP_Unigram)
-                measures['SLOR'].append((LP-LP_Unigram)/length)
+                if measureType in {'sentence', 'both'}:
+                    measures['LogProb'].append(LP)
+                    measures['MeanLP'].append(LP/length)
+                    measures['NormLPDiv'].append(-(LP/LP_Unigram))
+                    measures['NormLPSub'].append(LP - LP_Unigram)
+                    measures['SLOR'].append((LP-LP_Unigram)/length)
 
-                #By word
-                words.sort(key = lambda x: x[1])
-                measures['WordLPMin-1'].append(words[0][-1])
-                measures['WordLPMin-2'].append(words[1][-1])
-                measures['WordLPMin-3'].append(words[2][-1])
-                measures['WordLPMin-4'].append(words[3][-1])
-                measures['WordLPMin-5'].append(words[4][-1])
-                measures['WordLPMean'].append(sum(map(lambda x: x[-1],
-                                                     words))/len(words))
-                Q1 = words[:int(len(words)*0.25)]
-                Q2 = words[:int(len(words)*0.5)]
-                measures['WordLPMeanQ1'].append(sum(map(lambda x: x[-1], Q1))/len(Q1))
-                measures['WordLPMeanQ2'].append(sum(map(lambda x: x[-1], Q2))/len(Q2))
+                if measureType in {'word', 'both'}:
+                    #By word
+                    words.sort(key = lambda x: x[1])
+                    measures['WordLPMin-1'].append(words[0][-1])
+                    measures['WordLPMin-2'].append(words[1][-1])
+                    measures['WordLPMin-3'].append(words[2][-1])
+                    measures['WordLPMin-4'].append(words[3][-1])
+                    measures['WordLPMin-5'].append(words[4][-1])
+                    measures['WordLPMean'].append(sum(map(lambda x: x[-1],
+                                                         words))/len(words))
+                    Q1 = words[:int(len(words)*0.25)]
+                    Q2 = words[:int(len(words)*0.5)]
+                    measures['WordLPMeanQ1'].append(sum(map(lambda x: x[-1], Q1))/len(Q1))
+                    measures['WordLPMeanQ2'].append(sum(map(lambda x: x[-1], Q2))/len(Q2))
 
         # Add to dataframe
         for row in measures:
