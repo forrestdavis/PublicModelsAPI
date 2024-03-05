@@ -48,7 +48,10 @@ def load_models(config):
             for model_instance in config['models'][model_type]:
                 model_class = model_nickname_to_RTModel_class.get(model_type)
                 assert issubclass(model_class, RTModel)
-                return_models.append(model_class(model_instance))
+                if 'halfPrecision' in config:
+                    return_models.append(model_class(model_instance, True))
+                else:
+                    return_models.append(model_class(model_instance))
         else:
             model_files = config['models'][model_type]['model_files']
             vocab_files = config['models'][model_type]['vocab_files']
