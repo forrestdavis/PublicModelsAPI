@@ -14,7 +14,8 @@ class mT5Model(TransformersModel):
             tokenizer_cls=transformers.AutoTokenizer,
             model_cls=model_cls,
             use_prefix_space='check',
-            add_padding_token=True
+            add_padding_token=True,
+            halfPrecision=True,
         )
 
     def token_is_sep(self, token):
