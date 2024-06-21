@@ -46,7 +46,7 @@ class TransformersModel(RTModel):
 
             elif 'baichuan-inc/Baichuan-7B' in version: 
                 self.model = model_cls.from_pretrained(version,
-                                                       trust_remote_code=True).to(self.device)
+                                                       trust_remote_code=True).half().to(self.device)
 
             else:
                 self.model = model_cls.from_pretrained(version, output_hidden_states=True).to(self.device)
