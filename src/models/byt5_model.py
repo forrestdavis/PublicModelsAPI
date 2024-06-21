@@ -10,7 +10,7 @@ class Byt5Model(TransformersModel):
             tokenizer_cls=transformers.AutoTokenizer,
             model_cls = transformers.T5ForConditionalGeneration,
             use_prefix_space='check',
-            add_padding_token=True
+            add_padding_token=True,
             halfPrecision=True,
         )
 
