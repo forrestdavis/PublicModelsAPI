@@ -40,7 +40,7 @@ class TransformersModel(RTModel):
             self.model = model_cls.from_pretrained(version, torch_dtype=torch.float16, low_cpu_mem_usage=True, output_hidden_states=True).to(self.device)
 
         else:
-            if 'THUDM/chatglm3' in version:
+            if 'THUDM/chatglm' in version:
                 self.model = model_cls.from_pretrained(version,
                                                        trust_remote_code=True).half().to(self.device)
 
