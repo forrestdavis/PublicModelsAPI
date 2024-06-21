@@ -40,11 +40,24 @@ class TransformersModel(RTModel):
             self.model = model_cls.from_pretrained(version, torch_dtype=torch.float16, low_cpu_mem_usage=True, output_hidden_states=True).to(self.device)
 
         else:
-            self.model = model_cls.from_pretrained(version, output_hidden_states=True).to(self.device)
+            if 'THUDM/chatglm3' in version:
+                self.model = model_cls.from_pretrained(version,
+                                                       trust_remote_code=True).half().to(self.device)
+
+            else:
+                self.model = model_cls.from_pretrained(version, output_hidden_states=True).to(self.device)
         self.model.eval()
 
         try:
-            self._tokenizer = tokenizer_cls.from_pretrained(version)
+            if 'THUDM/chatglm3' in version:
+                self._tokenizer = tokenizer_cls.from_pretrained(version,
+                                                                trust_remote_code=True)
+            elif 'baichuan-inc/Baichuan2' in version:
+                self._tokenizer = tokenizer_cls.from_pretrained(version,
+                                                                trust_remote_code=True,
+                                                                use_fast=False)
+            else:
+                self._tokenizer = tokenizer_cls.from_pretrained(version)
         except:
             sys.stderr.write(f"Loading tokenizer with {tokenizer_cls} failed...\n")
             sys.stderr.write(f"Trying loading tokenizer with AutoTokenizer class...\n")

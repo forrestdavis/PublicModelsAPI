@@ -14,6 +14,9 @@ from .xglm_model import XGLMModel
 from .auto_masked_model import AutoMaskedModel
 from .auto_causal_model import AutoCausalModel
 from .gpt3_model import GPT3Model
+from .mt5_model import mT5Model
+from .byt5_model import Byt5Model
+from .chatglm_model import ChatGLMModel
 
 model_nickname_to_RTModel_class = {
         'lstm': LSTMModel,
@@ -29,6 +32,9 @@ model_nickname_to_RTModel_class = {
         'auto-masked': AutoMaskedModel,
         'auto-causal': AutoCausalModel,
         'gpt3': GPT3Model,
+        'mt5': mT5Model, 
+        'byt5': Byt5Model,
+        'chatglm': ChatGLMModel,
         }
 
 def load_models(config):
