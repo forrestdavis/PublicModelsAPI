@@ -5,7 +5,7 @@
       This is actively being developed, and I anticipate major restructing
       in the next year. Experiments and methods are being added within the 
       context of my courses. If you have suggestions please either 
-      post an Issue or write to me at forrestd@mit.edu
+      post an Issue or write to me at fdavis@colgate.edu
 
 Shared containers for experiments that I use in my work. The aim is 
 to have a unified API for running models on typical experiments in neural model
