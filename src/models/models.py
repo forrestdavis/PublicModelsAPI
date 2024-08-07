@@ -17,6 +17,9 @@ from .gpt3_model import GPT3Model
 from .mt5_model import mT5Model
 from .byt5_model import Byt5Model
 from .chatglm_model import ChatGLMModel
+from .godel_model import GODELModel
+from .mistral_model import MistralModel
+from .llama_model import LlamaModel
 
 model_nickname_to_RTModel_class = {
         'lstm': LSTMModel,
@@ -35,6 +38,9 @@ model_nickname_to_RTModel_class = {
         'mt5': mT5Model, 
         'byt5': Byt5Model,
         'chatglm': ChatGLMModel,
+        'godel': GODELModel,
+        'mistral': MistralModel,
+        'llama': LlamaModel,
         }
 
 def load_models(config):

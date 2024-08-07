@@ -32,6 +32,9 @@ class TSE(Experiment):
         spanish_fname = 'stimuli/spanish_verbs_vocab_checked.tsv'
         spanish_adj_fname = 'stimuli/spanish_adjectives_vocab_checked.tsv'
 
+        if not os.path.exists(english_fname):
+            print('No special mappings used')
+            return
         en_verb_data = pd.read_csv(english_fname, sep='\t')
         addSpanish = False
         if os.path.exists(spanish_fname):

@@ -15,6 +15,12 @@ class Interact(Experiment):
         else:
             self.include_punctuation = True
 
+        if ('sep_punct' not in run_config or 
+            not run_config['sep_punct']):
+            self.sep_punct = False
+        else:
+            self.sep_punct = True
+
         if 'language' not in run_config:
             self.language = 'en'
         else:
@@ -36,7 +42,8 @@ class Interact(Experiment):
             sent = input('string: ').strip()
             print(header)
             print('-'*len(header))
-            output = self.get_interactive_output(sent, self.include_punctuation, 
+            output = self.get_interactive_output(sent, self.include_punctuation,
+                                                 self.sep_punct,
                                                 self.language)
             for word in output:
                 surp = round(word.surp, 3)
@@ -45,6 +52,7 @@ class Interact(Experiment):
                 print(print_out)
 
     def get_interactive_output(self, sent, include_punctuation=False, 
+                               sep_punct=False,
                               language='en'):
 
         assert len(self.model_instances) == 1, 'No models loaded for interactive testing'
@@ -52,6 +60,6 @@ class Interact(Experiment):
         for model in self.model_instances:
             #Get output and flatten
             output_by_word = model.get_aligned_words_surprisals(
-                                sent, include_punctuation, 
+                                sent, include_punctuation, sep_punct,
                                     language)[0]
             return output_by_word

@@ -28,7 +28,7 @@ class TransformersModel(RTModel):
 
         if torch.cuda.is_available():
             self.device = torch.device("cuda")
-        elif torch.has_mps and useMPS:
+        elif torch.backends.mps.is_built() and useMPS:
             self.device = torch.device("mps")
         else:
             self.device = torch.device("cpu")
@@ -37,7 +37,10 @@ class TransformersModel(RTModel):
 
         #Downcast if using something like GPT-J
         if halfPrecision:
-            self.model = model_cls.from_pretrained(version, torch_dtype=torch.float16, low_cpu_mem_usage=True, output_hidden_states=True).to(self.device)
+            self.model = model_cls.from_pretrained(version,
+                                                   torch_dtype=torch.float16,
+                                                   low_cpu_mem_usage=True,
+                                                   output_hidden_states=False).to(self.device)
 
         else:
             if 'THUDM/chatglm' in version:
@@ -59,6 +62,9 @@ class TransformersModel(RTModel):
             elif 'baichuan-inc/Baichuan2' in version:
                 self._tokenizer = tokenizer_cls.from_pretrained(version,
                                                                 trust_remote_code=True,
+                                                                use_fast=False)
+            elif 'mistralai' in version:
+                self._tokenizer = tokenizer_cls.from_pretrained(version,
                                                                 use_fast=False)
             else:
                 self._tokenizer = tokenizer_cls.from_pretrained(version)

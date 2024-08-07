@@ -4,12 +4,13 @@ import transformers
 from .transformers_model import TransformersModel
 
 class AutoCausalModel(TransformersModel):
-    def __init__(self, version, halfPrecision=False):
+    def __init__(self, version, halfPrecision=False, 
+                use_prefix_space = 'check'):
         super().__init__(
             version,
             tokenizer_cls=transformers.AutoTokenizer,
             model_cls=transformers.AutoModelForCausalLM,
-            use_prefix_space='check',
+            use_prefix_space=use_prefix_space,
             add_padding_token=True,
             halfPrecision=halfPrecision
         )

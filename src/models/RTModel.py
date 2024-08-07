@@ -122,6 +122,7 @@ class RTModel(object):
     @torch.no_grad()
     def get_aligned_words_surprisals(self, texts, 
             include_punctuation=False, 
+            sep_punct=False,
             language='en'):
         """Returns surprisal of each word for inputted text.
            Note that this requires that you've implemented
@@ -142,6 +143,7 @@ class RTModel(object):
         Args: 
             texts (List[str] | str ): A batch of strings or a string.
             include_punctuation: Whether to include punctuation in surprisal
+            sep_punct: Whether to treat punctuation as its own word 
 
 
         Returns:
@@ -189,6 +191,7 @@ class RTModel(object):
                 isUnk = 0
                 isSplit = 0
                 withPunct = 0
+                punctuations = []
 
                 #this is critical for gpt2 (or any that use prefix spacing)
                 isFirstWord=False
@@ -208,7 +211,8 @@ class RTModel(object):
                     token_surprisal = token_surprisals[text_idx].pop(0)
                     #here we ensure that things are working by 
                     #checking that the tokenizations match
-                    assert word_token == token_surprisal[0]
+                    assert word_token == token_surprisal[0], f'{word_token}'\
+                            f" is not {token_surprisal[0]}"
 
                     #check unk and punct
                     if self.token_is_unk(word_token):
@@ -216,6 +220,13 @@ class RTModel(object):
 
                     #NB: This skips over internal punctuation 
                     if self.token_is_punct(word_token):
+
+                        if sep_punct: 
+                            punct = self.tokenizer.convert_ids_to_tokens([word_token])[0]
+                            w = SurpWord(punct, token_surprisal[1], isSplit,
+                                         isUnk, False, self.model_name)
+                            punctuations.append(w)
+
                         if not include_punctuation:
                             continue
                         else:
@@ -226,6 +237,8 @@ class RTModel(object):
 
                 w = SurpWord(word, surp, isSplit, isUnk, withPunct, self.model_name)
                 return_data[text_idx].append(w)
+                for punct in punctuations:
+                    return_data[text_idx].append(punct)
 
             #Make sure we got it all
             assert len(token_surprisals[text_idx]) == 0
@@ -685,7 +698,7 @@ class RTModel(object):
 
         return_data = []
         for i in range(target_surprisals.shape[0]):
-            #if unidirectional, first token is not 
+            #if unidirectional, first token is not
             #included in target_surprisals
             #seed with the first input id per element in batch
             #it will have probability of zero
@@ -697,7 +710,7 @@ class RTModel(object):
             #couple steps here, 1) we zip together the token ids and their
             #surprisals 2) we map this to ints and floats (out of tensors)
             #3) dump it into a list
-            batch_data = list(map(lambda x: (int(x[0].data), 
+            batch_data = list(map(lambda x: (int(x[0].data),
                 float(x[1].data)), zip(target_ids[i], target_surprisals[i])))
             #Chop off the stuff which is padding
             batch_data = batch_data[:last_non_masked_idx[i]]
